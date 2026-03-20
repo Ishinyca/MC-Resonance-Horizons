@@ -1,0 +1,70 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "difficulty_scaling"
+	group: "69C66C6408A97599"
+	id: "0EE254FA73AF87A1"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6D9C15275A309167"
+			tasks: [{
+				advancement: "apotheosis:progression/haven"
+				criterion: ""
+				id: "17655B45CCBB36A4"
+				type: "advancement"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D9C15275A309167"]
+			id: "08E815D54F770E8B"
+			tasks: [{
+				advancement: "apotheosis:progression/frontier"
+				criterion: ""
+				id: "07962FCB81B89204"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["08E815D54F770E8B"]
+			id: "4602AD5D042CDD78"
+			tasks: [{
+				advancement: "apotheosis:progression/ascent"
+				criterion: ""
+				id: "0795C713B757C204"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4602AD5D042CDD78"]
+			id: "1F934FE8AAA2B466"
+			tasks: [{
+				advancement: "apotheosis:progression/summit"
+				criterion: ""
+				id: "270A536186863C2A"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F934FE8AAA2B466"]
+			id: "615B67800250A473"
+			tasks: [{
+				advancement: "apotheosis:progression/pinnacle"
+				criterion: ""
+				id: "00AB50311BBE2607"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage_solutions"
+	group: "2A5D074FFC415AEC"
+	id: "29236C355EF25B6B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "043573ED949BECB2"
+			tasks: [{
+				id: "696078F3FC403979"
+				item: { count: 1, id: "minecraft:chest" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "51B900F7A86D578B"
+			tasks: [{
+				id: "0ABD9A9C278234DD"
+				item: { components: { "sophisticatedstorage:wood_type": "oak" }, count: 1, id: "sophisticatedstorage:chest" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+	]
+}

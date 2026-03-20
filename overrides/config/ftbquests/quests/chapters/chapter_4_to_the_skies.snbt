@@ -1,0 +1,19 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_4_to_the_skies"
+	group: "33F828F57A04EB35"
+	id: "37C8384647C2943F"
+	order_index: 3
+	quest_links: [ ]
+	quests: [{
+		id: "1621379C0307EAAD"
+		tasks: [{
+			dimension: "aether:the_aether"
+			id: "6AB462FC0DA3269B"
+			type: "dimension"
+		}]
+		x: 0.5d
+		y: 0.0d
+	}]
+}

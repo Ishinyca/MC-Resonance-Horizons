@@ -1,0 +1,22 @@
+{
+  "dieselGeneratorFuelTime": 20,
+  "orbitTeleportationYCoord": -10.0,
+  "radiationCheckInterval": 100,
+  "rocketTpHeight": 600,
+  "landerExplodeWhenTooFast": true,
+  "oilConfig": {
+    "chunkOilChance": 16,
+    "minOil": 10,
+    "maxOil": 50
+  },
+  "gravityConfig": {
+    "customEntityGravity": true,
+    "customItemGravity": true
+  },
+  "oxygenConfig": {
+    "enableOxygenSystem": true,
+    "oxygenCheckInterval": 100,
+    "maxOxygenRoomSize": 32,
+    "oxygenDamage": 5.0
+  }
+}

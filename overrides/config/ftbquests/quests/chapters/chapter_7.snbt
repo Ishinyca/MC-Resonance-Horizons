@@ -1,0 +1,64 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_7"
+	group: "33F828F57A04EB35"
+	id: "3CA0421EC38EFB6A"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "51CDCAE4736893A1"
+			tasks: [{
+				id: "49AF099BFE7508A8"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["51CDCAE4736893A1"]
+			id: "466CFAD1E39FA5CC"
+			tasks: [{
+				dimension: "pastel:deeper_down"
+				id: "18A88F07777EC3B9"
+				type: "dimension"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["51CDCAE4736893A1"]
+			id: "0E9155315FC53178"
+			tasks: [{
+				dimension: "eternal_starlight:starlight"
+				id: "7AC246CB19CBAA18"
+				type: "dimension"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["51CDCAE4736893A1"]
+			id: "525108BD7E178AA1"
+			tasks: [{
+				dimension: "tropicraft:tropics"
+				id: "0381E14FFCB33297"
+				type: "dimension"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["51CDCAE4736893A1"]
+			id: "52F497636A55E399"
+			tasks: [{
+				dimension: "the_bumblezone:the_bumblezone"
+				id: "682AE1F72FACE835"
+				type: "dimension"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+	]
+}

@@ -1,0 +1,10 @@
+{
+  "dimension": "deeperdarker:otherside",
+  "portalAction": 1,
+  "itemsKey": {
+    "aether:sun_altar": true
+  },
+  "advancements": [
+    "aether:gold_dungeon"
+  ]
+}

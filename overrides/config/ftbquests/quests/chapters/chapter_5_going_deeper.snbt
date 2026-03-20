@@ -1,0 +1,19 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_5_going_deeper"
+	group: "33F828F57A04EB35"
+	id: "664F9EC033517D41"
+	order_index: 4
+	quest_links: [ ]
+	quests: [{
+		id: "1194E231E957088A"
+		tasks: [{
+			dimension: "deeperdarker:otherside"
+			id: "7E48EC4B7DFB8318"
+			type: "dimension"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

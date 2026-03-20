@@ -1,0 +1,102 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_1_a_new_beginning"
+	group: "33F828F57A04EB35"
+	id: "52805200DB691919"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "24FF7BCAC7C31E44"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "608190AC44D0689C"
+				type: "dimension"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			id: "01D38E8B6EFB1035"
+			tasks: [{
+				id: "77CFA7061391188B"
+				structure: "minecraft:trial_chambers"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0D95EEE56AB91A43"]
+			id: "3F016FA9CAF0B951"
+			tasks: [{
+				icon: {
+					id: "mcwholidays:gravestone"
+				}
+				id: "2444A64C6E9D8FC6"
+				observe_type: 0
+				timer: 0L
+				to_observe: "epitaphs:grave"
+				type: "observation"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["24FF7BCAC7C31E44"]
+			id: "3CEFE6DE9218A829"
+			tasks: [
+				{
+					id: "71927205BEB87AF7"
+					item: { count: 1, id: "immersive_armors:wooden_helmet" }
+					type: "item"
+				}
+				{
+					id: "03151465117DAE0B"
+					item: { count: 1, id: "immersive_armors:wooden_chestplate" }
+					type: "item"
+				}
+				{
+					id: "5D514B616DBCA65A"
+					item: { count: 1, id: "immersive_armors:wooden_leggings" }
+					type: "item"
+				}
+				{
+					id: "3C6BC5189BCB62D1"
+					item: { count: 1, id: "immersive_armors:wooden_boots" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			id: "376F4A768C6A17CF"
+			tasks: [{
+				id: "4843BDEFC70F69C3"
+				item: { count: 1, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["24FF7BCAC7C31E44"]
+			id: "0D95EEE56AB91A43"
+			tasks: [{
+				icon: {
+					id: "minecraft:skeleton_skull"
+				}
+				id: "0A4AD56C27E35C96"
+				stat: "minecraft:deaths"
+				type: "stat"
+				value: 1
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+	]
+}

@@ -1,0 +1,315 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "end_progression"
+	group: "69C66C6408A97599"
+	id: "4D493540DD99DAC8"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "40D51FD3C3EA83C5"
+			tasks: [
+				{
+					id: "5B7C7F1AF54168CE"
+					structure: "block_factorys_bosses:dragon_tower"
+					type: "structure"
+				}
+				{
+					entity: "block_factorys_bosses:infernal_dragon"
+					id: "31C481E93BF75AF5"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			id: "4C7E4E67A85038A3"
+			tasks: [
+				{
+					id: "1748C59DB944E537"
+					structure: "block_factorys_bosses:yeti_hideout"
+					type: "structure"
+				}
+				{
+					entity: "block_factorys_bosses:yeti"
+					id: "45BE21769F6F2148"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			id: "60F9C0D21C45BD86"
+			tasks: [
+				{
+					id: "118B0D57C6FA429A"
+					structure: "block_factorys_bosses:sandworm_nest"
+					type: "structure"
+				}
+				{
+					entity: "block_factorys_bosses:sandworm"
+					id: "6ED667CDA6B9AE0D"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "1C0005309112971E"
+			tasks: [
+				{
+					id: "1C13DC9782758CE8"
+					structure: "block_factorys_bosses:underworld_arena"
+					type: "structure"
+				}
+				{
+					entity: "block_factorys_bosses:underworld_knight"
+					id: "41518E9C09FDE0DD"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			id: "2DCCC1C463471165"
+			optional: true
+			tasks: [{
+				id: "62C0D32D3346CF54"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			id: "56CC4D63313E1E86"
+			tasks: [
+				{
+					id: "1217EE40F7BEC0A0"
+					item: { count: 1, id: "cataclysm:burning_ashes" }
+					type: "item"
+				}
+				{
+					entity: "cataclysm:ignis"
+					id: "7D79A02121AA0D53"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "2FFC5F0F052AE543"
+			tasks: [
+				{
+					id: "1593670D9FF02FFF"
+					item: { count: 1, id: "cataclysm:necklace_of_the_desert" }
+					type: "item"
+				}
+				{
+					entity: "cataclysm:ancient_remnant"
+					id: "71953E0DDBBCD92A"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			id: "70C06996DE97A878"
+			tasks: [
+				{
+					id: "7153555F1C499E9D"
+					item: { count: 1, id: "cataclysm:abyssal_sacrifice" }
+					type: "item"
+				}
+				{
+					entity: "cataclysm:the_leviathan"
+					id: "50449755AF28A897"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			id: "5426A5787A356FF0"
+			tasks: [
+				{
+					id: "762E414F9EA5643A"
+					item: { count: 1, id: "minecraft:nether_star" }
+					type: "item"
+				}
+				{
+					entity: "cataclysm:the_harbinger"
+					id: "31EFD0A21EEA1608"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "76A2530BA1DB6D5D"
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				id: "72D229B7096B5C84"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			id: "46540944F69E993E"
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				id: "08B17E2A7DA36DCB"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E02AFE9ECB11C23"]
+			dependency_requirement: "all_started"
+			id: "6C3AFA58986D1785"
+			optional: true
+			tasks: [{
+				id: "5125B6DBFDF63068"
+				item: { count: 1, id: "cataclysm:cursed_eye" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7E02AFE9ECB11C23"]
+			id: "23D8784F64D24301"
+			optional: true
+			tasks: [{
+				id: "585D1095A55AB1F7"
+				item: { count: 1, id: "cataclysm:storm_eye" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			id: "316261F84C296364"
+			tasks: [{
+				entity: "cataclysm:scylla"
+				id: "33CED10B051A0D4B"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			id: "7E02AFE9ECB11C23"
+			optional: true
+			tasks: [{
+				id: "62B26DEFD59C3E00"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7E02AFE9ECB11C23"]
+			id: "45A837E195917D55"
+			optional: true
+			tasks: [{
+				id: "0EB55CC97DEBA81C"
+				item: { count: 1, id: "cataclysm:desert_eye" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["46540944F69E993E"]
+			id: "7BA73620533BD128"
+			optional: true
+			rewards: [{
+				id: "3242CB056D2C0CCE"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B51539A02CBD7CD"
+				points: false
+				type: "xp"
+				value: 10L
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7E02AFE9ECB11C23"]
+			id: "38861E8F27086D2B"
+			optional: true
+			tasks: [{
+				id: "3F4FE686FE21C09E"
+				item: { count: 1, id: "cataclysm:abyss_eye" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7E02AFE9ECB11C23"]
+			id: "3358AB12FCBCF8FC"
+			optional: true
+			tasks: [{
+				id: "673ACD63E57C0EE4"
+				item: { count: 1, id: "cataclysm:monstrous_eye" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7E02AFE9ECB11C23"]
+			id: "15988E98820E6D68"
+			optional: true
+			tasks: [{
+				id: "44B5BBEC32ADFCC1"
+				item: { count: 1, id: "cataclysm:flame_eye" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7E02AFE9ECB11C23"]
+			id: "04170329D498BFD8"
+			optional: true
+			tasks: [{
+				id: "3FDAF53F0F81A677"
+				item: { count: 1, id: "cataclysm:mech_eye" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+	]
+}

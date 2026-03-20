@@ -1,0 +1,10 @@
+{
+  "dimension": "minecraft:the_end",
+  "portalAction": 2,
+  "itemsKey": {
+    "deeperdarker:sonorous_staff": true
+  },
+  "advancements": [
+    "deeperdarker:main/enter_otherside"
+  ]
+}

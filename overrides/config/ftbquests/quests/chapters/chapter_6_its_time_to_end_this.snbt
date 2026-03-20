@@ -1,0 +1,70 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_6_its_time_to_end_this"
+	group: "33F828F57A04EB35"
+	id: "12F8F725A155C206"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "11C743AEBCD6BEBC"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "5C3E7D34292557AA"
+				type: "dimension"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["11C743AEBCD6BEBC"]
+			id: "7B15BF6913C4FEFC"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "1C9F84F14ACF60FB"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7B15BF6913C4FEFC"]
+			id: "2A19A8B453EE3AA3"
+			tasks: [{
+				count: 4L
+				id: "7D5E894DBD13F37C"
+				item: { count: 1, id: "minecraft:end_crystal" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7B15BF6913C4FEFC"]
+			id: "69A58CD42A9E2DFC"
+			tasks: [{
+				biome: "#minecraft:has_structure/end_city"
+				icon: {
+					id: "minecraft:purpur_pillar"
+				}
+				id: "182DB4DFE3BCF353"
+				type: "biome"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["69A58CD42A9E2DFC"]
+			id: "38D06EA6D169E149"
+			tasks: [{
+				id: "210FA1811D3A6DF4"
+				item: { count: 1, id: "minecraft:elytra" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+	]
+}

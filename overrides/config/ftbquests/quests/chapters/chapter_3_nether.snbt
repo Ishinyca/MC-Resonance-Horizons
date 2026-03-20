@@ -1,0 +1,41 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_3_nether"
+	group: "33F828F57A04EB35"
+	id: "646C49F0E98F631C"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4AFF3445877B44C6"]
+			id: "6D82D1F2691C7DC8"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "3D49F928A22A6D24"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "4AFF3445877B44C6"
+			tasks: [{
+				id: "4632948816551337"
+				item: { count: 1, id: "twilightforest:lamp_of_cinders" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			id: "5B36DA95D567A462"
+			tasks: [{
+				id: "5352792BF48E7A96"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+	]
+}

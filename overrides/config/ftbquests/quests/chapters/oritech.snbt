@@ -1,0 +1,471 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "oritech"
+	group: "131C2868EBD0FC7F"
+	icon: {
+		id: "oritech:powered_furnace_block"
+	}
+	id: "4EEDECACDE8F5A67"
+	images: [{
+		click: "https://moddedmc.wiki/en/project/oritech/latest/docs/interaction/particle_accelerator"
+		height: 1.0d
+		hover: ["Particle Accelerator Wiki"]
+		image: "jei:textures/jei/atlas/gui/icons/info.png"
+		rotation: 0.0d
+		width: 1.0d
+		x: -7.0d
+		y: 3.5d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"324994AA83484D77"
+				"7633CF10984465A1"
+			]
+			id: "67D24D9F844725F8"
+			tasks: [{
+				id: "6147F7E7771A6903"
+				item: { count: 1, id: "oritech:assembler_block" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["1070FE1B2649ED66"]
+			id: "7633CF10984465A1"
+			rewards: [
+				{
+					amount: 10
+					id: "755A2A9BD53084B8"
+					type: "currency"
+				}
+				{
+					id: "22B12F7CFE64F5D6"
+					item: {
+						count: 1
+						id: "oritech:motor"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "3182CFDD9D394CB4"
+					item: { count: 1, id: "oritech:magnetic_coil" }
+					type: "item"
+				}
+				{
+					id: "5F8A74E5065B91E9"
+					item: { count: 1, id: "oritech:motor" }
+					type: "item"
+				}
+				{
+					id: "29B19FD4324837FC"
+					item: { count: 1, id: "oritech:machine_core_1" }
+					type: "item"
+				}
+			]
+			x: -10.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["7633CF10984465A1"]
+			id: "42D0C73B271FB9CE"
+			tasks: [{
+				id: "3262660634973BC7"
+				item: { count: 1, id: "oritech:foundry_block" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["42D0C73B271FB9CE"]
+			id: "324994AA83484D77"
+			tasks: [{
+				id: "2559A7FD9A8BDE9D"
+				item: { count: 1, id: "oritech:adamant_ingot" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["42D0C73B271FB9CE"]
+			id: "4E20599D60D716D2"
+			tasks: [{
+				count: 8L
+				id: "153AE31B12123746"
+				item: { count: 1, id: "oritech:duratium_ingot" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7633CF10984465A1"]
+			id: "68FCC8F5EF7AC403"
+			tasks: [{
+				id: "18D712171B508753"
+				item: { count: 1, id: "oritech:centrifuge_block" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["6139351970553B5C"]
+			hide_dependent_lines: true
+			id: "3342651C274DC080"
+			tasks: [{
+				id: "2FD5046960064FB9"
+				item: { count: 1, id: "oritech:plastic_sheet" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["7633CF10984465A1"]
+			id: "6FA23383C757DF8E"
+			tasks: [{
+				id: "4F2F565D12B419CD"
+				item: { count: 1, id: "oritech:pulverizer_block" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["6FA23383C757DF8E"]
+			id: "5BDB203D5E4F3967"
+			tasks: [{
+				id: "3511DD56D0CF074E"
+				item: { count: 1, id: "oritech:biomass" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"5BDB203D5E4F3967"
+				"68FCC8F5EF7AC403"
+			]
+			id: "6139351970553B5C"
+			tasks: [{
+				id: "133A8D7CABB9D821"
+				item: { count: 1, id: "oritech:polymer_resin" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["68FCC8F5EF7AC403"]
+			id: "547B9272F2C82DC4"
+			tasks: [{
+				id: "3DA82363B80142C9"
+				item: { count: 1, id: "oritech:carbon_fibre_strands" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3C15FCBD0BED40CE"]
+			id: "3CA0C7A1663B4F01"
+			tasks: [
+				{
+					id: "3D7A088D85146998"
+					item: { count: 1, id: "oritech:laser_arm_block" }
+					type: "item"
+				}
+				{
+					id: "676766F3E97F9C32"
+					item: { count: 1, id: "oritech:target_designator" }
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"547B9272F2C82DC4"
+				"324994AA83484D77"
+				"67D24D9F844725F8"
+			]
+			id: "3C15FCBD0BED40CE"
+			tasks: [{
+				id: "0BDB5AEB0C9C4F54"
+				item: { count: 1, id: "oritech:enderic_lens" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"4E20599D60D716D2"
+				"3CA0C7A1663B4F01"
+				"3342651C274DC080"
+			]
+			id: "0398DBBEDA46DC78"
+			tasks: [{
+				id: "6D661D7BC89AE508"
+				item: { count: 1, id: "oritech:atomic_forge_block" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3CA0C7A1663B4F01"]
+			id: "76E15E865BD8B248"
+			tasks: [
+				{
+					id: "701E108275528C61"
+					item: { count: 1, id: "minecraft:budding_amethyst" }
+					type: "item"
+				}
+				{
+					id: "6AF64F399E0CA119"
+					item: { count: 1, id: "oritech:fluxite" }
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0398DBBEDA46DC78"]
+			id: "523DE300D628D42B"
+			tasks: [{
+				id: "71167C25139121C1"
+				item: { count: 1, id: "oritech:heisenberg_compensator" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["523DE300D628D42B"]
+			id: "0C84984A05EEA33A"
+			tasks: [{
+				id: "22DCA98E2575F4FC"
+				item: { count: 1, id: "oritech:prometheum_ingot" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1BBC91A22DFBC00D"]
+			id: "0DAE85314DB5BEA7"
+			tasks: [
+				{
+					id: "4AA33557368FA42E"
+					item: { count: 1, id: "oritechthings:accelerator_magnetic_field" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "45B79C053B830CC5"
+					item: { count: 1, id: "oritech:accelerator_controller" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "3415AB510943D95D"
+					item: { count: 1, id: "oritech:accelerator_ring" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "794F6554BE6E9168"
+					item: { count: 1, id: "oritech:accelerator_motor" }
+					type: "item"
+				}
+				{
+					id: "7D5EBBE9F449D0F6"
+					item: { count: 1, id: "oritechthings:particle_accelerator_speed_sensor" }
+					type: "item"
+				}
+				{
+					id: "1E39B91155F1C4CC"
+					item: { count: 1, id: "oritechthings:advanced_target_designator" }
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0398DBBEDA46DC78"]
+			id: "1BBC91A22DFBC00D"
+			tasks: [{
+				id: "26FF7B126FB46A83"
+				item: { count: 1, id: "oritech:super_ai_chip" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["76E15E865BD8B248"]
+			id: "1207CA9821152F82"
+			tasks: [{
+				id: "3F1332D8B2868787"
+				item: { count: 1, id: "oritech:flux_gate" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1207CA9821152F82"]
+			id: "0286A841A27EE7FD"
+			tasks: [{
+				id: "00B8910FFE7CB8F6"
+				item: { count: 1, id: "oritech:fragment_forge_block" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			icon_scale: 2.0d
+			id: "5E49408BCA5C0B6F"
+			optional: true
+			tasks: [{
+				id: "38A7FC3C0A493061"
+				item: { count: 1, id: "oritech:machine_extender" }
+				type: "item"
+			}]
+			x: -14.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5E49408BCA5C0B6F"]
+			id: "46C54E606AE1AF4C"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "069FD810AF2C107C"
+				item: { count: 1, id: "oritech:machine_speed_addon" }
+				type: "item"
+			}]
+			x: -14.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["5E49408BCA5C0B6F"]
+			id: "6C3F3BBDD2231D45"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "562965E33FE8252A"
+				item: { count: 1, id: "oritech:machine_acceptor_addon" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5E49408BCA5C0B6F"]
+			id: "26DBD1A393E666C7"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "325FBA0BE538AC59"
+				item: { count: 1, id: "oritech:machine_efficiency_addon" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5E49408BCA5C0B6F"]
+			id: "4EDAF8B9700D14F8"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "01E294C9960C415E"
+				item: { count: 1, id: "oritech:machine_capacitor_addon" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5E49408BCA5C0B6F"]
+			id: "39A981633194432F"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "45FE0D8C88160AC7"
+				item: { count: 1, id: "oritech:machine_hunter_addon" }
+				type: "item"
+			}]
+			x: -14.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["5E49408BCA5C0B6F"]
+			id: "0815593265BA7635"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "35398956B82F5622"
+				item: { count: 1, id: "oritech:machine_yield_addon" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5E49408BCA5C0B6F"]
+			id: "3DC17879B05FBE94"
+			shape: "diamond"
+			tasks: [{
+				id: "470F43D7C74228BB"
+				item: { count: 1, id: "oritech:quarry_addon" }
+				type: "item"
+			}]
+			x: -15.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5E49408BCA5C0B6F"]
+			id: "7F0E31CD0398773D"
+			shape: "diamond"
+			tasks: [{
+				id: "4777D3CB8AAB5238"
+				item: { count: 1, id: "oritech:machine_redstone_addon" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: 9.0d
+		}
+		{
+			icon: {
+				id: "oritech:black_hole_block"
+			}
+			icon_scale: 2.0d
+			id: "1070FE1B2649ED66"
+			tasks: [{
+				id: "385C3C3B8B56026D"
+				item: { count: 1, id: "immersiveengineering:ingot_nickel" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 9.5d
+		}
+	]
+}

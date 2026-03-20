@@ -1,0 +1,10 @@
+{
+  "dimension": "aether:the_aether",
+  "portalAction": 1,
+  "itemsKey": {
+    "minecraft:netherite_upgrade_smithing_template": true
+  },
+  "advancements": [
+    "block_factorys_bosses:kill_underworld_knight"
+  ]
+}
