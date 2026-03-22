@@ -5,3 +5,4 @@ Originally called ishinyca's MC Adventure before release.
 Wish Ice and Fire 2 was out already
 Wish List: Dragons and More Dragons
 {"text":"ishinyca left the game.","color":"gold","bold":true}
+Background Seed: -3709329882441774916
