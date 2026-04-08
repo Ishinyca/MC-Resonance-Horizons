@@ -46,12 +46,14 @@ const recipeIdsToRemove = [
 	// Mekanism
 	/mekanism:factory\/.*/,
 	'mekanism:metallurgic_infuser',
-	'mekanism:mekasuit_helmet',
-	'mekanism:mekasuit_bodyarmor',
-	'mekanism:mekasuit_pants',
-	'mekanism:mekasuit_boots',
+	//'mekanism:mekasuit_helmet',
+	//'mekanism:mekasuit_bodyarmor',
+	//'mekanism:mekasuit_pants',
+	//'mekanism:mekasuit_boots',
+	//'mekanism:meka_tool',
 	'mekanism:teleportation_core',
 	'mekanism:quantum_entangloporter',
+	/mekanism:module\/.*/,
 
 	// Cataclysm Eyes
 	'cataclysm:mech_eye',
@@ -73,7 +75,16 @@ const recipeOutputToRemove = [
 	'mekanism:elite_tier_installer',
 	'mekanism:ultimate_tier_installer',
 	'sophisticatedstorage:chest',
-	'#projecte:alchemical_bags'
+	'#projecte:alchemical_bags',
+	'mekanism:mekasuit_helmet',
+	'mekanism:mekasuit_bodyarmor',
+	'mekanism:mekasuit_pants',
+	'mekanism:mekasuit_boots',
+	'mekanism:meka_tool',
+	'#mekanism:unit',
+
+	// Draconic Evolution
+	'draconicevolution:wyvern_bow'
 ]
 
 ServerEvents.recipes(event => {
