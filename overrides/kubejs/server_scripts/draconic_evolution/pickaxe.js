@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => {
     event.recipes.draconicevolution.fusion_crafting(
-        "mekanism:electric_bow", // input item
+        "projecte:dm_pick", // input item
         [
             "draconicevolution:draconium_core",
             "draconicevolution:draconium_block",
@@ -8,16 +8,16 @@ ServerEvents.recipes(event => {
             "projecte:dark_matter_block",
             "projecte:dark_matter_block",
             "draconicevolution:wyvern_energy_core",
-            "justdirethings:bow_blazegold",
+            "justdirethings:blazegold_pickaxe",
             "justdirethings:blazegold_block",
         ],
-        "draconicevolution:wyvern_bow",
+        "draconicevolution:wyvern_pickaxe",
         "wyvern", // tier can be (draconium, wyvern, draconic, chaotic)
         32000000, //energy
-    ).id("draconicevolution:wyvern_bow")
+    ).id("draconicevolution:wyvern_pickaxe")
 
     event.recipes.draconicevolution.fusion_crafting(
-        "draconicevolution:wyvern_bow", // input item
+        "draconicevolution:wyvern_pickaxe", // input item
         [
             "draconicevolution:wyvern_core",
             "minecraft:netherite_block",
@@ -26,31 +26,31 @@ ServerEvents.recipes(event => {
             "draconicevolution:awakened_draconium_block",
             "draconicevolution:awakened_draconium_block",
             "draconicevolution:draconic_energy_core",
-            "justdirethings:bow_celestigem",
+            "justdirethings:celestigem_pickaxe",
             "justdirethings:celestigem_block",
             "ae2:singularity",
         ],
-        "draconicevolution:draconic_bow",
+        "draconicevolution:draconic_pickaxe",
         "draconic", // tier can be (draconium, wyvern, draconic, chaotic)
         128000000, //energy
-    ).id("draconicevolution:draconic_bow")
+    ).id("draconicevolution:draconic_pickaxe")
 
     event.recipes.draconicevolution.fusion_crafting(
-        "draconicevolution:draconic_bow", // input item
+        "draconicevolution:draconic_pickaxe", // input item
         [
             "draconicevolution:chaotic_core",
             "draconicevolution:awakened_draconium_block",
             "draconicevolution:awakened_draconium_block",
             "draconicevolution:awakened_draconium_block",
             "draconicevolution:chaotic_energy_core",
-            "justdirethings:bow_eclipsealloy",
+            "justdirethings:eclipsealloy_pickaxe",
             "justdirethings:eclipsealloy_block",
             "mekanism:pellet_antimatter",
             "mekanism:pellet_antimatter",
             "mekanism:pellet_antimatter"
         ],
-        "draconicevolution:chaotic_bow",
+        "draconicevolution:chaotic_pickaxe",
         "chaotic", // tier can be (draconium, wyvern, draconic, chaotic)
         512000000, //energy
-    ).id("draconicevolution:chaotic_bow")
+    ).id("draconicevolution:chaotic_pickaxe")
 })

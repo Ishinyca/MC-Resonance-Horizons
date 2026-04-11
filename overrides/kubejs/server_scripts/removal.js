@@ -42,6 +42,8 @@ const recipeIdsToRemove = [
 	'sophisticatedstorage:basic_tier_upgrade',
 	'sophisticatedstorage:basic_to_copper_tier_upgrade',
 	'sophisticatedstorage:basic_to_iron_tier_upgrade',
+	/sophisticatedstorage:generic_.*/,
+	"sophisticatedstorage:shulker_from_chest",
 	
 	// Mekanism
 	/mekanism:factory\/.*/,
@@ -74,7 +76,6 @@ const recipeOutputToRemove = [
 	'mekanism:advanced_tier_installer',
 	'mekanism:elite_tier_installer',
 	'mekanism:ultimate_tier_installer',
-	'sophisticatedstorage:chest',
 	'#projecte:alchemical_bags',
 	'mekanism:mekasuit_helmet',
 	'mekanism:mekasuit_bodyarmor',
@@ -83,8 +84,31 @@ const recipeOutputToRemove = [
 	'mekanism:meka_tool',
 	'#mekanism:unit',
 
+	// sophisticated storage
+	"#sophisticatedstorage:base_tier_wooden_storage",
+
 	// Draconic Evolution
-	'draconicevolution:wyvern_bow'
+	'draconicevolution:wyvern_bow',
+	'draconicevolution:draconic_bow',
+	'draconicevolution:chaotic_bow',
+	'draconicevolution:wyvern_chestpiece',
+	'draconicevolution:draconic_chestpiece',
+	'draconicevolution:chaotic_chestpiece',
+	'draconicevolution:wyvern_sword',
+	'draconicevolution:draconic_sword',
+	'draconicevolution:chaotic_sword',
+	'draconicevolution:wyvern_axe',
+	'draconicevolution:draconic_axe',
+	'draconicevolution:chaotic_axe',
+	'draconicevolution:wyvern_pickaxe',
+	'draconicevolution:draconic_pickaxe',
+	'draconicevolution:chaotic_pickaxe',
+	'draconicevolution:wyvern_shovel',
+	'draconicevolution:draconic_shovel',
+	'draconicevolution:chaotic_shovel',
+	'draconicevolution:wyvern_hoe',
+	'draconicevolution:draconic_hoe',
+	'draconicevolution:chaotic_hoe',
 ]
 
 ServerEvents.recipes(event => {
