@@ -37,13 +37,29 @@ const recipeIdsToRemove = [
 	'projecte:rm_chestplate',
 	'projecte:rm_leggings',
 	'projecte:rm_boots',
+	'projecte:watch_of_flowing_time',
+	'projecte:evertide_amulet',
+	'projecte:volcanite_amulet',
+	'projecte:void_ring',
+	'projecte:arcana_ring',
+	'projecte:gem_of_eternal_density',
+	'projecte:destruction_catalyst',
+	'projecte:mercurial_eye',
+	'projecte:archangel_smite',
 
-	// Sophisticated Storage
+	// Sophisticated Storage / Backpack
 	'sophisticatedstorage:basic_tier_upgrade',
 	'sophisticatedstorage:basic_to_copper_tier_upgrade',
 	'sophisticatedstorage:basic_to_iron_tier_upgrade',
 	/sophisticatedstorage:generic_.*/,
 	"sophisticatedstorage:shulker_from_chest",
+	"sophisticatedstorage:stack_upgrade_omega_tier",
+	"sophisticatedstorage:storage_stack_upgrade_omega_tier_from_backpack_stack_upgrade_omega_tier",
+	"sophisticatedbackpacks:stack_upgrade_omega_tier",
+	"sophisticatedstorage:backpack_stack_upgrade_omega_tier_from_storage_stack_upgrade_omega_tier",
+	"sophisticatedstorage:controller",
+	"sophisticatedstorage:storage_input",
+	"sophisticatedstorage:storage_output",
 	
 	// Mekanism
 	/mekanism:factory\/.*/,
@@ -111,6 +127,10 @@ const recipeOutputToRemove = [
 	'draconicevolution:chaotic_hoe',
 ]
 
+const recipeModToRemove = [
+	'tacz'
+]
+
 ServerEvents.recipes(event => {
 	recipeIdsToRemove.forEach ( (recipeId) => {
 		event.remove({ id: recipeId })
@@ -118,5 +138,9 @@ ServerEvents.recipes(event => {
 
 	recipeOutputToRemove.forEach( (recipeOutput) => {
 		event.remove({ output: recipeOutput })
+	})
+
+	recipeModToRemove.forEach((recipeMod) => {
+		event.remove({ mod: recipeMod })
 	})
 })
