@@ -47,6 +47,14 @@
 					type: "xp"
 					xp: 50
 				}
+				{
+					id: "24DE52D906A438DC"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -69,11 +77,21 @@
 				id: "twilightforest:lich_trophy"
 			}
 			id: "60F2287AA77A6B65"
-			rewards: [{
-				id: "5AD80C5D1967EBAE"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					id: "5AD80C5D1967EBAE"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "50C7106521B168AF"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "19F86692B24A0E84"
@@ -91,6 +109,14 @@
 		}
 		{
 			id: "5A03874D00C67C18"
+			rewards: [{
+				id: "2E1A5444F70301FF"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4B715840F8FFE9E5"
 				item: { count: 1, id: "twilightforest:lifedrain_scepter" }
@@ -117,6 +143,14 @@
 					item: {
 						count: 1
 						id: "minecraft:phantom_membrane"
+					}
+					type: "item"
+				}
+				{
+					id: "743ACE82E6FD1074"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
 					}
 					type: "item"
 				}
@@ -157,6 +191,14 @@
 					type: "xp"
 					xp: 50
 				}
+				{
+					id: "2DE6871094D74AFF"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -193,6 +235,14 @@
 					id: "1AA0FB1C28AAAEE7"
 					type: "xp"
 					xp: 50
+				}
+				{
+					id: "4C30341511E05A5D"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
 				}
 			]
 			tasks: [
@@ -241,6 +291,14 @@
 					id: "7910B234F118596C"
 					type: "xp"
 					xp: 50
+				}
+				{
+					id: "24A122C926D49610"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
 				}
 			]
 			tasks: [
@@ -295,6 +353,14 @@
 					type: "xp"
 					xp: 50
 				}
+				{
+					id: "6C0ADCDA722CE4A1"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -338,6 +404,14 @@
 					item: {
 						count: 1
 						id: "twilightforest:hydra_chop"
+					}
+					type: "item"
+				}
+				{
+					id: "22ECB0773F4B6919"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
 					}
 					type: "item"
 				}
@@ -397,6 +471,14 @@
 					type: "xp"
 					xp: 25
 				}
+				{
+					id: "0ECEBAA8858C32F4"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -433,6 +515,14 @@
 					type: "xp"
 					xp: 25
 				}
+				{
+					id: "5140684807111949"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -455,11 +545,21 @@
 				id: "twilightforest:blue_castle_rune_brick"
 			}
 			id: "49BF5D9C5C1D14F1"
-			rewards: [{
-				id: "49B1E1A1E1527656"
-				type: "xp"
-				xp: 25
-			}]
+			rewards: [
+				{
+					id: "49B1E1A1E1527656"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "40515218758ABDFF"
+					item: {
+						count: 1
+						id: "magic_coins:crystal_coin"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "057691C8FEA8DA25"
 				structure: "twilightforest:final_castle"
@@ -470,6 +570,14 @@
 		}
 		{
 			id: "2AC1FC359B83E63C"
+			rewards: [{
+				id: "3EB390C9D21318EC"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0E64816B4640F5DD"
 				item: { count: 1, id: "twilightforest:fortification_scepter" }
@@ -480,6 +588,14 @@
 		}
 		{
 			id: "368FBCBEE38C8C66"
+			rewards: [{
+				id: "60295990D49CCF27"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4E3C24E9E4FA15DC"
 				item: { count: 1, id: "twilightforest:twilight_scepter" }
@@ -490,6 +606,14 @@
 		}
 		{
 			id: "0C89CEBD57228306"
+			rewards: [{
+				id: "1EB97B7B33589C36"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "126F0A0BE07E933F"
 				item: { count: 1, id: "twilightforest:zombie_scepter" }

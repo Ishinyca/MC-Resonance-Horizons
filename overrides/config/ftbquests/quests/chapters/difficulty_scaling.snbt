@@ -21,6 +21,14 @@
 		{
 			dependencies: ["6D9C15275A309167"]
 			id: "08E815D54F770E8B"
+			rewards: [{
+				id: "0A99B526B8C20F34"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				advancement: "apotheosis:progression/frontier"
 				criterion: ""
@@ -33,6 +41,14 @@
 		{
 			dependencies: ["08E815D54F770E8B"]
 			id: "4602AD5D042CDD78"
+			rewards: [{
+				id: "6C6C7048671190B3"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				advancement: "apotheosis:progression/ascent"
 				criterion: ""
@@ -45,6 +61,14 @@
 		{
 			dependencies: ["4602AD5D042CDD78"]
 			id: "1F934FE8AAA2B466"
+			rewards: [{
+				id: "08F0A783FECF2F52"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				advancement: "apotheosis:progression/summit"
 				criterion: ""
@@ -57,6 +81,14 @@
 		{
 			dependencies: ["1F934FE8AAA2B466"]
 			id: "615B67800250A473"
+			rewards: [{
+				id: "2FCA7E9375D14369"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				advancement: "apotheosis:progression/pinnacle"
 				criterion: ""

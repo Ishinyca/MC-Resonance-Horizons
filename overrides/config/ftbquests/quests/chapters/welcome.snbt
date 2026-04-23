@@ -4,15 +4,63 @@
 	filename: "welcome"
 	group: "3F5D023B3188755E"
 	id: "0D4F7124C9E25099"
+	images: [
+		{
+			click: "https://github.com/Ishinyca/MC-Resonance-Horizons"
+			height: 1.0d
+			hover: ["Report Bugs Here"]
+			image: "ftblibrary:icons/bug"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			click: "https://discord.gg/DkUSYrN4BM"
+			height: 1.0d
+			image: "pastel:textures/gui/guidebook/icons/discord.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 3.0d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		id: "321BE79B988D7AC1"
-		tasks: [{
-			id: "4B7D6BDDBCB6FC75"
-			type: "checkmark"
-		}]
-		x: 2.0d
-		y: 1.0d
-	}]
+	quests: [
+		{
+			id: "321BE79B988D7AC1"
+			rewards: [{
+				id: "17789B5E04BD6D14"
+				item: {
+					count: 1
+					id: "minecraft:stick"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B7D6BDDBCB6FC75"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			id: "16526B624CB886B6"
+			rewards: [{
+				id: "062B446BA924828C"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D91EEC831C128B5"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+	]
 }

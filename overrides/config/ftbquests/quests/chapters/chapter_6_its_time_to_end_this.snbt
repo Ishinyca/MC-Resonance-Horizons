@@ -24,6 +24,14 @@
 		{
 			dependencies: ["11C743AEBCD6BEBC"]
 			id: "7B15BF6913C4FEFC"
+			rewards: [{
+				id: "4AC195B736E52EF5"
+				item: {
+					count: 1
+					id: "magic_coins:crystal_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:ender_dragon"
 				id: "1C9F84F14ACF60FB"
@@ -36,6 +44,14 @@
 		{
 			dependencies: ["7B15BF6913C4FEFC"]
 			id: "2A19A8B453EE3AA3"
+			rewards: [{
+				id: "3F0A4E99A6B7B677"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				count: 4L
 				id: "7D5E894DBD13F37C"
@@ -48,6 +64,14 @@
 		{
 			dependencies: ["7B15BF6913C4FEFC"]
 			id: "69A58CD42A9E2DFC"
+			rewards: [{
+				id: "1A38E5252F4D8960"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				biome: "#minecraft:has_structure/end_city"
 				icon: {
@@ -62,6 +86,14 @@
 		{
 			dependencies: ["69A58CD42A9E2DFC"]
 			id: "38D06EA6D169E149"
+			rewards: [{
+				id: "6947F71F631F34B5"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "210FA1811D3A6DF4"
 				item: { count: 1, id: "minecraft:elytra" }

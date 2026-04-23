@@ -382,6 +382,7 @@
 		{
 			can_repeat: true
 			dependencies: ["75ABB87AFE7355B5"]
+			hide_until_deps_complete: true
 			icon: {
 				id: "endrem:magical_eye"
 			}
@@ -456,6 +457,7 @@
 		{
 			can_repeat: true
 			dependencies: ["70C06996DE97A878"]
+			hide_until_deps_complete: true
 			icon: {
 				id: "endrem:black_eye"
 			}
@@ -482,6 +484,7 @@
 		{
 			can_repeat: true
 			dependencies: ["46540944F69E993E"]
+			hide_until_deps_complete: true
 			icon: {
 				id: "endrem:corrupted_eye"
 			}
@@ -508,6 +511,7 @@
 		{
 			can_repeat: true
 			dependencies: ["2FFC5F0F052AE543"]
+			hide_until_deps_complete: true
 			icon: {
 				id: "endrem:cursed_eye"
 			}
@@ -534,6 +538,7 @@
 		{
 			can_repeat: true
 			dependencies: ["76A2530BA1DB6D5D"]
+			hide_until_deps_complete: true
 			icon: {
 				id: "endrem:evil_eye"
 			}
@@ -560,6 +565,7 @@
 		{
 			can_repeat: true
 			dependencies: ["316261F84C296364"]
+			hide_until_deps_complete: true
 			icon: {
 				id: "endrem:exotic_eye"
 			}
@@ -586,6 +592,7 @@
 		{
 			can_repeat: true
 			dependencies: ["5426A5787A356FF0"]
+			hide_until_deps_complete: true
 			icon: {
 				id: "endrem:guardian_eye"
 			}
@@ -612,6 +619,7 @@
 		{
 			can_repeat: true
 			dependencies: ["4BF13898B1DF1B48"]
+			hide_until_deps_complete: true
 			icon: {
 				id: "endrem:cold_eye"
 			}
@@ -638,6 +646,7 @@
 		{
 			can_repeat: true
 			dependencies: ["56CC4D63313E1E86"]
+			hide_until_deps_complete: true
 			icon: {
 				id: "endrem:nether_eye"
 			}
@@ -664,6 +673,7 @@
 		{
 			can_repeat: true
 			dependencies: ["30780A78A9A02220"]
+			hide_until_deps_complete: true
 			icon: {
 				id: "endrem:old_eye"
 			}
@@ -690,6 +700,7 @@
 		{
 			can_repeat: true
 			dependencies: ["26773D019CD73BBA"]
+			hide_until_deps_complete: true
 			icon: {
 				id: "endrem:undead_eye"
 			}
@@ -716,6 +727,7 @@
 		{
 			can_repeat: true
 			dependencies: ["7809934085C1C484"]
+			hide_until_deps_complete: true
 			icon: {
 				id: "endrem:wither_eye"
 			}

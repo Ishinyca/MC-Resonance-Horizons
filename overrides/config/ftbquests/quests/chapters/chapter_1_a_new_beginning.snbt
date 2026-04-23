@@ -41,6 +41,14 @@
 			dependencies: ["24FF7BCAC7C31E44"]
 			hide_dependency_lines: true
 			id: "01D38E8B6EFB1035"
+			rewards: [{
+				id: "34B9E8FA1C0DE624"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "77CFA7061391188B"
 				structure: "minecraft:trial_chambers"
@@ -52,6 +60,14 @@
 		{
 			dependencies: ["0D95EEE56AB91A43"]
 			id: "3F016FA9CAF0B951"
+			rewards: [{
+				id: "441AF638BC4F894E"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				icon: {
 					id: "mcwholidays:gravestone"
@@ -69,9 +85,12 @@
 			dependencies: ["24FF7BCAC7C31E44"]
 			id: "3CEFE6DE9218A829"
 			rewards: [{
-				amount: 1
-				id: "7131CB4E48A7D58B"
-				type: "currency"
+				id: "0E0EC2CD56687B92"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
 			}]
 			tasks: [
 				{
@@ -101,6 +120,14 @@
 		{
 			dependencies: ["24FF7BCAC7C31E44"]
 			id: "376F4A768C6A17CF"
+			rewards: [{
+				id: "4E41A2297F08841D"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4843BDEFC70F69C3"
 				item: { count: 1, id: "minecraft:diamond" }
@@ -112,6 +139,14 @@
 		{
 			dependencies: ["24FF7BCAC7C31E44"]
 			id: "0D95EEE56AB91A43"
+			rewards: [{
+				id: "0D0F464EDC1FD563"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				icon: {
 					id: "minecraft:skeleton_skull"
@@ -127,6 +162,14 @@
 		{
 			dependencies: ["24FF7BCAC7C31E44"]
 			id: "3D28FC85BC56A521"
+			rewards: [{
+				id: "4E6C57791930FA17"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 104L
@@ -147,6 +190,14 @@
 		{
 			dependencies: ["3D28FC85BC56A521"]
 			id: "2567F1709375C3C5"
+			rewards: [{
+				id: "08DD4671FC6D48B6"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 9L
@@ -192,6 +243,14 @@
 		{
 			dependencies: ["25588339CBB18A48"]
 			id: "61707A2ED6BD53DB"
+			rewards: [{
+				id: "13CFBE153AE64C86"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "659F7DE511D40306"
 				item: { count: 1, id: "productivemetalworks:ingot_cast" }
@@ -203,6 +262,14 @@
 		{
 			dependencies: ["2567F1709375C3C5"]
 			id: "25588339CBB18A48"
+			rewards: [{
+				id: "6D5009F60A2493B5"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "65162464C9942234"
@@ -221,6 +288,14 @@
 		{
 			dependencies: ["376F4A768C6A17CF"]
 			id: "772D3B613376231C"
+			rewards: [{
+				id: "0A4C51CB1B6AEAF3"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "45B8A003723FFC26"
@@ -239,6 +314,14 @@
 		{
 			dependencies: ["772D3B613376231C"]
 			id: "4BD4592C741FC0F9"
+			rewards: [{
+				id: "794BE3E6CD7A882A"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
 			shape: "none"
 			size: 3.0d
 			tasks: [{
@@ -256,6 +339,14 @@
 				"3CEFE6DE9218A829"
 			]
 			id: "5EDA9EE840DC72E2"
+			rewards: [{
+				id: "469FD187AC1CE999"
+				item: {
+					count: 1
+					id: "magic_coins:crystal_coin"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "6262F23FFC624111"

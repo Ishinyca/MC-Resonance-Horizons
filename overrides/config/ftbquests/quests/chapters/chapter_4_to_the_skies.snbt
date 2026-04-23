@@ -38,6 +38,14 @@
 		{
 			dependencies: ["5FA4F887ADAE89BA"]
 			id: "6891CFCE0057E456"
+			rewards: [{
+				id: "79D0BAAC20D5CC73"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				advancement: "aether:gold_dungeon"
 				criterion: ""
@@ -50,6 +58,14 @@
 		{
 			dependencies: ["1621379C0307EAAD"]
 			id: "5C2FDC8DE5D55A64"
+			rewards: [{
+				id: "2E5CFEABCD85167A"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				advancement: "aether:bronze_dungeon"
 				criterion: ""
@@ -62,6 +78,14 @@
 		{
 			dependencies: ["5C2FDC8DE5D55A64"]
 			id: "5FA4F887ADAE89BA"
+			rewards: [{
+				id: "78D176992608CCA5"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				advancement: "aether:silver_dungeon"
 				criterion: ""
@@ -76,6 +100,14 @@
 			hide_dependency_lines: true
 			id: "32DEAF82035DD581"
 			optional: true
+			rewards: [{
+				id: "66504D977C8C2A7A"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				advancement: "aether:black_moa"
 				criterion: ""
@@ -89,6 +121,14 @@
 			dependencies: ["1621379C0307EAAD"]
 			hide_dependency_lines: true
 			id: "5AEA3F1CC10E92B2"
+			rewards: [{
+				id: "775BC7CA04C4FF8E"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				advancement: "aether:blue_aercloud"
 				criterion: ""
@@ -103,6 +143,14 @@
 			dependencies: ["1621379C0307EAAD"]
 			hide_dependency_lines: true
 			id: "2B591C2CF7C2FC04"
+			rewards: [{
+				id: "5BA2F413CD323453"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				advancement: "aether:incubate_moa"
 				criterion: ""
@@ -117,6 +165,14 @@
 			dependencies: ["1621379C0307EAAD"]
 			hide_dependency_lines: true
 			id: "1CD4DB187C2078FA"
+			rewards: [{
+				id: "79C633309C988E16"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				advancement: "aether:obtain_egg"
 				criterion: ""

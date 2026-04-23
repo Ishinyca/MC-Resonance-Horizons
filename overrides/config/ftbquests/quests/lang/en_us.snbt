@@ -31,7 +31,7 @@
 	chapter_group.33F828F57A04EB35.title: "Chapters"
 	chapter_group.3F5D023B3188755E.title: "Introduction"
 	chapter_group.41B842308FF324EE.title: "Mod Specific"
-	chapter_group.69C66C6408A97599.title: "Progression"
+	chapter_group.69C66C6408A97599.title: "Adventure"
 	chapter_group.6FCD6CD6E3B683F5.title: "Achievements"
 	quest.02CB075775B6AD52.title: "Minishroom"
 	quest.0331AC0315EBB66D.quest_desc: ["Nestled among the trees, this lively tavern is usually a haven for villagers looking to unwind. Yet when the ale flows too freely, even the most peaceful patrons turn aggressive, defending their pub with surprising ferocity. Enter carefully or risk being caught in a drunken brawl."]
@@ -49,6 +49,8 @@
 	quest.1070FE1B2649ED66.title: "Welcome To Oritech!"
 	quest.14857DBF1DCBF100.quest_desc: ["Cresting the waves like a shadow of the past, this cursed vessel is crewed by skeletons that seem impossible to keep down. Every deck hides danger, every hold whispers of lost treasure and every strike you land may be fleeting. Only the bold (or the foolhardy) dare to face its relentless undead crew."]
 	quest.14857DBF1DCBF100.quest_subtitle: "Find an Undead Pirate Ship"
+	quest.16526B624CB886B6.quest_desc: ["There will be more quests in the future. If you wish to help with making quests, please let me know!"]
+	quest.16526B624CB886B6.title: "Quests"
 	quest.188AAB5B74C6EAAE.quest_subtitle: "Discover an Infested Temple explorer map"
 	quest.1C375606107C117F.quest_subtitle: "Find Keep Kayra"
 	quest.1CCA31D9352C60E6.quest_desc: ["Clustered around a towering central “grandmother” mushroom, these villages appear quaint from afar. Yet the villagers within are far more aggressive than their old-world counterparts, hiding a cunning fierceness beneath their colorful caps. Approach with caution as this village may welcome the unwary only to spring its traps."]
@@ -87,7 +89,7 @@
 	quest.2FB0C3CFF2700DB8.title: "&cBasic Survival Part III"
 	quest.2FFC5F0F052AE543.title: "Defeat The Ancient Reminent"
 	quest.314F27CFAB6AC6C3.title: "Magical Map of the Twilight Forest"
-	quest.321BE79B988D7AC1.quest_desc: ["Hello there friend. This is Shiny's Awesome Modpack!"]
+	quest.321BE79B988D7AC1.quest_desc: ["Hello there friend and welcome to &lMC Resonance Horizons&l!"]
 	quest.321BE79B988D7AC1.title: "Welcome"
 	quest.36D8CF803CD1C83A.title: "Knight Phantom"
 	quest.376F4A768C6A17CF.quest_subtitle: "Get your first diamond"
@@ -187,14 +189,17 @@
 	task.31C481E93BF75AF5.title: "Defeat the Infernal Dragon"
 	task.31EFD0A21EEA1608.title: "Defeat the Harbinger"
 	task.33CED10B051A0D4B.title: "Defeat Scylla"
+	task.3D45D3F5DE594C29.title: "Bugs?"
 	task.3D49F928A22A6D24.title: "Visit the Nether"
 	task.41518E9C09FDE0DD.title: "Defeat the Underworld Knight"
 	task.43387CAD2554C424.title: "Yeti's Cave"
 	task.45B8A003723FFC26.title: "Collect flowers"
 	task.45BE21769F6F2148.title: "Defeat The Yeti"
+	task.47E183BC174AE6B0.title: "More quests soonTM"
 	task.49AF099BFE7508A8.title: "More Dimensions?"
 	task.4AA57D50368ACC11.title: "Naga"
 	task.4B7D6BDDBCB6FC75.title: "Welcome"
+	task.4D91EEC831C128B5.title: "Updates"
 	task.50449755AF28A897.title: "Defeat The Leviathan"
 	task.5352792BF48E7A96.title: "How to Visit the Nether"
 	task.55573B0B6840B2AF.title: "Beat the Silver Dungeon"

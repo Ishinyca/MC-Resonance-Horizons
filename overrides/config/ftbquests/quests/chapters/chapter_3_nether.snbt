@@ -67,6 +67,14 @@
 		{
 			dependencies: ["6D82D1F2691C7DC8"]
 			id: "3F008A9D2DFD1891"
+			rewards: [{
+				id: "69294E22E6C7147B"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "10B8E5E5AF97CD96"
 				structure: "block_factorys_bosses:underworld_arena"
@@ -78,6 +86,14 @@
 		{
 			dependencies: ["6D82D1F2691C7DC8"]
 			id: "33022922F65249B0"
+			rewards: [{
+				id: "256C13FF8D424E0B"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5F0B4D257BF96339"
 				structure: "#minecraft:bastion_remnant"
@@ -89,6 +105,14 @@
 		{
 			dependencies: ["6D82D1F2691C7DC8"]
 			id: "581F7D2CDF0C0BE1"
+			rewards: [{
+				id: "52DA6683C53D07BC"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3106BB511CC1D87F"
 				observe_type: 0
@@ -102,6 +126,14 @@
 		{
 			dependencies: ["581F7D2CDF0C0BE1"]
 			id: "4DE46E6136C5F0D5"
+			rewards: [{
+				id: "2248304065C0DC7A"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				count: 4L
 				id: "107D2D77325A0954"
@@ -114,6 +146,14 @@
 		{
 			dependencies: ["4DE46E6136C5F0D5"]
 			id: "10562C6A03538196"
+			rewards: [{
+				id: "677592E4C85C62FF"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "60E61A57221CAD4E"
 				item: { count: 1, id: "minecraft:netherite_ingot" }
@@ -129,6 +169,14 @@
 				"1649DA5950B784BE"
 			]
 			id: "2FB0C3CFF2700DB8"
+			rewards: [{
+				id: "61CE7DEF464B263F"
+				item: {
+					count: 1
+					id: "magic_coins:crystal_coin"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "6C56DEBB1593A434"
@@ -157,6 +205,14 @@
 		{
 			dependencies: ["33022922F65249B0"]
 			id: "1649DA5950B784BE"
+			rewards: [{
+				id: "3F4BA3D126CF417D"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4D7A4A447791A5B7"
 				item: { count: 1, id: "minecraft:netherite_upgrade_smithing_template" }

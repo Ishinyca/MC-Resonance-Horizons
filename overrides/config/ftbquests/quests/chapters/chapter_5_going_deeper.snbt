@@ -45,5 +45,23 @@
 			x: -1.0d
 			y: 0.5d
 		}
+		{
+			dependencies: ["1194E231E957088A"]
+			id: "6ACCE3E6588EA6E4"
+			rewards: [{
+				id: "62014FF2F4A988BA"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "47E183BC174AE6B0"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
 	]
 }
