@@ -25,7 +25,7 @@ ServerEvents.recipes(event => {
 		{
 			A: 'mekanism:alloy_infused',
 			B: 'mekanism:advanced_control_circuit',
-			C: 'oritech:adamant_ingot',
+			C: 'minecraft:diamond',
 			D: '#minecraft:planks'
 		}
 	)
@@ -40,7 +40,7 @@ ServerEvents.recipes(event => {
 		{
 			A: 'mekanism:alloy_reinforced',
 			B: 'mekanism:elite_control_circuit',
-			C: 'oritech:duratium_ingot',
+			C: 'oritech:adamant_ingot',
 			D: '#minecraft:planks'
 		}
 	)
@@ -54,7 +54,7 @@ ServerEvents.recipes(event => {
 		{
 			A: 'mekanism:alloy_atomic',
 			B: 'mekanism:ultimate_control_circuit',
-			C: 'draconicevolution:small_chaos_frag',
+			C: 'oritech:duratium_ingot',
 			D: '#minecraft:planks'
 		}
 	)
