@@ -1,11 +1,10 @@
 const addBlockTags = [
     {
-        tagName: "ftbultimine:exclude_blocks",
+        tagName: "ftbultimine:excluded_blocks",
         blockIDs: [
-            "c:stones",
-            "forge:netherrack",
-            "forge:end_stones",
-
+            "#c:stones",
+            "minecraft:netherrack",
+            "minecraft:end_stone",
         ],
     },
     {
