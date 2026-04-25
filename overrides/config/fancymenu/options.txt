@@ -27,7 +27,7 @@ S:custom_window_icon_16 = '';
 B:show_custom_window_icon = 'false';
 S:custom_window_icon_macos = '';
 S:custom_window_icon_32 = '';
-S:custom_window_title = 'ishinyca's MC Adventure';
+S:custom_window_title = 'MC Resonance Horizons';
 
 
 ##[multiplayer_screen]
