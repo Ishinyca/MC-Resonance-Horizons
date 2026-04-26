@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "MC Resonance Horizons",
-  "version": "B1.1",
+  "version": "B1.2",
   "author": "ishinyca",
   "files": [
     {
@@ -935,11 +935,6 @@
       "required": true
     },
     {
-      "projectID": 1002348,
-      "fileID": 6369120,
-      "required": true
-    },
-    {
       "projectID": 916747,
       "fileID": 6932487,
       "required": true
@@ -1222,16 +1217,6 @@
     {
       "projectID": 1294188,
       "fileID": 6720131,
-      "required": true
-    },
-    {
-      "projectID": 597281,
-      "fileID": 7605721,
-      "required": true
-    },
-    {
-      "projectID": 1446971,
-      "fileID": 7604579,
       "required": true
     },
     {
@@ -1735,11 +1720,6 @@
       "required": true
     },
     {
-      "projectID": 1213051,
-      "fileID": 7307156,
-      "required": true
-    },
-    {
       "projectID": 282947,
       "fileID": 7773889,
       "required": true
@@ -1927,6 +1907,56 @@
     {
       "projectID": 915902,
       "fileID": 7624100,
+      "required": true
+    },
+    {
+      "projectID": 633483,
+      "fileID": 7503293,
+      "required": true
+    },
+    {
+      "projectID": 838378,
+      "fileID": 7182924,
+      "required": true
+    },
+    {
+      "projectID": 291936,
+      "fileID": 6464161,
+      "required": true
+    },
+    {
+      "projectID": 391382,
+      "fileID": 6981252,
+      "required": true
+    },
+    {
+      "projectID": 689467,
+      "fileID": 7221528,
+      "required": true
+    },
+    {
+      "projectID": 1112217,
+      "fileID": 6088271,
+      "required": true
+    },
+    {
+      "projectID": 1002348,
+      "fileID": 7463040,
+      "required": true
+    },
+    {
+      "projectID": 597281,
+      "fileID": 7937725,
+      "required": true
+    },
+    {
+      "projectID": 1446971,
+      "fileID": 7937731,
+      "required": true
+    },
+    {
+      "projectID": 570630,
+      "fileID": 7408387,
       "required": true
     }
   ],
