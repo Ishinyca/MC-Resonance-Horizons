@@ -84,7 +84,7 @@ const recipeIdsToRemove = [
 	'cataclysm:storm_eye',
 
 	// Shrink
-	'shrink:shrinking_device'
+	'shrink:shrinking_device',
 ]
 
 const recipeOutputToRemove = [
