@@ -17,6 +17,7 @@ const addBlockTags = [
             "powah:reactor_niotic",
             "powah:reactor_spirited",
             "powah:reactor_nitro",
+            "minecraft:spawner",
         ],
     }
 ];
