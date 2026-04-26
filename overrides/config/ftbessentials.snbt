@@ -54,7 +54,7 @@
 		# Allows admins to configure kits of items that can be given to players.
 		kit: {
 			# Default: true
-			enabled: true
+			enabled: false
 		}
 		
 		# Allows admins to restrict players from chatting by using a command to mute (or unmute) them
