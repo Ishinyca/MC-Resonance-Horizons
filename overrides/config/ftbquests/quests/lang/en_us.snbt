@@ -24,7 +24,6 @@
 	chapter.646C49F0E98F631C.title: "Chapter 3: Nether"
 	chapter.664F9EC033517D41.title: "Chapter 5: Going Deeper"
 	chapter.6FFABDFD87AB00E7.title: "Immersive Engineering"
-	chapter.7B0B8A04FC5A314D.title: "Bosses"
 	chapter.7C8FE622908925D0.title: "Applied Energistics 2"
 	chapter_group.131C2868EBD0FC7F.title: "Technology"
 	chapter_group.2A5D074FFC415AEC.title: "The Basics"
@@ -62,11 +61,14 @@
 	quest.21426F5EEC922866.quest_desc: ["Half-submerged in the oceans lie the petrified remains of a colossal beast, its skeletal form stretching farther than the eye can follow. Was it a creature of the deep, dragged ashore in ages past—or did it fall from the heavens themselves? No records remain, only questions carved into stone."]
 	quest.21426F5EEC922866.quest_subtitle: "Find a Typhon"
 	quest.23E53C7D1FCCDD9E.title: "Snow Queen"
+	quest.2450CA876EBADF5A.quest_desc: ["Store the power!"]
 	quest.25588339CBB18A48.quest_desc: ["It's really easy to make molten steel. Just throw in coal and iron ingot to produce steel"]
 	quest.25588339CBB18A48.quest_subtitle: "Steel Production"
 	quest.25588339CBB18A48.title: "Molten Steel"
 	quest.2567F1709375C3C5.quest_subtitle: "Double your output!"
 	quest.2567F1709375C3C5.title: "Simple Smeltry Setup"
+	quest.2990AFC9EB609C22.quest_desc: ["With the Metallurgic Infuser recipe changed to include Desh ingot, you will need to travel to space."]
+	quest.2990AFC9EB609C22.quest_subtitle: "You think you'll get this easily?"
 	quest.29E1583BD397FE70.title: "Alpha Yeti"
 	quest.2A0A01BE836BB2AB.quest_desc: ["A monument of grandeur and mystery, the Shiraz Palace sprawls in every direction, its halls twisting and turning beyond comprehension. Its purpose remains unknown, but its size and opulence are undeniable. Travelers beware: without a companion, it’s all too easy to lose your way in this labyrinthine estate."]
 	quest.2A0A01BE836BB2AB.quest_subtitle: "Find the Shiraz Palace"
@@ -81,6 +83,7 @@
 		""
 		"Prepare yourself adventurer. &6Exploration&r and courage are the only ways to thrive in this world where the land itself rises against you."
 	]
+	quest.2D89CF138A4FCB89.title: "Logistic Transporter"
 	quest.2DB4F395EA26DF4B.quest_subtitle: "Find a Coliseum"
 	quest.2DCCC1C463471165.quest_desc: ["You only need to defeat 12 of the 16 bosses to enter The End. If you ever lose an eye, it will cost you 10 levels to replace it."]
 	quest.2EFC5DBD8122A0AE.quest_desc: ["Far below the surface lies a twisted network of chambers, where the air is thick with disease and shadow. Once a place of treatment, it now resembles a burial ground for forgotten rulers, its halls echoing with the whispers of those long lost. Only the brave (or the desperate) dare to tread these haunted corridors."]
@@ -116,7 +119,12 @@
 	quest.44D115281B0BFB75.quest_subtitle: "Find a Giant Mushroom"
 	quest.4791FC0A2E834D85.quest_desc: ["Dark magics linger in the depths of these dungeons, woven into items, halls, and even the very air. Power awaits the bold, but so do twisted fates for the careless."]
 	quest.4791FC0A2E834D85.quest_subtitle: "Find a Bathhouse"
+	quest.47C24A45C1053ABE.quest_desc: ["To start the entire process of &5&lMekanism&r, you will need to find Osmium Ore."]
+	quest.47C24A45C1053ABE.quest_subtitle: "Your very own factory"
+	quest.47C24A45C1053ABE.title: "&5&lMekanism&r"
 	quest.49BF5D9C5C1D14F1.title: "Final Castle"
+	quest.4A781E6D534CB736.quest_desc: ["&7Osmium&r Ingot is the core for &5&lMekanism&r and all of its &5machines&r."]
+	quest.4A781E6D534CB736.title: "Osmium"
 	quest.4C45EEAE3C7A412E.quest_desc: ["You must achieve the prerequisites before accessing the Nether Dimension. Otherwise, you'll get denied!"]
 	quest.4E4052F7EAD4FDD6.quest_desc: ["Bright banners and painted walls lure travelers closer, but inside these towering strongholds, chaos reigns. Each floor brims with bandits and traps, their laughter echoing as waves of foes pour from endless spawners. Conquer the towers, and their riches—and notoriety—are yours."]
 	quest.4E4052F7EAD4FDD6.quest_subtitle: "Find the Bandit Towers"
@@ -172,23 +180,28 @@
 	quest.76DAECF378BA3F19.quest_subtitle: "Find a Mining System"
 	quest.772D3B613376231C.quest_desc: ["Any Minecraft flowers will do."]
 	quest.772D3B613376231C.quest_subtitle: "Lovely"
+	task.0753C8124C6A1705.title: "Thermodynamic Conductor"
 	task.08B17E2A7DA36DCB.title: "Defeat the Maledictus"
 	task.0A95212173A95D79.title: "See Boss Chapter"
 	task.10B8E5E5AF97CD96.title: "Find The Underworld Knight"
 	task.18A88F07777EC3B9.title: "The Deeper Down"
 	task.19F86692B24A0E84.title: "Enter the Lich's Tower"
 	task.1A6C561E0AA32F2E.title: "Don't Count Your Moas"
+	task.1B160A5FDCAA2C73.title: "Logistical Transporter"
 	task.1C9F84F14ACF60FB.title: "Defeat the Ender Dragon"
 	task.1F978E3CD3313150.title: "Beat the Gold Dungeon"
 	task.2152AF3371211140.title: "test"
 	task.220B502B0FCD9DB4.title: "How to Access The Nether Dimension"
 	task.224D501996D6FE7F.title: "Any #minecraft:flowers"
 	task.2295861BA7A8B6D5.title: "Ride the Black Moa"
+	task.23F4B0D2A1C66ED9.title: "Alternative Way to make Steel"
+	task.2EB05600001E2911.title: "Fluid Tanks"
 	task.2F96791CDE59EFA1.title: "Beat the Bronze Dungeon"
 	task.3106BB511CC1D87F.title: "Ancient Debris"
 	task.31C481E93BF75AF5.title: "Defeat the Infernal Dragon"
 	task.31EFD0A21EEA1608.title: "Defeat the Harbinger"
 	task.33CED10B051A0D4B.title: "Defeat Scylla"
+	task.34F4969BD470B7B5.title: "Chemical Tanks"
 	task.3D45D3F5DE594C29.title: "Bugs?"
 	task.3D49F928A22A6D24.title: "Visit the Nether"
 	task.41518E9C09FDE0DD.title: "Defeat the Underworld Knight"
@@ -210,14 +223,18 @@
 	task.608190AC44D0689C.title: "A Brand New World"
 	task.62B26DEFD59C3E00.title: "Cataclysm's Dimensions!"
 	task.62C0D32D3346CF54.title: "Info"
+	task.69E9E4964E3D30F4.title: "Mechanical Pipe"
 	task.6AB462FC0DA3269B.title: "Visit the Aether Realm"
 	task.6B1DD75218C219A6.title: "Find Naga Courtyard"
 	task.6ED667CDA6B9AE0D.title: "Defeat the Sandworm"
+	task.6F6339D9342328B1.title: "Energy Cubes"
+	task.6F92061351EB070C.title: "Universal Cable"
 	task.71953E0DDBBCD92A.title: "Defeat the Ancient Remnant"
 	task.72D229B7096B5C84.title: "Defeat the Netherite Monstrosity"
 	task.76CD659AADFAF38A.title: "Bounce on the Blue Aercloud"
 	task.77138AB78CE48083.title: "... Until They Hatch!"
 	task.779DAFBBEB892F7B.title: "Visit Twilight Forest"
+	task.7BD562107F463AD7.title: "Pressurized Tube"
 	task.7C44BC91C7F90327.title: "Vanilla"
 	task.7DEB0B46AE68E657.title: "Defeat the Sandworm"
 	task.7E2AEB1B8E7871D2.title: "Knight's Stronghold"
