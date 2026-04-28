@@ -85,7 +85,11 @@ const recipeIdsToRemove = [
 
 	// Shrink
 	'shrink:shrinking_device',
-]
+
+	// 'mekanism:alloy_infused',
+	// 'mekanism:alloy_reinforced',
+	// 'mekanism:alloy_atomic',
+];
 
 const recipeOutputToRemove = [
 	'mekanism:basic_tier_installer',
@@ -125,22 +129,22 @@ const recipeOutputToRemove = [
 	'draconicevolution:wyvern_hoe',
 	'draconicevolution:draconic_hoe',
 	'draconicevolution:chaotic_hoe',
-]
+];
 
-const recipeModToRemove = [
-	'tacz'
-]
+// const recipeModToRemove = [
+// 	'tacz',
+// ];
 
 ServerEvents.recipes(event => {
 	recipeIdsToRemove.forEach ( (recipeId) => {
 		event.remove({ id: recipeId })
-	})
+	});
 
 	recipeOutputToRemove.forEach( (recipeOutput) => {
 		event.remove({ output: recipeOutput })
-	})
+	});
 
-	recipeModToRemove.forEach((recipeMod) => {
-		event.remove({ mod: recipeMod })
-	})
-})
+	// recipeModToRemove.forEach((recipeMod) => {
+	// 	event.remove({ mod: recipeMod })
+	// });
+});
