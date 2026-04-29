@@ -61,8 +61,20 @@ const recipeIdsToRemove = [
 	"sophisticatedstorage:storage_input",
 	"sophisticatedstorage:storage_output",
 	"sophisticatedstorage:basic_to_iron_tier_from_basic_to_copper_tier",
+	"sophisticatedstorage:basic_to_gold_tier_upgrade",
+	"sophisticatedstorage:basic_to_diamond_tier_upgrade",
+	"sophisticatedstorage:basic_to_netherite_tier_upgrade",
 	"sophisticatedstorage:copper_to_iron_tier_upgrade",
-	
+	"sophisticatedstorage:copper_to_gold_tier_upgrade",
+	"sophisticatedstorage:copper_to_diamond_tier_upgrade",
+	"sophisticatedstorage:copper_to_netherite_tier_upgrade",
+	"sophisticatedstorage:iron_to_gold_tier_upgrade",
+	"sophisticatedstorage:iron_to_diamond_tier_upgrade",
+	"sophisticatedstorage:iron_to_netherite_tier_upgrade",
+	"sophisticatedstorage:gold_to_diamond_tier_upgrade",
+	"sophisticatedstorage:gold_to_netherite_tier_upgrade",
+	"sophisticatedstorage:diamond_to_netherite_tier_upgrade",
+
 	
 	// Mekanism
 	/mekanism:factory\/.*/,
