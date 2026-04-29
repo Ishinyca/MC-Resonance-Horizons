@@ -60,6 +60,9 @@ const recipeIdsToRemove = [
 	"sophisticatedstorage:controller",
 	"sophisticatedstorage:storage_input",
 	"sophisticatedstorage:storage_output",
+	"sophisticatedstorage:basic_to_iron_tier_from_basic_to_copper_tier",
+	"sophisticatedstorage:copper_to_iron_tier_upgrade",
+	
 	
 	// Mekanism
 	/mekanism:factory\/.*/,
