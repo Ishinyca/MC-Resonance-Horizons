@@ -7,7 +7,7 @@
 	chapter.12F8F725A155C206.title: "Chapter 6: It's Time To End This"
 	chapter.146A9F56E47B33EE.title: "Mekanism"
 	chapter.231570DE6A7FCD52.title: "When Dungeons Arise"
-	chapter.29236C355EF25B6B.title: "Storage Solutions"
+	chapter.29236C355EF25B6B.title: "Basic Storage"
 	chapter.2B16A92E856A74A0.title: "Ars Noveau"
 	chapter.37C8384647C2943F.title: "Chapter 4: To The Skies!"
 	chapter.3CA0421EC38EFB6A.title: "Chapter 7: ???"
@@ -37,7 +37,6 @@
 	quest.039D94ACF27C120F.title: "Cold Eye"
 	quest.041A1C64A8468087.quest_desc: ["Suspended high in the sky, this arrowhead-shaped airship drifts on a massive aft propeller. Boarding is perilous, but those who succeed will witness its strange and fearsome inhabitants riding boar-like beasts, their eyeless faces obscured by ominous cages. Danger and mystery ride with them across the clouds."]
 	quest.041A1C64A8468087.quest_subtitle: "Find a Heavenly Rider"
-	quest.043573ED949BECB2.quest_desc: ["Welcome to the Stoage chapter! There are tons of storage options that are available in this modpack."]
 	quest.0B89EB36AC565461.quest_desc: ["Deep within this subterranean city, the heat of molten lava and the hum of industry dominate the air. The Nether’s influence is strong here, fueling forges and animating Forge Sentinels that patrol every corridor. Only those prepared for fire and steel will survive, and claim the treasures forged within."]
 	quest.0B89EB36AC565461.quest_subtitle: "Find a Foundry"
 	quest.0CE50A7F4F1A0E4D.quest_desc: ["ladder stretches skyward, disappearing into the clouds. At its top floats a strange, floating vessel. What secrets or dangers await above, none can say… except that the view alone is enough to make even the bravest adventurer’s stomach turn."]
@@ -49,6 +48,9 @@
 	quest.14857DBF1DCBF100.quest_subtitle: "Find an Undead Pirate Ship"
 	quest.16526B624CB886B6.quest_desc: ["There will be more quests in the future. If you wish to help with making quests, please let me know!"]
 	quest.16526B624CB886B6.title: "Quests"
+	quest.1706C8CC1B7465FC.quest_desc: ["Packing Tape is used to tape up your Sophisticated Chests so you can break them without spilling out all of the contents."]
+	quest.1706C8CC1B7465FC.quest_subtitle: "Might as well give you Super Packing Tape for free"
+	quest.1706C8CC1B7465FC.title: "Need to move chests?"
 	quest.188AAB5B74C6EAAE.quest_subtitle: "Discover an Infested Temple explorer map"
 	quest.1C375606107C117F.quest_subtitle: "Find Keep Kayra"
 	quest.1CCA31D9352C60E6.quest_desc: ["Clustered around a towering central “grandmother” mushroom, these villages appear quaint from afar. Yet the villagers within are far more aggressive than their old-world counterparts, hiding a cunning fierceness beneath their colorful caps. Approach with caution as this village may welcome the unwary only to spring its traps."]
@@ -74,6 +76,14 @@
 	quest.2A19A8B453EE3AA3.title: "Defeat the Ender Dragon Pt2?"
 	quest.2A1B0386B7987DD3.quest_desc: ["Vast and dreamlike, the Aviary stretches high into wtilight sky, its halls divided into four whimsical quadrants. Each one unfolds as a surreal scene—bright, strange, and perilous in its own way. To wander here feels like stepping beyond reality itself. Is this the journey’s end… or just another beginning?"]
 	quest.2A1B0386B7987DD3.quest_subtitle: "Find an Aviary"
+	quest.2A41C5B7BC1E20BE.quest_desc: [
+		"&bSophisticated Storage&r is slightly different in this pack in terms of obtaining it. You will need to go through &n&8Create&r&r assembly line to obtain the upgrade installer."
+		""
+		"&6Basic to Copper Tier Installer&r will be the first upgrade in upgrading your vanilla chests."
+	]
+	quest.2A41C5B7BC1E20BE.quest_subtitle: "Totally \"Vanilla-Like\" Chests"
+	quest.2A41C5B7BC1E20BE.title: "Welcome to &bSophisticated Storage&r"
+	quest.2A63EB2470369AFD.quest_desc: ["There are tons of useful Sophisticated Backpack upgrades. Check out all of the available upgrades the mod has to offer."]
 	quest.2AB3005DB8AAA61B.title: "Hydra"
 	quest.2B70445E6CD99EDB.quest_desc: [
 		"Strange structures have begun rising from the land. Mysterious dungeons, fortresses, and towers that pierce the skies. No one knows where they came from, only that they’re teeming with hostile creatures, forgotten treasures, and powerful secrets."
@@ -96,6 +106,8 @@
 	quest.36D8CF803CD1C83A.title: "Knight Phantom"
 	quest.376F4A768C6A17CF.quest_subtitle: "Get your first diamond"
 	quest.376F4A768C6A17CF.title: "DIAMONDS?!"
+	quest.38E4245CC00B4D74.quest_desc: ["There are tons of upgrades for Sophisticated Storage. Look through all the upgrades the mod has to offer and craft what you need."]
+	quest.38E4245CC00B4D74.quest_subtitle: "Base Upgrade? Yes please."
 	quest.39C18383B6135B55.title: "Giant's Cloud"
 	quest.3CEFE6DE9218A829.quest_desc: [
 		"Craft a full set of &6Wooden Armour"
@@ -138,6 +150,7 @@
 	quest.56CC4D63313E1E86.title: "Defeat Ignis"
 	quest.57F0537684B307E4.title: "Naga"
 	quest.5807BE9F854E04C0.quest_desc: ["See the End Progression to view all the eyes you have currently collected."]
+	quest.5934F2C548EF06E1.quest_desc: ["Need an early game all in one solution for connecting your chests? Storage Lectern from Ars Nouveau is the best solution for this!"]
 	quest.5C12F4CC1F6F6C32.quest_desc: ["Looming among the clouds, this massive airship bristles with defenses and hostile crew. Phantom-mounted fiends circle overhead, while fish-like raiders astride hoglins stalk the decks. Boarding it is no small feat. Tthose who triumph will etch their name among the few who dared challenge the skies."]
 	quest.5C12F4CC1F6F6C32.quest_subtitle: "Find a Heavenly Challenger"
 	quest.5CF89BD17745E712.title: "Troll's Cave"
@@ -216,6 +229,7 @@
 	task.50449755AF28A897.title: "Defeat The Leviathan"
 	task.5352792BF48E7A96.title: "How to Visit the Nether"
 	task.55573B0B6840B2AF.title: "Beat the Silver Dungeon"
+	task.588A93AADC757810.title: "The Easy Storage Solution"
 	task.59C78E5C9CF9B249.title: "Bosses'Rising"
 	task.5C3E7D34292557AA.title: "Visit the End"
 	task.5EDEAA9228995D2C.title: "Naga Courtyard"
@@ -223,6 +237,7 @@
 	task.608190AC44D0689C.title: "A Brand New World"
 	task.62B26DEFD59C3E00.title: "Cataclysm's Dimensions!"
 	task.62C0D32D3346CF54.title: "Info"
+	task.65F026E7FF582BA4.title: "Sophisticated Storage"
 	task.69E9E4964E3D30F4.title: "Mechanical Pipe"
 	task.6AB462FC0DA3269B.title: "Visit the Aether Realm"
 	task.6B1DD75218C219A6.title: "Find Naga Courtyard"
