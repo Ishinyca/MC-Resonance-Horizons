@@ -101,9 +101,8 @@ const recipeIdsToRemove = [
 	// Shrink
 	'shrink:shrinking_device',
 
-	// 'mekanism:alloy_infused',
-	// 'mekanism:alloy_reinforced',
-	// 'mekanism:alloy_atomic',
+	// Duplicates
+	'aether:skyroot_lectern',
 ];
 
 const recipeOutputToRemove = [
