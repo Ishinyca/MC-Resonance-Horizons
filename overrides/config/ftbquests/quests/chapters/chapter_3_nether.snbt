@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "chapter_3_nether"
 	group: "33F828F57A04EB35"
+	hide_quest_until_deps_visible: true
 	icon: {
 		id: "minecraft:netherrack"
 	}
@@ -12,8 +13,8 @@
 	quests: [
 		{
 			dependencies: [
-				"4AFF3445877B44C6"
-				"475E331EED3EA9B9"
+				"5CF89BD17745E712"
+				"49BF5D9C5C1D14F1"
 			]
 			id: "6D82D1F2691C7DC8"
 			tasks: [{
@@ -22,46 +23,6 @@
 				type: "dimension"
 			}]
 			x: 0.0d
-			y: 0.0d
-		}
-		{
-			id: "4AFF3445877B44C6"
-			tasks: [{
-				id: "4632948816551337"
-				item: { count: 1, id: "twilightforest:lamp_of_cinders" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: 0.5d
-		}
-		{
-			id: "475E331EED3EA9B9"
-			tasks: [{
-				advancement: "twilightforest:progression_end"
-				criterion: ""
-				id: "481B5DB15A4C32E1"
-				type: "advancement"
-			}]
-			x: -1.0d
-			y: -0.5d
-		}
-		{
-			icon: {
-				components: {
-					"ftbquests:icon": "kubejs:textures/font/icons/info.png"
-				}
-				id: "ftbquests:custom_icon"
-			}
-			icon_scale: 2.0d
-			id: "4C45EEAE3C7A412E"
-			optional: true
-			shape: "none"
-			size: 1.5d
-			tasks: [{
-				id: "220B502B0FCD9DB4"
-				type: "checkmark"
-			}]
-			x: -2.5d
 			y: 0.0d
 		}
 		{
@@ -126,14 +87,24 @@
 		{
 			dependencies: ["581F7D2CDF0C0BE1"]
 			id: "4DE46E6136C5F0D5"
-			rewards: [{
-				id: "2248304065C0DC7A"
-				item: {
-					count: 1
-					id: "magic_coins:gold_coin"
+			rewards: [
+				{
+					id: "2248304065C0DC7A"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "296631AFF1DD0B04"
+					item: {
+						count: 1
+						id: "minecraft:ancient_debris"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				count: 4L
 				id: "107D2D77325A0954"
@@ -146,14 +117,24 @@
 		{
 			dependencies: ["4DE46E6136C5F0D5"]
 			id: "10562C6A03538196"
-			rewards: [{
-				id: "677592E4C85C62FF"
-				item: {
-					count: 1
-					id: "magic_coins:gold_coin"
+			rewards: [
+				{
+					id: "677592E4C85C62FF"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "6BF3A0BBACA612D6"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "60E61A57221CAD4E"
 				item: { count: 1, id: "minecraft:netherite_ingot" }
@@ -169,14 +150,24 @@
 				"1649DA5950B784BE"
 			]
 			id: "2FB0C3CFF2700DB8"
-			rewards: [{
-				id: "61CE7DEF464B263F"
-				item: {
-					count: 1
-					id: "magic_coins:crystal_coin"
+			rewards: [
+				{
+					id: "61CE7DEF464B263F"
+					item: {
+						count: 1
+						id: "magic_coins:crystal_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "4C4A952EDDA8FA88"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "6C56DEBB1593A434"
@@ -205,14 +196,24 @@
 		{
 			dependencies: ["33022922F65249B0"]
 			id: "1649DA5950B784BE"
-			rewards: [{
-				id: "3F4BA3D126CF417D"
-				item: {
-					count: 1
-					id: "magic_coins:gold_coin"
+			rewards: [
+				{
+					id: "3F4BA3D126CF417D"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "0C4D8E44844EF180"
+					item: {
+						count: 1
+						id: "minecraft:netherite_upgrade_smithing_template"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4D7A4A447791A5B7"
 				item: { count: 1, id: "minecraft:netherite_upgrade_smithing_template" }
@@ -220,6 +221,36 @@
 			}]
 			x: 3.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["3F008A9D2DFD1891"]
+			id: "6AFCB2A00B5DEFAF"
+			rewards: [
+				{
+					id: "530ABC5660F7E3B2"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "0EBA4903829C3E49"
+					item: {
+						count: 1
+						id: "block_factorys_bosses:large_sword"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "block_factorys_bosses:kill_underworld_knight"
+				criterion: ""
+				id: "4247044F0235C1EE"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 1.5d
 		}
 	]
 }

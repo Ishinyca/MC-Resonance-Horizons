@@ -3,40 +3,73 @@
 	default_quest_shape: ""
 	filename: "difficulty_scaling"
 	group: "69C66C6408A97599"
+	icon: {
+		components: {
+			"ftbquests:icon": "pastel:item/bedrock_sword"
+		}
+		id: "ftbquests:custom_icon"
+	}
 	id: "0EE254FA73AF87A1"
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["31652B3511B9572D"]
+			icon: {
+				id: "minecraft:wooden_sword"
+			}
 			id: "6D9C15275A309167"
-			tasks: [{
-				advancement: "apotheosis:progression/haven"
-				criterion: ""
-				id: "17655B45CCBB36A4"
-				type: "advancement"
-			}]
-			x: -4.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["6D9C15275A309167"]
-			id: "08E815D54F770E8B"
 			rewards: [{
-				id: "0A99B526B8C20F34"
+				id: "1FE21D581135E315"
 				item: {
 					count: 1
 					id: "magic_coins:gold_coin"
 				}
 				type: "item"
 			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "apotheosis:progression/haven"
+				criterion: ""
+				id: "17655B45CCBB36A4"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6D9C15275A309167"]
+			icon: {
+				id: "minecraft:stone_sword"
+			}
+			id: "08E815D54F770E8B"
+			rewards: [
+				{
+					id: "0A99B526B8C20F34"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "119EEA1359F8D196"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
 			tasks: [{
 				advancement: "apotheosis:progression/frontier"
 				criterion: ""
 				id: "07962FCB81B89204"
 				type: "advancement"
 			}]
-			x: -2.0d
-			y: 0.0d
+			x: 0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["08E815D54F770E8B"]
@@ -49,17 +82,24 @@
 				}
 				type: "item"
 			}]
+			shape: "hexagon"
 			tasks: [{
 				advancement: "apotheosis:progression/ascent"
 				criterion: ""
+				icon: {
+					id: "minecraft:iron_sword"
+				}
 				id: "0795C713B757C204"
 				type: "advancement"
 			}]
-			x: 0.0d
+			x: 1.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4602AD5D042CDD78"]
+			icon: {
+				id: "minecraft:diamond_sword"
+			}
 			id: "1F934FE8AAA2B466"
 			rewards: [{
 				id: "08F0A783FECF2F52"
@@ -69,17 +109,21 @@
 				}
 				type: "item"
 			}]
+			shape: "hexagon"
 			tasks: [{
 				advancement: "apotheosis:progression/summit"
 				criterion: ""
 				id: "270A536186863C2A"
 				type: "advancement"
 			}]
-			x: 2.0d
-			y: 0.0d
+			x: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["1F934FE8AAA2B466"]
+			icon: {
+				id: "minecraft:netherite_sword"
+			}
 			id: "615B67800250A473"
 			rewards: [{
 				id: "2FCA7E9375D14369"
@@ -89,14 +133,612 @@
 				}
 				type: "item"
 			}]
+			shape: "hexagon"
 			tasks: [{
 				advancement: "apotheosis:progression/pinnacle"
 				criterion: ""
 				id: "00AB50311BBE2607"
 				type: "advancement"
 			}]
-			x: 4.0d
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1C2BA23695703EC0"]
+			id: "31652B3511B9572D"
+			rewards: [{
+				id: "75002A0031C1196D"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "apotheosis:progression/root"
+				criterion: ""
+				id: "4C7B9AD127766162"
+				type: "advancement"
+			}]
+			x: 0.0d
 			y: 0.0d
+		}
+		{
+			icon: {
+				components: {
+					"apotheosis:gem": "apotheosis:the_nether/molten_breach"
+					"apotheosis:purity": "perfect"
+				}
+				id: "apotheosis:gem"
+			}
+			icon_scale: 1.5d
+			id: "1C0B478A5A6A87A9"
+			rewards: [
+				{
+					id: "2F3FB51AAFFB8311"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "4FAEF68DD44C4859"
+					item: {
+						count: 1
+						id: "minecraft:iron_sword"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "44A0D62F34D2D0EC"
+				item: { components: { "ftbfiltersystem:filter": "or(item(apotheosis:gem))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1C0B478A5A6A87A9"]
+			id: "1C2BA23695703EC0"
+			rewards: [
+				{
+					id: "67F390F61AC50DFD"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "5E404607B51AADF9"
+					item: {
+						count: 1
+						id: "apotheosis:gem_dust"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2A1893485BBE073D"
+				item: { count: 1, id: "apotheosis:gem_dust" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C2BA23695703EC0"]
+			id: "5D5D23870333BBA1"
+			rewards: [
+				{
+					id: "1A63EE35D0076714"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "329AF5E9B466FE4E"
+					item: {
+						count: 1
+						id: "apotheosis:gem_fused_slate"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "7C8AB0C46D244CBE"
+				item: { count: 1, id: "apotheosis:gem_fused_slate" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5D5D23870333BBA1"]
+			id: "3C0F24995581B826"
+			rewards: [
+				{
+					id: "75353BB249B3448E"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "49D4FBF4448FF28E"
+					item: {
+						count: 1
+						id: "apotheosis:sigil_of_socketing"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "26288CFAB5AAB107"
+				item: { count: 1, id: "apotheosis:sigil_of_socketing" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5D5D23870333BBA1"]
+			id: "4F39DCA46AEADEF0"
+			rewards: [
+				{
+					id: "431D78CA1FCAB4BE"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "1A1FD9125C2EE3B6"
+					item: {
+						count: 1
+						id: "apotheosis:sigil_of_rebirth"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "3D08D02E64CF30F5"
+				item: { count: 1, id: "apotheosis:sigil_of_rebirth" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5D5D23870333BBA1"]
+			id: "340DFB8D899B8841"
+			rewards: [
+				{
+					id: "0DA6FF4FE0366919"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "1EAC1A347D6BE723"
+					item: {
+						count: 1
+						id: "apotheosis:sigil_of_withdrawal"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "40727BA83BAB1A67"
+				item: { count: 1, id: "apotheosis:sigil_of_withdrawal" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5D5D23870333BBA1"]
+			id: "4243F5365E329AC3"
+			rewards: [
+				{
+					id: "28BCD12063AE246E"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "434B602FDAC6B136"
+					item: {
+						count: 1
+						id: "apotheosis:sigil_of_unnaming"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "0D8631C1328547D0"
+				item: { count: 1, id: "apotheosis:sigil_of_unnaming" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5D5D23870333BBA1"]
+			id: "5F30090B306E50D2"
+			rewards: [
+				{
+					id: "536888845E09838C"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "7BCE01D5AF2C4A36"
+					item: {
+						count: 1
+						id: "apotheosis:sigil_of_enhancement"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5547833292CFD422"
+				item: { count: 1, id: "apotheosis:sigil_of_enhancement" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5D5D23870333BBA1"]
+			id: "14797ED5F2AED0C6"
+			rewards: [
+				{
+					id: "29CA0ABC73AC31B1"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "791BE5AFA0518F49"
+					item: {
+						count: 1
+						id: "apotheosis:sigil_of_malice"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2853158F5D43BD27"
+				item: { count: 1, id: "apotheosis:sigil_of_malice" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"5F30090B306E50D2"
+				"32125B7148849F6B"
+			]
+			id: "74BAB7BF2D557DE8"
+			rewards: [
+				{
+					id: "6133AA2272A69BBE"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6C2FEB846684DB20"
+					item: {
+						count: 1
+						id: "apotheosis:sigil_of_enhancement"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "73A5A1DFA95A381A"
+				item: { count: 1, id: "apotheosis:augmenting_table" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C2BA23695703EC0"]
+			id: "7A541B89BB46B3DA"
+			shape: "diamond"
+			tasks: [{
+				id: "403C5DD131CAAEF8"
+				item: { count: 1, id: "apotheosis:salvaging_table" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7A541B89BB46B3DA"]
+			id: "217E37875A2FCCB3"
+			rewards: [
+				{
+					id: "2CDECDC4C455AF40"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "189FD77EB6F742A4"
+					item: {
+						count: 1
+						id: "apotheosis:common_material"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "14BAEA515E76F1A5"
+				item: { count: 1, id: "apotheosis:common_material" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7A541B89BB46B3DA"]
+			id: "23B3BAA9AA85691B"
+			rewards: [
+				{
+					id: "7B0E18767BA74292"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "1B5F4EE6E5CF3E87"
+					item: {
+						count: 1
+						id: "apotheosis:uncommon_material"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "3009E23C46CB4D02"
+				item: { count: 1, id: "apotheosis:uncommon_material" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7A541B89BB46B3DA"]
+			id: "32125B7148849F6B"
+			rewards: [
+				{
+					id: "65867C62D878D1A4"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "1906069602E17FEB"
+					item: {
+						count: 1
+						id: "apotheosis:mythic_material"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "40F1F65A56C05E48"
+				item: { count: 1, id: "apotheosis:mythic_material" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7A541B89BB46B3DA"]
+			id: "1AA82F32BFCA5CDB"
+			rewards: [
+				{
+					id: "51A28A8286975072"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6A4F29102B96DC58"
+					item: {
+						count: 1
+						id: "apotheosis:epic_material"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "0B572E977942E414"
+				item: { count: 1, id: "apotheosis:epic_material" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7A541B89BB46B3DA"]
+			id: "21D959EE2C7FF9FF"
+			rewards: [
+				{
+					id: "2BECCB02F41F7FA4"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "20A82DD7CCB427F6"
+					item: {
+						count: 1
+						id: "apotheosis:rare_material"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "10F6682DE8639A20"
+				item: { count: 1, id: "apotheosis:rare_material" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"1680B3BC16DFE261"
+				"1AA82F32BFCA5CDB"
+			]
+			id: "316E5744B78B6080"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "74CF03367216D585"
+				item: { count: 1, id: "apotheosis:reforging_table" }
+				type: "item"
+			}]
+			x: -1.9500000000000002d
+			y: 5.35d
+		}
+		{
+			dependencies: ["1C2BA23695703EC0"]
+			id: "1680B3BC16DFE261"
+			rewards: [
+				{
+					id: "671FA70573FA9CB8"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "504851D9F7C0F572"
+					item: {
+						count: 1
+						id: "apotheosis:gem_dust"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "36800D2ABF206E28"
+				item: { count: 1, id: "apotheosis:simple_reforging_table" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1C2BA23695703EC0"]
+			id: "2E0ACD0203A1B7D7"
+			rewards: [
+				{
+					id: "1470340495533684"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "733EA8C8D625A0AC"
+					item: {
+						count: 1
+						id: "minecraft:smithing_table"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "591CB3EF86835E2E"
+				item: { count: 1, id: "minecraft:smithing_table" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1C2BA23695703EC0"]
+			id: "11C3CC162315E2E3"
+			rewards: [
+				{
+					id: "3C085CF80F34CD99"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "4DDEE15FD2380BAF"
+					item: {
+						count: 1
+						id: "apotheosis:gem_dust"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "47F97D322C18740B"
+				item: { count: 1, id: "apotheosis:gem_cutting_table" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
 		}
 	]
 }

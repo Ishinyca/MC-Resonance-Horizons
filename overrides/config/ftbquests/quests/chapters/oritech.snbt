@@ -17,7 +17,7 @@
 		x: -7.0d
 		y: 3.5d
 	}]
-	order_index: 0
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -815,9 +815,17 @@
 			}
 			icon_scale: 2.0d
 			id: "1070FE1B2649ED66"
+			rewards: [{
+				id: "796E41AB96A59190"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "385C3C3B8B56026D"
-				item: { count: 1, id: "immersiveengineering:ingot_nickel" }
+				item: { count: 1, id: "oritech:nickel_ingot" }
 				type: "item"
 			}]
 			x: -12.0d

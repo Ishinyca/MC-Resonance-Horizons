@@ -60,6 +60,21 @@ const recipeIdsToRemove = [
 	"sophisticatedstorage:controller",
 	"sophisticatedstorage:storage_input",
 	"sophisticatedstorage:storage_output",
+	"sophisticatedstorage:basic_to_iron_tier_from_basic_to_copper_tier",
+	"sophisticatedstorage:basic_to_gold_tier_upgrade",
+	"sophisticatedstorage:basic_to_diamond_tier_upgrade",
+	"sophisticatedstorage:basic_to_netherite_tier_upgrade",
+	"sophisticatedstorage:copper_to_iron_tier_upgrade",
+	"sophisticatedstorage:copper_to_gold_tier_upgrade",
+	"sophisticatedstorage:copper_to_diamond_tier_upgrade",
+	"sophisticatedstorage:copper_to_netherite_tier_upgrade",
+	"sophisticatedstorage:iron_to_gold_tier_upgrade",
+	"sophisticatedstorage:iron_to_diamond_tier_upgrade",
+	"sophisticatedstorage:iron_to_netherite_tier_upgrade",
+	"sophisticatedstorage:gold_to_diamond_tier_upgrade",
+	"sophisticatedstorage:gold_to_netherite_tier_upgrade",
+	"sophisticatedstorage:diamond_to_netherite_tier_upgrade",
+
 	
 	// Mekanism
 	/mekanism:factory\/.*/,
@@ -85,7 +100,10 @@ const recipeIdsToRemove = [
 
 	// Shrink
 	'shrink:shrinking_device',
-]
+
+	// Duplicates
+	'aether:skyroot_lectern',
+];
 
 const recipeOutputToRemove = [
 	'mekanism:basic_tier_installer',
@@ -125,22 +143,22 @@ const recipeOutputToRemove = [
 	'draconicevolution:wyvern_hoe',
 	'draconicevolution:draconic_hoe',
 	'draconicevolution:chaotic_hoe',
-]
+];
 
-const recipeModToRemove = [
-	'tacz'
-]
+// const recipeModToRemove = [
+// 	'tacz',
+// ];
 
 ServerEvents.recipes(event => {
 	recipeIdsToRemove.forEach ( (recipeId) => {
 		event.remove({ id: recipeId })
-	})
+	});
 
 	recipeOutputToRemove.forEach( (recipeOutput) => {
 		event.remove({ output: recipeOutput })
-	})
+	});
 
-	recipeModToRemove.forEach((recipeMod) => {
-		event.remove({ mod: recipeMod })
-	})
-})
+	// recipeModToRemove.forEach((recipeMod) => {
+	// 	event.remove({ mod: recipeMod })
+	// });
+});

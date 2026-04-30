@@ -1,33 +1,1295 @@
 {
-	always_invisible: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	disable_toast: true
 	filename: "storage_solutions"
 	group: "2A5D074FFC415AEC"
+	icon: {
+		id: "minecraft:chest"
+	}
 	id: "29236C355EF25B6B"
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
-			id: "043573ED949BECB2"
+			icon: {
+				components: {
+					"sophisticatedstorage:wood_type": "oak"
+				}
+				id: "sophisticatedstorage:copper_chest"
+			}
+			id: "2A41C5B7BC1E20BE"
+			rewards: [
+				{
+					id: "763353AEA10FD547"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "146920FCFCB11564"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:basic_to_copper_tier_upgrade"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			size: 2.0d
 			tasks: [{
-				id: "696078F3FC403979"
-				item: { count: 1, id: "minecraft:chest" }
+				id: "7335EF08A844E7B2"
+				item: { count: 1, id: "sophisticatedstorage:basic_to_copper_tier_upgrade" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2A41C5B7BC1E20BE"]
+			icon: {
+				components: {
+					"sophisticatedstorage:wood_type": "oak"
+				}
+				id: "sophisticatedstorage:iron_chest"
+			}
+			id: "0792EE491CFA49E9"
+			rewards: [
+				{
+					id: "6FC0C1C2144D1864"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "5E0CB69F31473055"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:copper_to_iron_tier_upgrade"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1FE7A22D3132E835"
+				item: { count: 1, id: "sophisticatedstorage:copper_to_iron_tier_upgrade" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0792EE491CFA49E9"]
+			icon: {
+				components: {
+					"sophisticatedstorage:wood_type": "oak"
+				}
+				id: "sophisticatedstorage:gold_chest"
+			}
+			id: "7F409DE08ABBD147"
+			rewards: [
+				{
+					id: "18A7DE7F61F68D01"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "54A105FF535A1C80"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:iron_to_gold_tier_upgrade"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3AAE6A1F642ADF7D"
+				item: { count: 1, id: "sophisticatedstorage:iron_to_gold_tier_upgrade" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7F409DE08ABBD147"]
+			icon: {
+				components: {
+					"sophisticatedstorage:wood_type": "oak"
+				}
+				id: "sophisticatedstorage:diamond_chest"
+			}
+			id: "70628845D0D91535"
+			rewards: [
+				{
+					id: "1C46CA0A695D61F2"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "4D09B0B000909D5D"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:gold_to_diamond_tier_upgrade"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2C0A15A1308E3C27"
+				item: { count: 1, id: "sophisticatedstorage:gold_to_diamond_tier_upgrade" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["70628845D0D91535"]
+			icon: {
+				components: {
+					"sophisticatedstorage:wood_type": "oak"
+				}
+				id: "sophisticatedstorage:netherite_chest"
+			}
+			id: "31D5B33169FD64A2"
+			rewards: [
+				{
+					id: "5D68189FF1E6B09F"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "7EE92BC70203C275"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:diamond_to_netherite_tier_upgrade"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "42C79A71C3EECC6C"
+				item: { count: 1, id: "sophisticatedstorage:diamond_to_netherite_tier_upgrade" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2A41C5B7BC1E20BE"]
+			id: "38E4245CC00B4D74"
+			rewards: [
+				{
+					id: "22F8D7ACEFE1811D"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "04730F3EBB3371A7"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:upgrade_base"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "302E8837237E21B0"
+				item: { count: 1, id: "sophisticatedstorage:upgrade_base" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2A41C5B7BC1E20BE"]
+			id: "3898DB098D7C157E"
+			rewards: [
+				{
+					id: "3C17501D0D196321"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "5673ADC05DA6965C"
+					item: {
+						count: 1
+						id: "minecraft:hopper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5904D23D172395FB"
+				item: { count: 1, id: "sophisticatedstorage:controller" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"3898DB098D7C157E"
+				"738CDDF3D1DA5D14"
+			]
+			id: "790370D6CAFE3E0A"
+			rewards: [
+				{
+					id: "13BD42F0ACBFBF13"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "5FF439372EA4F810"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:packing_tape"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2B6FBD60AB6035C5"
+				item: { count: 1, id: "sophisticatedstorage:storage_link" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3898DB098D7C157E"]
+			id: "738CDDF3D1DA5D14"
+			rewards: [
+				{
+					id: "74BD685E0BF18313"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "15FFA1D47C768BC4"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:packing_tape"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1F5977F4CFB803CB"
+				item: { count: 1, id: "sophisticatedstorage:storage_tool" }
+				type: "item"
+			}]
+			x: 8.8d
+			y: -4.300000000000001d
+		}
+		{
+			id: "721D4B6C069200B7"
+			rewards: [
+				{
+					id: "6F1A9D762D75D31E"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "5A0D02EFF2BB9E04"
+					item: {
+						count: 1
+						id: "minecraft:chest"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			size: 2.0d
+			tasks: [{
+				id: "2E444D390A6B1BE0"
+				item: { count: 1, id: "sophisticatedbackpacks:backpack" }
+				type: "item"
+			}]
+			x: 5.0d
 			y: 0.0d
 		}
 		{
-			id: "51B900F7A86D578B"
+			dependencies: ["721D4B6C069200B7"]
+			id: "51E0F9F0577C0346"
+			rewards: [
+				{
+					id: "287C1108D7FC70A1"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "377DC98EA6C16AB1"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
-				id: "0ABD9A9C278234DD"
-				item: { components: { "sophisticatedstorage:wood_type": "oak" }, count: 1, id: "sophisticatedstorage:chest" }
+				id: "337B4C6DA15BA1F5"
+				item: { count: 1, id: "sophisticatedbackpacks:copper_backpack" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["51E0F9F0577C0346"]
+			id: "5B6C95B1F8731C0A"
+			rewards: [
+				{
+					id: "72FB57F20DE5825E"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "7C27EA92F0F494CC"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6B8668450E4CF04E"
+				item: { count: 1, id: "sophisticatedbackpacks:iron_backpack" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B6C95B1F8731C0A"]
+			id: "332FB5BB2F6149DF"
+			rewards: [
+				{
+					id: "0938BC9D2D9A6A5A"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "771FB55BB802156A"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4D7C06655953023D"
+				item: { count: 1, id: "sophisticatedbackpacks:diamond_backpack" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["332FB5BB2F6149DF"]
+			id: "7734C931A0D2F128"
+			rewards: [
+				{
+					id: "198C102F3933A3B6"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "3DA52774F924D285"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "50B4D23B7597FC4D"
+				item: { count: 1, id: "sophisticatedbackpacks:netherite_backpack" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["721D4B6C069200B7"]
+			id: "2A63EB2470369AFD"
+			rewards: [
+				{
+					id: "06384F11CFE2A257"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "2D740963A987F22E"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:upgrade_base"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4714846EF59FD981"
+				item: { count: 1, id: "sophisticatedbackpacks:upgrade_base" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			id: "1D8A84E5FC904FBD"
+			rewards: [
+				{
+					id: "1EE1628B70AF5DA2"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "05811405A783BBC4"
+					item: {
+						count: 1
+						id: "functionalstorage:oak_1"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			size: 2.0d
+			tasks: [{
+				icon: {
+					id: "functionalstorage:oak_1"
+				}
+				id: "61EFEC6A7EBA1C0D"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(functionalstorage:drawer))", "minecraft:custom_name": "\"Functional Storage Any Storage\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["00EF0C2317FFD787"]
+			id: "288D56E1C29CAE88"
+			rewards: [
+				{
+					id: "0689D41CEF125A04"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "456D16F6D460D977"
+					item: {
+						count: 1
+						id: "functionalstorage:oak_1"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.15d
+			tasks: [{
+				id: "69855AAE730D630A"
+				item: { count: 1, id: "functionalstorage:storage_controller" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["288D56E1C29CAE88"]
+			id: "6AFFE00F42B3546B"
+			rewards: [
+				{
+					id: "4EF40111E245803C"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "471F0D1E85B877CB"
+					item: {
+						count: 1
+						id: "functionalstorage:oak_1"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.15d
+			tasks: [{
+				id: "1837B6AC99854B6F"
+				item: { count: 1, id: "functionalstorage:controller_extension" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1D8A84E5FC904FBD"]
+			id: "00EF0C2317FFD787"
+			rewards: [
+				{
+					id: "679A5616A6E3D978"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "72DE67EB9AFA34D2"
+					item: {
+						count: 1
+						id: "functionalstorage:oak_1"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [{
+				id: "230E8C9750A6208E"
+				item: { count: 1, id: "functionalstorage:linking_tool" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1D8A84E5FC904FBD"]
+			id: "5BD9AEAF7BA69345"
+			rewards: [
+				{
+					id: "02C293F504794E3A"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "7B724DBE54F187C7"
+					item: {
+						count: 1
+						id: "functionalstorage:oak_1"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "68A2E382DFC20045"
+				item: { count: 1, id: "functionalstorage:configuration_tool" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1D8A84E5FC904FBD"]
+			id: "1730571DFA19306C"
+			rewards: [
+				{
+					id: "46F6CE9592F60D8C"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "4F45AC0930838B5F"
+					item: {
+						count: 1
+						id: "functionalstorage:simple_compacting_drawer"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "18A2D07796F594D7"
+				item: { count: 1, id: "functionalstorage:simple_compacting_drawer" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1D8A84E5FC904FBD"]
+			id: "360729F2DA84EDAC"
+			rewards: [
+				{
+					id: "6F9C722B9CD43A0E"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "59755A2CD3D5717A"
+					item: {
+						count: 1
+						id: "functionalstorage:compacting_drawer"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "43FEB392A00F96D7"
+				item: { count: 1, id: "functionalstorage:compacting_drawer" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1D8A84E5FC904FBD"]
+			id: "55186B7647754233"
+			rewards: [
+				{
+					id: "30412E3CD3C08C94"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6371FACA9A27EB8E"
+					item: {
+						count: 1
+						id: "functionalstorage:copper_upgrade"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4CBEE8E4B38CDB0D"
+				item: { count: 1, id: "functionalstorage:copper_upgrade" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1D8A84E5FC904FBD"]
+			id: "36164ECAB23EEBEA"
+			rewards: [
+				{
+					id: "7986A666D15577C0"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "4D712DD7D11DB238"
+					item: {
+						count: 1
+						id: "functionalstorage:gold_upgrade"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "59A7805469639BA5"
+				item: { count: 1, id: "functionalstorage:gold_upgrade" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1D8A84E5FC904FBD"]
+			id: "15C29C8D5507E337"
+			rewards: [
+				{
+					id: "15EB914E99A8BC73"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "4390B5E34BF76BE3"
+					item: {
+						count: 1
+						id: "functionalstorage:diamond_upgrade"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "069219D3C22DA468"
+				item: { count: 1, id: "functionalstorage:diamond_upgrade" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1D8A84E5FC904FBD"]
+			id: "3FCB857550BFB1F9"
+			rewards: [
+				{
+					id: "6D64166BFCB88B9E"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "72BA18365DBD3BD2"
+					item: {
+						count: 1
+						id: "functionalstorage:netherite_upgrade"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1351CE7796A1E421"
+				item: { count: 1, id: "functionalstorage:netherite_upgrade" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1D8A84E5FC904FBD"]
+			id: "79168CBDFA13E864"
+			rewards: [
+				{
+					id: "337D017A435CBF77"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "069C4CC976CAC4C9"
+					item: {
+						count: 1
+						id: "functionalstorage:oak_1"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "329EA0793F883F8D"
+				item: { components: { "functionalstorage:direction": "north" }, count: 1, id: "functionalstorage:collector_upgrade" }
+				type: "item"
+			}]
+			x: -2.3d
+			y: 0.9d
+		}
+		{
+			dependencies: ["1D8A84E5FC904FBD"]
+			id: "290206E1DD1546E5"
+			rewards: [
+				{
+					id: "786E23B78F947C84"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "443B61060D28480D"
+					item: {
+						count: 1
+						id: "functionalstorage:oak_1"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "3D973917CC86A651"
+				item: { components: { "functionalstorage:direction": "north" }, count: 1, id: "functionalstorage:puller_upgrade" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.9d
+		}
+		{
+			dependencies: ["1D8A84E5FC904FBD"]
+			id: "620E9E8EC7C8812B"
+			rewards: [
+				{
+					id: "3829AAED5B1D2F48"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "17BEEA4DC528D8FB"
+					item: {
+						count: 1
+						id: "functionalstorage:oak_1"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "228A574F29CB5A2C"
+				item: { components: { "functionalstorage:direction": "north" }, count: 1, id: "functionalstorage:pusher_upgrade" }
+				type: "item"
+			}]
+			x: -0.7000000000000002d
+			y: 0.9d
+		}
+		{
+			dependencies: ["1D8A84E5FC904FBD"]
+			id: "03E2ECD0F20AA9AF"
+			rewards: [
+				{
+					id: "2BB9361BD8F8684E"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "4AD0268A7EF66304"
+					item: {
+						count: 1
+						id: "functionalstorage:oak_1"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "05F55A317A12774E"
+				item: { count: 1, id: "functionalstorage:void_upgrade" }
+				type: "item"
+			}]
+			x: -2.3d
+			y: 2.3d
+		}
+		{
+			dependencies: ["1D8A84E5FC904FBD"]
+			id: "3AB99A908F420EE3"
+			rewards: [
+				{
+					id: "7C4F59DB02782131"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "5EFCFACFABCEF396"
+					item: {
+						count: 1
+						id: "functionalstorage:oak_1"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "1D7FC110FC75C262"
+				item: { components: { "functionalstorage:slot": 0 }, count: 1, id: "functionalstorage:redstone_upgrade" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.3d
+		}
+		{
+			dependencies: ["1D8A84E5FC904FBD"]
+			id: "0D2E69A1B1DCC859"
+			rewards: [
+				{
+					id: "592F1890F6CBA4AC"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "62A7BFC6ECED045E"
+					item: {
+						count: 1
+						id: "functionalstorage:oak_1"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "25914321C20799C5"
+				item: { count: 1, id: "functionalstorage:dripping_upgrade" }
+				type: "item"
+			}]
+			x: -0.6999999999999997d
+			y: 2.3d
+		}
+		{
+			dependencies: ["1D8A84E5FC904FBD"]
+			id: "7F7A9D90C19B4D00"
+			rewards: [
+				{
+					id: "4CB660F377C8C494"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "41034820EB7DE646"
+					item: {
+						count: 1
+						id: "functionalstorage:oak_1"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "0B308A7E46AB1C47"
+				item: { count: 1, id: "functionalstorage:water_generator_upgrade" }
+				type: "item"
+			}]
+			x: -1.9d
+			y: 1.5999999999999996d
+		}
+		{
+			dependencies: ["1D8A84E5FC904FBD"]
+			id: "4B854117D54C50F5"
+			rewards: [
+				{
+					id: "319AE5EAF97B3F16"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "61AC30BD8DFF4258"
+					item: {
+						count: 1
+						id: "functionalstorage:oak_1"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "493E7AD0BFAD6387"
+				item: { count: 1, id: "functionalstorage:obsidian_upgrade" }
+				type: "item"
+			}]
+			x: -1.1d
+			y: 1.5999999999999996d
+		}
+		{
+			dependencies: ["1D8A84E5FC904FBD"]
+			id: "3D53CBA44C1974D1"
+			rewards: [
+				{
+					id: "6F566E39BAA942B0"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "24759598356DFF65"
+					item: {
+						count: 1
+						id: "functionalstorage:fluid_1"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "095F462E7A14929F"
+				item: { count: 1, id: "functionalstorage:fluid_1" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1D8A84E5FC904FBD"]
+			id: "4F2242933089D991"
+			rewards: [
+				{
+					id: "3B9990905D402A10"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "1AC154A9571B2776"
+					item: {
+						count: 1
+						id: "functionalstorage:framed_1"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				icon: {
+					id: "functionalstorage:framed_2"
+				}
+				id: "31A0CA00DF7848BF"
+				item: { components: { "ftbfiltersystem:filter": "or(item(functionalstorage:framed_1)item(functionalstorage:framed_2)item(functionalstorage:framed_4)item(functionalstorage:framed_fluid_1)item(functionalstorage:framed_fluid_2)item(functionalstorage:framed_fluid_4)item(functionalstorage:compacting_framed_drawer)item(functionalstorage:framed_simple_compacting_drawer))", "minecraft:custom_name": "\"Framed Drawers\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1D8A84E5FC904FBD"]
+			id: "244A378C04B783CC"
+			rewards: [
+				{
+					id: "67FDB2611B1EAF56"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "2EEC35D133CDE969"
+					item: {
+						count: 1
+						id: "functionalstorage:ender_drawer"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "767433E78AED7FA5"
+				item: { count: 1, id: "functionalstorage:ender_drawer" }
 				type: "item"
 			}]
 			x: 2.0d
-			y: -1.5d
+			y: -1.0d
+		}
+		{
+			icon_scale: 2.0d
+			id: "5934F2C548EF06E1"
+			rewards: [
+				{
+					id: "0DE44FE848B69C96"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "05DC0058E0D287E1"
+					item: {
+						count: 1
+						id: "minecraft:chest"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			size: 2.0d
+			tasks: [{
+				id: "6DD503DC649D1F00"
+				item: { count: 1, id: "ars_nouveau:storage_lectern" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5934F2C548EF06E1"]
+			id: "51E818B8D6A0FA6C"
+			rewards: [
+				{
+					id: "3B8DB7A6D8D1B2FF"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "7015D23B53ECBFC1"
+					item: {
+						count: 1
+						id: "ars_nouveau:bookwyrm_charm"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7F03F6F1D51635E9"
+				item: { count: 1, id: "ars_nouveau:bookwyrm_charm" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5934F2C548EF06E1"]
+			id: "1D907AA94D8F5719"
+			rewards: [
+				{
+					id: "67BF18C121DBB83B"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "41303BEAE88866C5"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "475900785FD750C6"
+				item: { count: 1, id: "ars_nouveau:dominion_wand" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2A41C5B7BC1E20BE"]
+			id: "1706C8CC1B7465FC"
+			rewards: [
+				{
+					id: "7AB27B36C622A96E"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "508357F7728723D5"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:super_packing_tape"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "58B511307BFE6D92"
+				item: { count: 1, id: "sophisticatedstorage:packing_tape" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/gui/sprites/icon/info.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "2E20535CC4CAB4C1"
+			optional: true
+			rewards: [{
+				id: "56790BBE694C1661"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "none"
+			size: 1.5d
+			tasks: [{
+				id: "588A93AADC757810"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -1.0d
 		}
 	]
 }

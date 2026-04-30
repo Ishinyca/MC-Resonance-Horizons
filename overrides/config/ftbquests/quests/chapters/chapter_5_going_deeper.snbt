@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "chapter_5_going_deeper"
 	group: "33F828F57A04EB35"
+	hide_quest_until_deps_visible: true
 	icon: {
 		id: "deeperdarker:infested_sculk"
 	}
@@ -23,27 +24,6 @@
 			}]
 			x: 0.0d
 			y: 0.0d
-		}
-		{
-			id: "354A4AE76A1072E5"
-			tasks: [{
-				id: "1C125150E3AD02F5"
-				item: { count: 1, id: "aether:sun_altar" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: -0.5d
-		}
-		{
-			id: "5364D87FDDB4EAF3"
-			tasks: [{
-				advancement: "aether:gold_dungeon"
-				criterion: ""
-				id: "2CEA047C1243D82A"
-				type: "advancement"
-			}]
-			x: -1.0d
-			y: 0.5d
 		}
 		{
 			dependencies: ["1194E231E957088A"]

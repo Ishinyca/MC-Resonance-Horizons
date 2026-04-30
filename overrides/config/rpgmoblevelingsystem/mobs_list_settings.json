@@ -14,7 +14,9 @@
   "lockedMobs": {
     "minecraft:ender_dragon": 10.0,
     "minecraft:warden": 10.0,
-    "minecraft:wither": 10.0
+    "minecraft:wither": 10.0,
+    "draconicevolution:draconic_guardian": 10.0,
+    "draconicevolution:guardian_wither": 5.0
   },
   "canBeAscendant": [
     "minecraft:zombie",

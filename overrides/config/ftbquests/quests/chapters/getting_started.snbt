@@ -1,20 +1,45 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "chapter_7"
-	group: "33F828F57A04EB35"
-	id: "3CA0421EC38EFB6A"
-	order_index: 6
+	filename: "getting_started"
+	group: "3F5D023B3188755E"
+	icon: {
+		components: {
+			"ftbquests:icon": "kubejs:textures/font/icons/info.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "56514C3103856C6A"
+	order_index: 1
 	quest_links: [ ]
 	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:textures/font/icons/info.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "4C45EEAE3C7A412E"
+			optional: true
+			shape: "none"
+			size: 1.5d
+			tasks: [{
+				id: "220B502B0FCD9DB4"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 0.75d
+		}
 		{
 			id: "51CDCAE4736893A1"
 			tasks: [{
 				id: "49AF099BFE7508A8"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: 1.5d
+			x: 0.5d
+			y: 0.7d
 		}
 		{
 			dependencies: ["51CDCAE4736893A1"]
@@ -24,8 +49,8 @@
 				id: "18A88F07777EC3B9"
 				type: "dimension"
 			}]
-			x: 2.0d
-			y: 0.0d
+			x: 2.5d
+			y: -0.8d
 		}
 		{
 			dependencies: ["51CDCAE4736893A1"]
@@ -35,8 +60,8 @@
 				id: "7AC246CB19CBAA18"
 				type: "dimension"
 			}]
-			x: 2.0d
-			y: 1.0d
+			x: 2.5d
+			y: 0.2d
 		}
 		{
 			dependencies: ["51CDCAE4736893A1"]
@@ -46,8 +71,8 @@
 				id: "0381E14FFCB33297"
 				type: "dimension"
 			}]
-			x: 2.0d
-			y: 2.0d
+			x: 2.5d
+			y: 1.2000000000000002d
 		}
 		{
 			dependencies: ["51CDCAE4736893A1"]
@@ -57,8 +82,8 @@
 				id: "682AE1F72FACE835"
 				type: "dimension"
 			}]
-			x: 2.0d
-			y: 3.0d
+			x: 2.5d
+			y: 2.2d
 		}
 	]
 }

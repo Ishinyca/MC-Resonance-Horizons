@@ -30,13 +30,13 @@ ServerEvents.tags("entity_type", event => {
         "irons_spellbooks:priest",
         "irons_spellbooks:cultist",
         /mutantmonsters:.*/,
-        /masquerader_mod:.*/,
         /ars_nouveau:familiar_.*/,
         /ars_nouveau:.*_weald_walker/,
         /ars_elemental:.*_familiar/,
         "cataclysm:netherite_ministrosity",
         "cataclysm:the_baby_leviathan",
         "cataclysm:modern_remnant",
+        "dmr:dragon",
     ])
 
 
