@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "chapter_6_its_time_to_end_this"
 	group: "33F828F57A04EB35"
+	hide_quest_until_deps_visible: true
 	icon: {
 		id: "minecraft:end_crystal"
 	}
@@ -11,7 +12,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["5807BE9F854E04C0"]
+			dependencies: ["32BCE4E5BFBD7E06"]
 			id: "11C743AEBCD6BEBC"
 			tasks: [{
 				dimension: "minecraft:the_end"
@@ -103,12 +104,13 @@
 			y: 0.5d
 		}
 		{
-			id: "5807BE9F854E04C0"
+			dependencies: ["6ACCE3E6588EA6E4"]
+			id: "32BCE4E5BFBD7E06"
 			tasks: [{
-				id: "0A95212173A95D79"
+				id: "25AFC553B520CD66"
 				type: "checkmark"
 			}]
-			x: -1.0d
+			x: -1.5d
 			y: 0.5d
 		}
 	]

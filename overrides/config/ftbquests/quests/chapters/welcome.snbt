@@ -3,6 +3,12 @@
 	default_quest_shape: ""
 	filename: "welcome"
 	group: "3F5D023B3188755E"
+	icon: {
+		components: {
+			"ftbquests:icon": "create:item/brass_hand"
+		}
+		id: "ftbquests:custom_icon"
+	}
 	id: "0D4F7124C9E25099"
 	images: [
 		{

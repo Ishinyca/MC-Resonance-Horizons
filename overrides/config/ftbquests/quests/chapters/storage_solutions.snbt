@@ -4,6 +4,9 @@
 	disable_toast: true
 	filename: "storage_solutions"
 	group: "2A5D074FFC415AEC"
+	icon: {
+		id: "minecraft:chest"
+	}
 	id: "29236C355EF25B6B"
 	order_index: 0
 	quest_links: [ ]

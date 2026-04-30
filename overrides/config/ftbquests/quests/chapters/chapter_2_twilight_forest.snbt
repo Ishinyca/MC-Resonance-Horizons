@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "chapter_2_twilight_forest"
 	group: "33F828F57A04EB35"
+	hide_quest_until_deps_visible: true
 	icon: {
 		id: "twilightforest:hollow_oak_sapling"
 	}
@@ -12,6 +13,8 @@
 	quests: [
 		{
 			dependencies: ["4BD4592C741FC0F9"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			id: "6D752D7150C5253C"
 			tasks: [{
 				dimension: "twilightforest:twilight_forest"
@@ -108,6 +111,7 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["6D752D7150C5253C"]
 			id: "5A03874D00C67C18"
 			rewards: [{
 				id: "2E1A5444F70301FF"
@@ -560,15 +564,24 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "057691C8FEA8DA25"
-				structure: "twilightforest:final_castle"
-				type: "structure"
-			}]
+			tasks: [
+				{
+					id: "057691C8FEA8DA25"
+					structure: "twilightforest:final_castle"
+					type: "structure"
+				}
+				{
+					advancement: "twilightforest:progression_end"
+					criterion: ""
+					id: "23BD50CEF904B494"
+					type: "advancement"
+				}
+			]
 			x: 10.5d
 			y: -2.5d
 		}
 		{
+			dependencies: ["6D752D7150C5253C"]
 			id: "2AC1FC359B83E63C"
 			rewards: [{
 				id: "3EB390C9D21318EC"
@@ -587,6 +600,7 @@
 			y: -6.0d
 		}
 		{
+			dependencies: ["6D752D7150C5253C"]
 			id: "368FBCBEE38C8C66"
 			rewards: [{
 				id: "60295990D49CCF27"
@@ -605,6 +619,7 @@
 			y: -5.0d
 		}
 		{
+			dependencies: ["6D752D7150C5253C"]
 			id: "0C89CEBD57228306"
 			rewards: [{
 				id: "1EB97B7B33589C36"

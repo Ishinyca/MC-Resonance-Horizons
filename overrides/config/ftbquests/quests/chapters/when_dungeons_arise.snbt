@@ -16,7 +16,7 @@
 		x: -1.5d
 		y: -5.5d
 	}]
-	order_index: 3
+	order_index: 2
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -24,26 +24,24 @@
 			id: "2B70445E6CD99EDB"
 			rewards: [
 				{
+					id: "74589613F8945918"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
 					id: "7FD99A708C86052D"
 					type: "xp"
 					xp: 5
-				}
-				{
-					id: "087CC88DE747A5FC"
-					item: {
-						count: 1
-						id: "minecraft:stone_sword"
-					}
-					type: "item"
 				}
 			]
 			shape: "diamond"
 			size: 3.0d
 			tasks: [{
-				advancement: "dungeons_arise:wda_root"
-				criterion: ""
-				id: "370B39E72DBEF94E"
-				type: "advancement"
+				id: "3744C2FC96AFDCC8"
+				type: "checkmark"
 			}]
 			x: -1.5d
 			y: -1.0d
