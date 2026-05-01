@@ -1,7 +1,9 @@
+const shrinkingDevice = 'shrink:shrinking_device'
+
 ServerEvents.recipes(event => {
-	// Shrinking Device
+	event.remove({id: shrinkingDevice})
 	event.shaped(
-		Item.of('shrink:shrinking_device'),
+		Item.of(shrinkingDevice),
 		[
 			'ABA',
 			'ACA',

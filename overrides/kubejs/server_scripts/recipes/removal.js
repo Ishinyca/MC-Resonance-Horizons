@@ -98,9 +98,6 @@ const recipeIdsToRemove = [
 	'cataclysm:cursed_eye',
 	'cataclysm:storm_eye',
 
-	// Shrink
-	'shrink:shrinking_device',
-
 	// Duplicates
 	'aether:skyroot_lectern',
 
