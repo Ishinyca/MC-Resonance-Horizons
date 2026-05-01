@@ -103,6 +103,11 @@ const recipeIdsToRemove = [
 
 	// Duplicates
 	'aether:skyroot_lectern',
+
+	// Random Additional outputs to be removed
+	'/create_ultimate_factory/haunting_apple',
+	'/create_dragons_plus/ending/chorus_fruit_from_apple',
+	'/dndesires/dragon_breathing/chorus_fruit_from_apple',
 ];
 
 const recipeOutputToRemove = [
