@@ -10,5 +10,3 @@
 	yDisplayCurrency = 0
 	#Whether to display the coin amount in the inventory screen
 	activeDisplayCurrency = true
-	#Type of currency display: "default" or "magic_coins"
-	typeDisplayCurrency = "magic_coins"

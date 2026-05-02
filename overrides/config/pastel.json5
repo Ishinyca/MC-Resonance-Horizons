@@ -104,7 +104,7 @@
 	// The percentile a mobs armor/hand stacks are being dropped when hit with a Disarming enchanted weapon per the enchantments level
 	"DisarmingChancePerLevelMobs": 0.009999999776482582,
 	// If > 0 the Disarming Enchantment is able to remove armor and hand tools from a hit player. Should be a far smaller chance than for mobs
-	"DisarmingChancePerLevelPlayers": 0.0005000000474974513,
+	"DisarmingChancePerLevelPlayers": 5.000000237487257E-4,
 	// The duration a glow ink sac gives night vision when wearing a glow vision helmet in seconds
 	"GlowVisionGogglesDuration": 120,
 	// If the Omni Accelerator should be able to have interactions in PvP that can drain the targets XP, modify their equipment, ... (configured via the requires_omni_accelerator_pvp_enabled item tag)
