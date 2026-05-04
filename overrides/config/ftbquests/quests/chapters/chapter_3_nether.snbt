@@ -16,6 +16,8 @@
 				"5CF89BD17745E712"
 				"49BF5D9C5C1D14F1"
 			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			id: "6D82D1F2691C7DC8"
 			tasks: [{
 				dimension: "minecraft:the_nether"

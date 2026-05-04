@@ -16,6 +16,8 @@
 				"354A4AE76A1072E5"
 				"5364D87FDDB4EAF3"
 			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			id: "1194E231E957088A"
 			tasks: [{
 				dimension: "deeperdarker:otherside"

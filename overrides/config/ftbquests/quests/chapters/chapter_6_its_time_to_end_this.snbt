@@ -105,6 +105,8 @@
 		}
 		{
 			dependencies: ["6ACCE3E6588EA6E4"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			id: "32BCE4E5BFBD7E06"
 			tasks: [{
 				id: "25AFC553B520CD66"
