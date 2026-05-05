@@ -299,10 +299,10 @@
     "modId": "azurelib",
     "version": "3.1.0"
   },
-  "balm-neoforge-1.21.1-21.0.54.jar": {
-    "jarName": "balm-neoforge-1.21.1-21.0.54.jar",
+  "balm-neoforge-1.21.1-21.0.56.jar": {
+    "jarName": "balm-neoforge-1.21.1-21.0.56.jar",
     "modId": "balm",
-    "version": "21.0.54"
+    "version": "21.0.56"
   },
   "baubley-heart-canisters-1.21.1-1.4.0.jar": {
     "jarName": "baubley-heart-canisters-1.21.1-1.4.0.jar",
@@ -349,10 +349,10 @@
     "modId": "biomesoplenty",
     "version": "21.1.0.13"
   },
-  "block_factorys_bosses-2.0.12-neo-1.21.1.jar": {
-    "jarName": "block_factorys_bosses-2.0.12-neo-1.21.1.jar",
+  "block_factorys_bosses-2.0.13-neo-1.21.1.jar": {
+    "jarName": "block_factorys_bosses-2.0.13-neo-1.21.1.jar",
     "modId": "block_factorys_bosses",
-    "version": "2.0.12"
+    "version": "2.0.13"
   },
   "BOMD-NeoForge-1.21-1.3.2.jar": {
     "jarName": "BOMD-NeoForge-1.21-1.3.2.jar",
@@ -369,10 +369,10 @@
     "modId": "voidscape__boss_checklist_compat",
     "version": "1.0.0"
   },
-  "Boss Results 1.21(.1) v1.0.49.jar": {
-    "jarName": "Boss Results 1.21(.1) v1.0.49.jar",
+  "Boss Results 1.21(.1) v1.0.52.jar": {
+    "jarName": "Boss Results 1.21(.1) v1.0.52.jar",
     "modId": "mr_boss_results",
-    "version": "1.0.49"
+    "version": "1.0.52"
   },
   "boss_checklist-neoforge-4.2.0.jar": {
     "jarName": "boss_checklist-neoforge-4.2.0.jar",
@@ -1472,10 +1472,10 @@
     "modId": "placebo",
     "version": "9.9.1"
   },
-  "Platform-neoforge-1.21.1-1.2.11.6.jar": {
-    "jarName": "Platform-neoforge-1.21.1-1.2.11.6.jar",
+  "Platform-neoforge-1.21.1-1.3.jar": {
+    "jarName": "Platform-neoforge-1.21.1-1.3.jar",
     "modId": "platform",
-    "version": "1.2.11.6"
+    "version": "1.3"
   },
   "player-animation-lib-forge-2.0.1+1.21.1.jar": {
     "jarName": "player-animation-lib-forge-2.0.1+1.21.1.jar",
@@ -1596,21 +1596,6 @@
     "jarName": "relics-1.21.1-0.10.7.8.jar",
     "modId": "relics",
     "version": "0.10.7.8"
-  },
-  "reliquified_ars_nouveau-1.21.1-0.6.1.jar": {
-    "jarName": "reliquified_ars_nouveau-1.21.1-0.6.1.jar",
-    "modId": "reliquified_ars_nouveau",
-    "version": "0.6.1"
-  },
-  "reliquified_lenders_cataclysm-1.21.1-0.1.1.jar": {
-    "jarName": "reliquified_lenders_cataclysm-1.21.1-0.1.1.jar",
-    "modId": "reliquified_lenders_cataclysm",
-    "version": "0.1.1"
-  },
-  "reliquified_twilight_forest-1.21.1-0.5.3.jar": {
-    "jarName": "reliquified_twilight_forest-1.21.1-0.5.3.jar",
-    "modId": "reliquified_twilight_forest",
-    "version": "0.5.3"
   },
   "repeatable_trial_vaults-neoforge-1.21-1.0.2.jar": {
     "jarName": "repeatable_trial_vaults-neoforge-1.21-1.0.2.jar",
@@ -1862,11 +1847,6 @@
     "modId": "theurgy_kubejs",
     "version": "1.5.1"
   },
-  "tickaccelerate-1.21.1-neoforge-0.8.7.jar": {
-    "jarName": "tickaccelerate-1.21.1-neoforge-0.8.7.jar",
-    "modId": "tickaccelerate",
-    "version": "0.8.7"
-  },
   "titanium-1.21-4.0.40.jar": {
     "jarName": "titanium-1.21-4.0.40.jar",
     "modId": "titanium",
@@ -1917,6 +1897,11 @@
     "modId": "txnilib",
     "version": "1.0.24"
   },
+  "unbreakables-neoforge-1.21.1-21.1.15.jar": {
+    "jarName": "unbreakables-neoforge-1.21.1-21.1.15.jar",
+    "modId": "unbreakables",
+    "version": "21.1.15"
+  },
   "undergarden_additional_structures.jar": {
     "jarName": "undergarden_additional_structures.jar",
     "modId": "undergarden_additional_structures"
@@ -1926,10 +1911,10 @@
     "modId": "valhelsia_core",
     "version": "1.1.5"
   },
-  "VanillaBackport-neoforge-1.21.1-1.1.5.4.jar": {
-    "jarName": "VanillaBackport-neoforge-1.21.1-1.1.5.4.jar",
+  "VanillaBackport-neoforge-1.21.1-1.1.6.3.jar": {
+    "jarName": "VanillaBackport-neoforge-1.21.1-1.1.6.3.jar",
     "modId": "vanillabackport",
-    "version": "1.1.5.4"
+    "version": "1.1.6.3"
   },
   "voicechat-neoforge-1.21.1-2.6.10.jar": {
     "jarName": "voicechat-neoforge-1.21.1-2.6.10.jar",
@@ -1946,10 +1931,10 @@
     "modId": "voidscape",
     "version": "1.21.1-1.9.583"
   },
-  "waystones-neoforge-1.21.1-21.1.29.jar": {
-    "jarName": "waystones-neoforge-1.21.1-21.1.29.jar",
+  "waystones-neoforge-1.21.1-21.1.30.jar": {
+    "jarName": "waystones-neoforge-1.21.1-21.1.30.jar",
     "modId": "waystones",
-    "version": "21.1.29"
+    "version": "21.1.30"
   },
   "wda_questline-1.21.1-1.0.0.jar": {
     "jarName": "wda_questline-1.21.1-1.0.0.jar",
