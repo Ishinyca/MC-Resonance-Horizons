@@ -1,4 +1,4 @@
-const recipeIdsToRemove = [
+const commonRecipeIdsToRemove = [
 	// ProjectE
 	'projecte:transmutation_table',
 	'projecte:transmutation_tablet',
@@ -107,7 +107,7 @@ const recipeIdsToRemove = [
 	'/dndesires/dragon_breathing/chorus_fruit_from_apple',
 ];
 
-const recipeOutputToRemove = [
+const commonRecipeOutputToRemove = [
 	'mekanism:basic_tier_installer',
 	'mekanism:advanced_tier_installer',
 	'mekanism:elite_tier_installer',
@@ -152,11 +152,11 @@ const recipeOutputToRemove = [
 // ];
 
 ServerEvents.recipes(event => {
-	recipeIdsToRemove.forEach ( (recipeId) => {
+	commonRecipeIdsToRemove.forEach ( (recipeId) => {
 		event.remove({ id: recipeId })
 	});
 
-	recipeOutputToRemove.forEach( (recipeOutput) => {
+	commonRecipeOutputToRemove.forEach( (recipeOutput) => {
 		event.remove({ output: recipeOutput })
 	});
 
