@@ -138,85 +138,93 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"minecraft:witch": true
-			"minecraft:glow_squid": true
+			"aquaculture:atlantic_cod": false
+			"minecraft:iron_golem": true
+			"minecraft:stray": true
+			"minecraft:spider": true
+			"productivebees:resin_bee": true
+			"aquaculture:jellyfish": false
+			"aquaculture:atlantic_herring": false
+			"minecraft:zombie": true
+			"minecraft:fox": true
+			"minecraft:vindicator": true
+			"minecraft:zombie_villager": true
+			"minecraft:cave_spider": true
+			"minecraft:horse": true
+			"ars_nouveau:starbuncle": true
+			"mutantmonsters:mutant_skeleton": true
 			"minecraft:husk": true
-			"mowziesmobs:ferrous_wroughtnaut": true
-			"aquaculture:minnow": false
-			"minecraft:axolotl": true
-			"aquaculture:muskellunge": false
-			"aquaculture:carp": false
+			"minecraft:evoker": true
+			"cataclysm:amethyst_crab": true
+			"minecraft:pig": true
 			"aquaculture:bluegill": false
 			"irregular_implements:spirit": true
-			"aquaculture:atlantic_cod": false
-			"minecraft:pig": true
-			"productivebees:mason_bee": true
-			"reanimal:butterfly": true
-			"aquaculture:pollock": false
-			"aquaculture:brown_trout": false
-			"aquaculture:pink_salmon": false
-			"minecraft:cat": true
-			"minecraft:cow": true
-			"minecraft:stray": true
-			"irons_spellbooks:archevoker": true
-			"minecraft:sheep": true
-			"ars_nouveau:whirlisprig": true
-			"minecraft:zombie": true
-			"mowziesmobs:frostmaw": true
-			"eternal_starlight:the_gatekeeper": true
-			"minecraft:fox": true
-			"irons_spellbooks:necromancer": true
+			"minecraft:frog": true
+			"productivebees:ashy_mining_bee": true
 			"minecraft:allay": true
-			"forbidden_arcanus:lost_soul": true
-			"minecraft:rabbit": true
-			"minecraft:ravager": true
-			"ars_nouveau:starbuncle": true
-			"minecraft:evoker": true
-			"minecraft:enderman": true
-			"block_factorys_bosses:yeti": true
-			"minecraft:wolf": true
-			"aquaculture:atlantic_halibut": false
-			"minecraft:iron_golem": true
-			"mowziesmobs:grottol": true
-			"ars_nouveau:gift_starby": true
-			"cataclysm:amethyst_crab": true
-			"mutantmonsters:mutant_creeper": true
-			"minecraft:cave_spider": true
-			"minecraft:zombie_villager": true
-			"irons_spellbooks:pyromancer": true
-			"minecraft:skeleton": true
-			"aquaculture:smallmouth_bass": false
-			"minecraft:salmon": false
-			"minecraft:pillager": true
 			"ars_nouveau:drygmy": true
-			"productivebees:green_carpenter_bee": true
-			"productivebees:yellow_black_carpenter_bee": true
-			"productivebees:resin_bee": true
-			"minecraft:villager": true
-			"aquaculture:blackfish": false
+			"minecraft:axolotl": true
+			"minecraft:glow_squid": true
+			"aquaculture:atlantic_halibut": false
+			"eternal_starlight:the_gatekeeper": true
+			"reanimal:jellyfish": true
+			"minecraft:rabbit": true
+			"aquaculture:box_turtle": false
+			"minecraft:cow": true
+			"minecraft:tropical_fish": false
+			"aquaculture:gar": false
+			"minecraft:slime": true
+			"aquaculture:carp": false
+			"minecraft:salmon": false
+			"reanimal:butterfly": true
+			"forbidden_arcanus:lost_soul": true
+			"minecraft:wolf": true
+			"aquaculture:brown_trout": false
+			"minecraft:trader_llama": true
+			"ars_nouveau:whirlisprig": true
 			"aquaculture:perch": false
-			"minecraft:chicken": true
+			"aquaculture:smallmouth_bass": false
+			"productivebees:bumble_bee": true
+			"minecraft:cat": true
+			"minecraft:witch": true
 			"reanimal:pigeon": true
 			"minecraft:creeper": true
-			"productivebees:bumble_bee": true
-			"reanimal:jellyfish": true
-			"minecraft:squid": true
-			"minecraft:bat": true
-			"minecraft:cod": false
-			"minecraft:vindicator": true
-			"minecraft:spider": true
-			"minecraft:drowned": true
-			"minecraft:slime": true
-			"minecraft:frog": true
-			"mutantmonsters:mutant_skeleton": true
-			"minecraft:horse": true
-			"aquaculture:atlantic_herring": false
+			"block_factorys_bosses:yeti": true
+			"minecraft:chicken": true
+			"minecraft:skeleton": true
+			"aquaculture:muskellunge": false
+			"productivebees:digger_bee": true
+			"aquaculture:blackfish": false
 			"mutantmonsters:mutant_zombie": true
-			"minecraft:tropical_fish": false
-			"minecraft:trader_llama": true
-			"minecraft:wandering_trader": true
-			"aquaculture:gar": false
+			"productivebees:mason_bee": true
+			"aquaculture:minnow": false
+			"minecraft:enderman": true
+			"minecraft:donkey": true
+			"irons_spellbooks:archevoker": true
+			"mowziesmobs:frostmaw": true
+			"aquaculture:tuna": false
+			"aquaculture:pollock": false
+			"mowziesmobs:ferrous_wroughtnaut": true
+			"minecraft:ravager": true
+			"minecraft:bat": true
+			"productivebees:yellow_black_carpenter_bee": true
+			"productivebees:green_carpenter_bee": true
+			"minecraft:squid": true
 			"artifacts:mimic": true
+			"aquaculture:pink_salmon": false
+			"minecraft:sheep": true
+			"irons_spellbooks:pyromancer": true
+			"ars_nouveau:gift_starby": true
+			"productivebees:configurable_bee": true
+			"minecraft:drowned": true
+			"mowziesmobs:grottol": true
+			"minecraft:pillager": true
+			"irons_spellbooks:necromancer": true
+			"aquaculture:catfish": false
+			"minecraft:cod": false
+			"minecraft:wandering_trader": true
+			"mutantmonsters:mutant_creeper": true
+			"minecraft:villager": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)
