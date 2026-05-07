@@ -143,9 +143,9 @@ lootData:
     # List of conditions for obtaining the relic. Supports both direct ID specification and regular expressions.
     entries:
     -   biomes:
-        - '[\w]+:.*(desert|badlands|outback)[\w_\/]*'
+        - .*
         dimensions:
         - .*
         tables:
-        - '[\w]+:chests\/[\w_\/]*[\w]+[\w_\/]*'
-        weight: 300
+        - minecraft:do_not_spawn
+        weight: 0
