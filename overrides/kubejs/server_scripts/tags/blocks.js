@@ -29,7 +29,6 @@ const tickSpeedDenyBlocks = [
 
 ServerEvents.tags("block", (event) => {
     tickSpeedDenyBlocks.forEach((block) => {
-        event.add("tickaccelerator:deny", block);
         event.add("justdirethings:tick_speed_deny", block);
     });
 
