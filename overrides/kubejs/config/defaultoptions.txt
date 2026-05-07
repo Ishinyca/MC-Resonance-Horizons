@@ -1,2 +1,5 @@
 narrator:0
 narratorHotkey:false
+key_desc.seasonhud.keybind.options:key.keyboard.unknown
+key_iris.keybind.toggleShaders:key.keyboard.unknown
+key_iris.keybind.shaderPackSelection:key.keyboard.unknown
