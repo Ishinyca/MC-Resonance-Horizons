@@ -8,7 +8,19 @@
     "dmr:dragon",
     "minecraft:armor_stand",
     "artifacts:mimic",
-    "aether:mimic"
+    "aether:mimic",
+    "ars_nouveau:amethyst_golem",
+    "ars_nouveau:familiar_amethyst_golem",
+    "ars_nouveau:bookwyrm",
+    "ars_nouveau:familiar_bookwyrm",
+    "ars_nouveau:drygmy",
+    "ars_nouveau:familiar_drygmy",
+    "ars_nouveau:starbuncle",
+    "ars_nouveau:familiar_starbuncle",
+    "ars_nouveau:whirlisprig",
+    "ars_nouveau:familiar_whirlisprig",
+    "ars_nouveau:wixie",
+    "ars_nouveau:familiar_wixie"
   ],
   "deathMessages": false,
   "lockedMobs": {
