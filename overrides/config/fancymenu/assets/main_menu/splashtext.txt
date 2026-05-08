@@ -6,3 +6,9 @@ Wish Ice and Fire 2 was out already
 Wish List: Dragons and More Dragons
 {"text":"ishinyca left the game.","color":"gold","bold":true}
 Background Seed: -3709329882441774916
+I could've sworn I added more to the splash text. But it got reverted.
+With the power of the crystal!
+Solo modpack developer
+Charge the crystal!
+&2Magic&r, &6magic&r, &cMAGIC&r!
+&l&6MYSTICAL ENERGY!
