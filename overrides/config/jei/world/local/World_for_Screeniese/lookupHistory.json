@@ -1,5 +1,6 @@
 [
   {"version":1},
+  {"ingredient":{"id":"oritech:polymer_resin"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"mekanism:module_frost_walker_unit"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"mekanism:module_soul_surfer_unit"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"mekanism:module_gravitational_modulating_unit"},"type":"item_stack","bookmarkType":"INGREDIENT"},

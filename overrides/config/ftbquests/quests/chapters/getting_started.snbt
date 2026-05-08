@@ -5,7 +5,7 @@
 	group: "3F5D023B3188755E"
 	icon: {
 		components: {
-			"ftbquests:icon": "kubejs:textures/font/icons/info.png"
+			"ftbquests:icon": "jei:textures/jei/atlas/gui/icons/info.png"
 		}
 		id: "ftbquests:custom_icon"
 	}
@@ -16,7 +16,7 @@
 		{
 			icon: {
 				components: {
-					"ftbquests:icon": "kubejs:textures/font/icons/info.png"
+					"ftbquests:icon": "betteradvancedtooltips:textures/font/icons/info.png"
 				}
 				id: "ftbquests:custom_icon"
 			}

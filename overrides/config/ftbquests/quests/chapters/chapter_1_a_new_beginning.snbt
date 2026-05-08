@@ -30,7 +30,7 @@
 		{
 			height: 1.3d
 			hover: ["Create Chapter soonTM"]
-			image: "kubejs:textures/font/icons/info.png"
+			image: "jei:textures/jei/atlas/gui/icons/info.png"
 			rotation: 0.0d
 			width: 1.3d
 			x: 4.9d

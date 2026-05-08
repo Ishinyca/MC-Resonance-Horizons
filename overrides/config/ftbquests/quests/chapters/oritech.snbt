@@ -325,14 +325,24 @@
 		{
 			dependencies: ["3C15FCBD0BED40CE"]
 			id: "3CA0C7A1663B4F01"
-			rewards: [{
-				id: "5D8BF31148D1B5F8"
-				item: {
-					count: 1
-					id: "magic_coins:gold_coin"
+			rewards: [
+				{
+					id: "5D8BF31148D1B5F8"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "242B7476A50B61E9"
+					item: {
+						count: 1
+						id: "oritech:laser_arm_block"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "3D7A088D85146998"
