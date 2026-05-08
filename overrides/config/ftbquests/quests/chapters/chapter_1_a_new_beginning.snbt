@@ -28,15 +28,6 @@
 			y: -1.0d
 		}
 		{
-			height: 1.3d
-			hover: ["Create Chapter soonTM"]
-			image: "jei:textures/jei/atlas/gui/icons/info.png"
-			rotation: 0.0d
-			width: 1.3d
-			x: 4.9d
-			y: -11.4d
-		}
-		{
 			height: 2.5d
 			image: "simplyswords:item/brimstone_claymore"
 			rotation: 110.0d
@@ -62,7 +53,26 @@
 		}
 	]
 	order_index: 0
-	quest_links: [ ]
+	quest_links: [
+		{
+			id: "2ACFE69BCE2B6505"
+			linked_quest: "67F05CEB4CF3571F"
+			x: 4.0d
+			y: -7.5d
+		}
+		{
+			id: "34EDBCDCFD7DFA26"
+			linked_quest: "41019B67D5B0DE5B"
+			x: 4.0d
+			y: -9.0d
+		}
+		{
+			id: "2AE6F4E80461D945"
+			linked_quest: "43D679E4F91C702C"
+			x: 4.0d
+			y: -10.5d
+		}
+	]
 	quests: [
 		{
 			icon: {
@@ -665,115 +675,7 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["24FF7BCAC7C31E44"]
-			icon: {
-				id: "minecraft:andesite"
-			}
-			id: "47232B1465DDCC8B"
-			rewards: [
-				{
-					id: "73DA9AE32CE4A573"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
-					}
-					type: "item"
-				}
-				{
-					count: 2
-					id: "7B3E65CC8FEAF5EE"
-					item: {
-						count: 1
-						id: "minecraft:andesite"
-					}
-					type: "item"
-				}
-				{
-					id: "49098E97F33B7EA4"
-					item: {
-						count: 1
-						id: "minecraft:iron_nugget"
-					}
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					count: 2L
-					id: "54A499101A34996D"
-					item: { count: 1, id: "minecraft:andesite" }
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "59F4F0A327A27480"
-					item: { count: 1, id: "minecraft:iron_nugget" }
-					type: "item"
-				}
-			]
-			x: 4.0d
-			y: -7.5d
-		}
-		{
-			dependencies: ["47232B1465DDCC8B"]
-			id: "0C0EF981D0D82E7F"
-			rewards: [
-				{
-					id: "3E6C9683B1AE7531"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
-					}
-					type: "item"
-				}
-				{
-					id: "78D96BB52F8B15AD"
-					item: {
-						count: 1
-						id: "create:andesite_alloy"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "0B7BE16FE44EA415"
-				item: { count: 1, id: "create:andesite_alloy" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: -9.0d
-		}
-		{
-			dependencies: ["0C0EF981D0D82E7F"]
-			id: "7A65FDABB53DCADC"
-			rewards: [
-				{
-					id: "0830D1A51105EAC3"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
-					}
-					type: "item"
-				}
-				{
-					id: "71EAE4D3BCC1ECAD"
-					item: {
-						count: 1
-						id: "create:andesite_casing"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "6AED1F506FE0FB28"
-				item: { count: 1, id: "create:andesite_casing" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: -10.5d
-		}
-		{
-			dependencies: ["0C0EF981D0D82E7F"]
+			dependencies: ["41019B67D5B0DE5B"]
 			id: "0F5BAA53F719AD2C"
 			rewards: [
 				{
@@ -802,7 +704,7 @@
 			y: -9.0d
 		}
 		{
-			dependencies: ["0F5BAA53F719AD2C"]
+			dependencies: ["621D05FA160E1D99"]
 			id: "59484649F2D888B8"
 			rewards: [
 				{
@@ -830,10 +732,10 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: -10.5d
+			y: -12.0d
 		}
 		{
-			dependencies: ["0F5BAA53F719AD2C"]
+			dependencies: ["59484649F2D888B8"]
 			id: "000A3695F9BB171E"
 			rewards: [
 				{
@@ -860,11 +762,11 @@
 				item: { count: 1, id: "create:large_water_wheel" }
 				type: "item"
 			}]
-			x: 6.500000000000002d
-			y: -10.5d
+			x: 6.0d
+			y: -12.5d
 		}
 		{
-			dependencies: ["0F5BAA53F719AD2C"]
+			dependencies: ["59484649F2D888B8"]
 			id: "5C1D8688BB4BCD0D"
 			rewards: [
 				{
@@ -891,8 +793,8 @@
 				item: { count: 1, id: "ars_creo:starbuncle_wheel" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: -11.000000000000002d
+			x: 5.0d
+			y: -12.5d
 		}
 		{
 			dependencies: ["16ECDDA79C5C24EA"]
@@ -913,7 +815,7 @@
 			y: -10.499999999999993d
 		}
 		{
-			dependencies: ["47232B1465DDCC8B"]
+			dependencies: ["67F05CEB4CF3571F"]
 			id: "27581C4A0454683C"
 			rewards: [
 				{
@@ -1062,6 +964,43 @@
 			}]
 			x: 5.5d
 			y: -6.0d
+		}
+		{
+			dependencies: ["0F5BAA53F719AD2C"]
+			id: "621D05FA160E1D99"
+			rewards: [
+				{
+					id: "4F0B7A346151B008"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "01F47B63177DDC11"
+					item: {
+						count: 1
+						id: "create:cogwheel"
+					}
+					type: "item"
+				}
+				{
+					id: "5EE110EC3B8E86F2"
+					item: {
+						count: 1
+						id: "create:large_cogwheel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "00D03123142FE1A6"
+				item: { components: { "ftbfiltersystem:filter": "or(item(create:cogwheel)item(create:large_cogwheel))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -10.5d
 		}
 	]
 }
