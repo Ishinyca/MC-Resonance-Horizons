@@ -1044,6 +1044,7 @@
 			y: -6.5d
 		}
 		{
+			dependencies: ["3CEFE6DE9218A829"]
 			id: "7AA09C60D4872C95"
 			rewards: [{
 				id: "026877AEBD826E78"
@@ -1053,13 +1054,14 @@
 				}
 				type: "item"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "2026E3D95B52CAED"
 				item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:wooden_sword)item(minecraft:stone_sword)item(minecraft:iron_sword)item(minecraft:golden_sword)item(minecraft:diamond_sword))", "minecraft:custom_name": "\"Minecraft Swords\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 5.5d
-			y: -5.5d
+			y: -6.0d
 		}
 	]
 }
