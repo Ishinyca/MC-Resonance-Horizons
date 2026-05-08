@@ -40,6 +40,7 @@
 	quest.0B89EB36AC565461.quest_subtitle: "Find a Foundry"
 	quest.0CE50A7F4F1A0E4D.quest_desc: ["ladder stretches skyward, disappearing into the clouds. At its top floats a strange, floating vessel. What secrets or dangers await above, none can say… except that the view alone is enough to make even the bravest adventurer’s stomach turn."]
 	quest.0CE50A7F4F1A0E4D.quest_subtitle: "Find a Small Blimp"
+	quest.0D0736A86261B836.title: "Contraptions"
 	quest.0D95EEE56AB91A43.quest_desc: ["&lOops. Looks like you died somehow.&r"]
 	quest.0D95EEE56AB91A43.title: "Died to Skill Issue"
 	quest.105610DAF5F4583F.title: "&6&lBounty:&r Kill 25x Zombies"
@@ -132,7 +133,6 @@
 	quest.436231715C11E3BA.quest_subtitle: "Find an Illager Campsite"
 	quest.44D115281B0BFB75.quest_desc: ["Whispers speak of a &9flying vessel&r that hovers above the world, shimmering with strange energy. Few dare approach, for those who return tell of eerie lights, warped corridors, and guardians not of this realm. Seek it out, if you dare—and uncover the secrets hidden within its metallic shell."]
 	quest.44D115281B0BFB75.quest_subtitle: "Find a Giant Mushroom"
-	quest.47232B1465DDCC8B.quest_desc: ["When you are cave mining, make sure to mine Andesite! You need tons of it."]
 	quest.4791FC0A2E834D85.quest_desc: ["Dark magics linger in the depths of these dungeons, woven into items, halls, and even the very air. Power awaits the bold, but so do twisted fates for the careless."]
 	quest.4791FC0A2E834D85.quest_subtitle: "Find a Bathhouse"
 	quest.47C24A45C1053ABE.quest_desc: ["To start the entire process of &5&lMekanism&r, you will need to find Osmium Ore."]
@@ -172,12 +172,21 @@
 	quest.5EDA9EE840DC72E2.title: "&bBasic Survival Part II"
 	quest.60F2287AA77A6B65.title: "Lich"
 	quest.61707A2ED6BD53DB.quest_subtitle: "Cast them ingots awayt!"
+	quest.621D05FA160E1D99.title: "&5Cogwheel"
 	quest.63116691C92FD576.quest_desc: ["A quiet spring hidden among the hills, its waters swirl mysteriously in the bottomless well. Travelers speak of subtle blessings for those brave enough to approach. Some even report a modest burst of speed for journeys ahead. Whether magic or rumor, the well offers a curious advantage to explorers."]
 	quest.63116691C92FD576.quest_subtitle: "Find a Wishing Well"
 	quest.6447492FAA873F93.quest_desc: ["Suspended in the sky, this floating steampunk city glows in hues of orange and green. Strange, gear-driven inhabitants roam its platforms, each dominated by a singular central eye or monocle. Enter with caution, this mechanical hive is as clever as it is imposing, and its secrets are tightly guarded."]
 	quest.6447492FAA873F93.quest_subtitle: "Find a Mechanical Nest"
+	quest.64B9D7C525C14B50.title: "Steam Engines"
 	quest.67030CEFEC1CEF37.quest_desc: ["Driven from their villages, these hardy merchants now wander the wilds, taking shelter beneath simple cyan and brown tents. Though weary from exile, they still offer trade and refuge to travelers brave enough to seek them out. In a world rising with danger, such camps are rare havens of trust."]
 	quest.67030CEFEC1CEF37.quest_subtitle: "Find a Merchant Campsite"
+	quest.67F05CEB4CF3571F.quest_desc: [
+		"&6&lCreate&r is an awesome mod especially with its billions of Addons! This &6&lCreate&r chapter will introduce you the basics to the &6&lCreate&r mod."
+		""
+		"If you ever need help with any &6&lCreate&r related items or machines, there is the Ponder Option by holding W while viewing the item."
+	]
+	quest.67F05CEB4CF3571F.quest_subtitle: "Do you love Create?"
+	quest.67F05CEB4CF3571F.title: "&6&lCreate&r"
 	quest.6858E25E510AE0FA.quest_desc: ["Drifting through the skies like a colossal squid, this otherworldly airship bristles with defenses. Phantom-riding monstrosities circle its hull, while fish-like warriors astride hoglins guard its decks. To face the Conqueror is to battle a skyborne legion. And only the strongest will claim victory."]
 	quest.6858E25E510AE0FA.quest_subtitle: "Find a Heavenly Conqueror"
 	quest.69A58CD42A9E2DFC.title: "End City"
@@ -194,6 +203,7 @@
 	quest.70327C3AC547B354.quest_subtitle: "Find an Infested Temple"
 	quest.7052C9A5A804E866.quest_desc: ["A riot of color rises from the wilderness, marking the territory of a cunning band of raiders. Their homes are bright and inviting, but enter at your own risk. These defenders strike fast and often. Those who prevail will find spoils and secrets hidden among the lively façades."]
 	quest.7052C9A5A804E866.quest_subtitle: "Find a Bandit Village"
+	quest.7282BEDF31FEA294.title: "Fluid Logistics"
 	quest.73D5EE5238C37982.quest_desc: ["In the wilds rests the skeletal form of a great creature. its skeleton stretching skyward like branches of pale bone. Whether a relic of forgotten myth or a beast once hunted to extinction, none can say. Its silent frame endures as a monument to creatures long lost."]
 	quest.73D5EE5238C37982.quest_subtitle: "Find a Ceryneian Hind"
 	quest.746F14C89164CD7F.quest_desc: ["There are various ways to get &5Budding Amethyst block&r. Check out the JEI with a few options."]
@@ -207,6 +217,7 @@
 	quest.79A2C972E2EE5053.title: "&l&bSimply Swords"
 	quest.7AA09C60D4872C95.quest_desc: ["You can just be basic and go with the typical regular sword..."]
 	quest.7AA09C60D4872C95.quest_subtitle: "Boring..."
+	quest.7D97A435295734ED.title: "Windmills"
 	task.0753C8124C6A1705.title: "Thermodynamic Conductor"
 	task.08B17E2A7DA36DCB.title: "Defeat the Maledictus"
 	task.0A95212173A95D79.title: "See Boss Chapter"
