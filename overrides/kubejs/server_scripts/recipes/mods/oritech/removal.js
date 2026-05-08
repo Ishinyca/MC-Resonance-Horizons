@@ -5,6 +5,7 @@ const duplicateOritechItems = [
     'oritech:compat/immersiveengineering/alloying/duratium',
     'oritech:compat/immersiveengineering/arcalloying/duration',
     'oritech:compat/productivemetalworks/casting/ingot/duratium',
+    'oritech:crafting/manualresin',
 ];
 
 ServerEvents.recipes(event => {
