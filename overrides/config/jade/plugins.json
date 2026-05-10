@@ -129,6 +129,9 @@
   "waystones": {
     "waystone": true
   },
+  "dynamic_difficulty": {
+    "level": true
+  },
   "cookingforblockheads": {
     "fridge": true,
     "oven": true,

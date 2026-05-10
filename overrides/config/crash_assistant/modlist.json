@@ -374,11 +374,6 @@
     "modId": "voidscape__boss_checklist_compat",
     "version": "1.0.0"
   },
-  "Boss Results 1.21(.1) v1.0.52.jar": {
-    "jarName": "Boss Results 1.21(.1) v1.0.52.jar",
-    "modId": "mr_boss_results",
-    "version": "1.0.52"
-  },
   "boss_checklist-neoforge-4.2.0.jar": {
     "jarName": "boss_checklist-neoforge-4.2.0.jar",
     "modId": "boss_checklist",
@@ -664,6 +659,11 @@
     "modId": "dummmmmmy",
     "version": "1.21-2.0.11"
   },
+  "dungeon_difficulty-neoforge-3.6.10+1.21.1.jar": {
+    "jarName": "dungeon_difficulty-neoforge-3.6.10+1.21.1.jar",
+    "modId": "dungeon_difficulty",
+    "version": "3.6.10+1.21.1"
+  },
   "DungeonCrawl-NeoForge-1.21-2.3.15.jar": {
     "jarName": "DungeonCrawl-NeoForge-1.21-2.3.15.jar",
     "modId": "dungeoncrawl",
@@ -683,6 +683,11 @@
     "jarName": "durabilitytooltip-1.1.6-neoforge-mc1.21.jar",
     "modId": "durabilitytooltip",
     "version": "1.1.6"
+  },
+  "dynamic_difficulty-neoforge-1.1.1+1.21.1.jar": {
+    "jarName": "dynamic_difficulty-neoforge-1.1.1+1.21.1.jar",
+    "modId": "dynamic_difficulty",
+    "version": "1.1.1+1.21.1"
   },
   "elevatorid-neoforge-1.21.1-1.11.4.jar": {
     "jarName": "elevatorid-neoforge-1.21.1-1.11.4.jar",
@@ -823,6 +828,11 @@
     "jarName": "forbidden_arcanus_js-2101.1.2.jar",
     "modId": "forbidden_arcanus_js",
     "version": "2101.1.2"
+  },
+  "forgified-fabric-api-0.116.7+2.2.4+1.21.1.jar": {
+    "jarName": "forgified-fabric-api-0.116.7+2.2.4+1.21.1.jar",
+    "modId": "fabric_api",
+    "version": "0.116.7+2.2.4+1.21.1"
   },
   "FramedBlocks-10.5.1.jar": {
     "jarName": "FramedBlocks-10.5.1.jar",
@@ -1038,11 +1048,6 @@
     "jarName": "JadeAddons-1.21.1-NeoForge-6.1.0.jar",
     "modId": "jadeaddons",
     "version": "6.1.0+neoforge"
-  },
-  "jauml-1.1.0-neoforge-1.21.1.jar": {
-    "jarName": "jauml-1.1.0-neoforge-1.21.1.jar",
-    "modId": "jauml",
-    "version": "1.1.0-neoforge-1.21.1"
   },
   "jei-1.21.1-neoforge-19.27.0.340.jar": {
     "jarName": "jei-1.21.1-neoforge-19.27.0.340.jar",
@@ -1297,11 +1302,6 @@
     "modId": "mighty_mail",
     "version": "1.1.4"
   },
-  "Mini-boss Boss Bars 1.21.1 1.0.12.jar": {
-    "jarName": "Mini-boss Boss Bars 1.21.1 1.0.12.jar",
-    "modId": "mr_mini_bossbossbars",
-    "version": "1.0.12"
-  },
   "modernworldcreation_neoforge_2.0.1_MC_1.21.1.jar": {
     "jarName": "modernworldcreation_neoforge_2.0.1_MC_1.21.1.jar",
     "modId": "modernworldcreation",
@@ -1341,6 +1341,11 @@
     "jarName": "moonlight-1.21-2.29.23-neoforge.jar",
     "modId": "moonlight",
     "version": "1.21-2.29.23"
+  },
+  "more_quest_types-neoforge-1.2.6.jar": {
+    "jarName": "more_quest_types-neoforge-1.2.6.jar",
+    "modId": "more_quest_types",
+    "version": "1.2.6"
   },
   "moreoverlays-1.24.2-mc1.21.1-neoforge.jar": {
     "jarName": "moreoverlays-1.24.2-mc1.21.1-neoforge.jar",
@@ -1641,11 +1646,6 @@
     "jarName": "rhino-2101.2.7-build.81.jar",
     "modId": "rhino",
     "version": "2101.2.7-build.81"
-  },
-  "rpgmoblevelingsystem-neoforge-1.5.0.jar": {
-    "jarName": "rpgmoblevelingsystem-neoforge-1.5.0.jar",
-    "modId": "rpgmoblevelingsystem",
-    "version": "1.5.0"
   },
   "Searchables-neoforge-1.21.1-1.0.2.jar": {
     "jarName": "Searchables-neoforge-1.21.1-1.0.2.jar",

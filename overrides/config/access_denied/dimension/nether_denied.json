@@ -2,7 +2,7 @@
   "dimension": "minecraft:the_nether",
   "portalAction": 1,
   "itemsKey": {
-    "twilightforest:lamp_of_cinders": true
+    "twilightforest:lamp_of_cinders": false
   },
   "advancements": [
     "twilightforest:progression_end"
