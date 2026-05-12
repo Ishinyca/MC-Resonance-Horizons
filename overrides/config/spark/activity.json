@@ -1,0 +1,41 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "ishinyca",
+      "uniqueId": "16d32351-3825-4725-9b46-b7144b8b497a"
+    },
+    "time": 1778437502734,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/X7iYIJanWg"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "ishinyca",
+      "uniqueId": "16d32351-3825-4725-9b46-b7144b8b497a"
+    },
+    "time": 1778437447853,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/iIMHpq7hlT"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "ishinyca",
+      "uniqueId": "16d32351-3825-4725-9b46-b7144b8b497a"
+    },
+    "time": 1778437445947,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/kWVEp3ab8M"
+    }
+  }
+]
