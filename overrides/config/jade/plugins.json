@@ -107,11 +107,14 @@
     "part_name": true
   },
   "extendedae_plus": {
+    "labeled_wireless_component": true,
     "wt_locked": true,
     "wt_frequency": true,
     "wt_network_usable": true,
     "wt_master_mode": true,
-    "wt_master_location": true
+    "wt_channels": true,
+    "wt_master_location": true,
+    "wt_owner": true
   },
   "projecte": {
     "emc_provider": true
