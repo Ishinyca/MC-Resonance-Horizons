@@ -1,0 +1,22 @@
+{
+  "loot_table": [
+    "minecraft:chests/simple_dungeon"
+  ],
+  "loot_table_rolls": 1, 
+  "custom_loot": [
+    "minecraft:wither_skeleton_skull",
+    { "item": "minecraft:diamond", "count": 6 },
+    { "item": "minecraft:nether_star", "count": 1 },
+    { "item": "minecraft:netherite_scrap", "count": 1 },
+    { "item": "minecraft:iron_ingot", "count": 16 },
+    { "item": "minecraft:gold_ingot", "count": 16 },
+    { "item": "minecraft:copper_ingot", "count": 16 }
+  ],
+  "custom_loot_rolls": 3,
+  "disable_mob_loot": true, 
+  "encounter_timeout_ms": 311000, 
+  "nbt": {
+    "Invul": 202
+  },
+  "is_water": false
+}
