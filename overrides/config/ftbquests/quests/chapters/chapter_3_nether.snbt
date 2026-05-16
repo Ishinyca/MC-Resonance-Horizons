@@ -8,6 +8,14 @@
 		id: "minecraft:netherrack"
 	}
 	id: "646C49F0E98F631C"
+	images: [{
+		height: 3.0d
+		image: "aether:item/miscellaneous/aether_portal_frame"
+		rotation: 0.0d
+		width: 3.0d
+		x: 1.5d
+		y: 3.5d
+	}]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
@@ -253,6 +261,27 @@
 			}]
 			x: 1.5d
 			y: 1.5d
+		}
+		{
+			dependencies: ["6AFCB2A00B5DEFAF"]
+			id: "0A74CBB5097177C7"
+			tasks: [
+				{
+					count: 10L
+					id: "584831136C57AAA5"
+					item: { count: 1, id: "minecraft:glowstone" }
+					type: "item"
+				}
+				{
+					id: "1AC5F2797A975AEB"
+					observe_type: 0
+					timer: 0L
+					to_observe: "aether:aether_portal"
+					type: "observation"
+				}
+			]
+			x: 1.5d
+			y: 3.5d
 		}
 	]
 }

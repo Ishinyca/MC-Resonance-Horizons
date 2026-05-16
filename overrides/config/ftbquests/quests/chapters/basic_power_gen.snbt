@@ -3,8 +3,515 @@
 	default_quest_shape: ""
 	filename: "basic_power_gen"
 	group: "2A5D074FFC415AEC"
+	icon: {
+		id: "mekanism:basic_energy_cube"
+	}
 	id: "3D401D98C6105B09"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "3DBA4FD717E992C4"
+			rewards: [{
+				id: "5F32AB5A800BC955"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				id: "0B6F6627DCD4C08E"
+				item: { count: 1, id: "minecraft:redstone" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3DBA4FD717E992C4"]
+			icon: {
+				components: {
+					"ftbquests:icon": "irregular_implements:block/ender_energy_distributor/top"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "24A3F2844BE51265"
+			rewards: [
+				{
+					id: "79A33C224B97E314"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "3F1EECE78105C42B"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3C43E530F308D745"
+				item: { count: 1, id: "minecraft:coal" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["24A3F2844BE51265"]
+			id: "114C5137D98ED36D"
+			rewards: [{
+				id: "1CFF17CD5232940A"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "06BE47CC24BAF47E"
+				item: { count: 1, id: "mekanismgenerators:heat_generator" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["24A3F2844BE51265"]
+			icon: {
+				id: "ironfurnaces:iron_furnace"
+			}
+			id: "4E5B3555E7DE8E9B"
+			rewards: [
+				{
+					id: "0629FF882325DE27"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "6C43B5B67B346F82"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "65FD906CC6124886"
+					item: { count: 1, id: "ironfurnaces:iron_furnace" }
+					type: "item"
+				}
+				{
+					id: "522B10EF6E28D82D"
+					item: { count: 1, id: "ironfurnaces:augment_generator" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4E5B3555E7DE8E9B"]
+			id: "24112226E29BEEF6"
+			rewards: [
+				{
+					id: "0FF07B6FCCB0769E"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6F1487F5F68A27EF"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "46362B312F18371A"
+				item: { count: 1, id: "ironfurnaces:augment_speed" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4E5B3555E7DE8E9B"]
+			id: "5702A67204F2A299"
+			rewards: [
+				{
+					id: "3BDA06CDE169CD92"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "7ECEB4A796E1A1B6"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6D2AAE44E839F7AA"
+				item: { count: 1, id: "ironfurnaces:augment_fuel" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4E5B3555E7DE8E9B"]
+			id: "2405988B9871DF64"
+			rewards: [
+				{
+					id: "27472D37381C3D3D"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "34835C17807F00EE"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4572E67D98CF3E06"
+				item: { count: 1, id: "ironfurnaces:augment_blasting" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4E5B3555E7DE8E9B"]
+			id: "144557C43C28921F"
+			rewards: [
+				{
+					id: "65EC8BEA7C9DF8B7"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "454370EB95242625"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6B7637DA23483B4F"
+				item: { count: 1, id: "ironfurnaces:augment_smoking" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3DBA4FD717E992C4"]
+			icon: {
+				components: {
+					"ftbquests:icon": "olympus:textures/gui/sprites/icons/battery_medium.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2550C4418FBDC864"
+			rewards: [
+				{
+					id: "106AA4FB06D9659F"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6EA4585DF4B19A6F"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7894997C38125E2A"
+				item: { count: 1, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3DBA4FD717E992C4"]
+			icon: {
+				components: {
+					"ftbquests:icon": "mekanism:block/models/multipart/opaque/basic_mechanical_pipe"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5A67053A72DDF02E"
+			rewards: [
+				{
+					id: "2D445947F8951043"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "57A3D4F9092818EE"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4A7392D1D0D279D8"
+				item: { count: 1, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5A67053A72DDF02E"]
+			id: "1D6F7A3B46712C98"
+			rewards: [
+				{
+					id: "0540DCD4F96E0911"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "57BFC9BC08768DE0"
+					item: {
+						count: 1
+						id: "mekanism:basic_universal_cable"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4993FF6FE7085E12"
+				item: { count: 1, id: "mekanism:basic_universal_cable" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5A67053A72DDF02E"]
+			id: "245622963E22EBE2"
+			rewards: [
+				{
+					id: "590638E26B9633E4"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "053DBE4E166C3816"
+					item: {
+						count: 1
+						id: "oritech:energy_pipe"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "194BC7F44B588915"
+				item: { count: 1, id: "oritech:energy_pipe" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2550C4418FBDC864"]
+			id: "1B648A7C6CA671D4"
+			rewards: [
+				{
+					id: "67D291B4D437AAEC"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3141A49AD0367E44"
+					item: {
+						count: 1
+						id: "enderio:basic_capacitor"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3B903BB93E9DD110"
+				item: { count: 1, id: "enderio:basic_capacitor_bank" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2550C4418FBDC864"]
+			id: "6AD4EFBEBB0FE5A0"
+			rewards: [
+				{
+					id: "6CEEB99F4176926B"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "58A6ABD0F11A6FFB"
+					item: {
+						count: 1
+						id: "mekanism:ingot_steel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "02C5A7E2AA8C99A6"
+				item: { components: { "stellaris:energy": 0 }, count: 1, id: "stellaris:t1_bank" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5A67053A72DDF02E"]
+			id: "536B0AF6434CDB96"
+			rewards: [{
+				id: "4752805F15F2353F"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "64E29AA11717BA70"
+				item: { count: 1, id: "stellaris:cable" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5A67053A72DDF02E"]
+			id: "7C689569C467AC1E"
+			rewards: [
+				{
+					id: "6B7B8FAFD0458456"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "691D08EAF7FDC520"
+					item: {
+						components: {
+							"enderio:conduit": "enderio:energy"
+						}
+						count: 1
+						id: "enderio:conduit"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "30E20D7723C77C99"
+				item: { components: { "enderio:conduit": "enderio:energy" }, count: 1, id: "enderio:conduit" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["24A3F2844BE51265"]
+			id: "2E31DF275F03C1DB"
+			rewards: [
+				{
+					id: "61B042C8F7D5B3BE"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "7FD1ACC224099ED4"
+					item: {
+						count: 1
+						id: "minecraft:lava_bucket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2CD0F4DFC59E00E6"
+				item: { count: 1, id: "oritech:lava_generator_block" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+	]
 }

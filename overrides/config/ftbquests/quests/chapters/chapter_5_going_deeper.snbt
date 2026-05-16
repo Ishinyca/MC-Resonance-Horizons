@@ -15,6 +15,7 @@
 			dependencies: [
 				"354A4AE76A1072E5"
 				"5364D87FDDB4EAF3"
+				"66DC3809A67F93EF"
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -25,25 +26,137 @@
 				type: "dimension"
 			}]
 			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1194E231E957088A"]
+			icon: {
+				id: "minecraft:sculk"
+			}
+			id: "74E916FC2BE41B0F"
+			tasks: [{
+				biome: "deeperdarker:deeplands"
+				id: "2E3C440AF16BB219"
+				type: "biome"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1194E231E957088A"]
+			icon: {
+				id: "deeperdarker:blooming_sculk_stone"
+			}
+			id: "5108680A513E9770"
+			tasks: [{
+				biome: "deeperdarker:blooming_caverns"
+				id: "07748D8348FCDF80"
+				type: "biome"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1194E231E957088A"]
+			icon: {
+				id: "deeperdarker:echo_soil"
+			}
+			id: "76A9F4BE6429617E"
+			tasks: [{
+				biome: "deeperdarker:echoing_forest"
+				id: "039679E7213700DC"
+				type: "biome"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1194E231E957088A"]
+			icon: {
+				id: "deeperdarker:gloomy_sculk"
+			}
+			id: "62CEBD8676DE6A1A"
+			tasks: [{
+				biome: "deeperdarker:overcast_columns"
+				id: "28F47078C7C13EA3"
+				type: "biome"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1E6EFCA4F1EC5A8A"]
+			id: "540E0A7E1D1B3AB0"
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "7A92B2ACA2D40200"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["540E0A7E1D1B3AB0"]
+			id: "66DC3809A67F93EF"
+			tasks: [{
+				id: "0B8B9BF10823906B"
+				item: { count: 1, id: "deeperdarker:heart_of_the_deep" }
+				type: "item"
+			}]
+			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["1194E231E957088A"]
-			id: "6ACCE3E6588EA6E4"
-			rewards: [{
-				id: "62014FF2F4A988BA"
-				item: {
-					count: 1
-					id: "magic_coins:silver_coin"
-				}
+			icon: {
+				id: "sculks_of_arda:sculk_crystal_tiles"
+			}
+			id: "6C6C0E4433AED30B"
+			tasks: [{
+				id: "6EE53E93A4F11AF3"
+				structure: "deeperdarker:ancient_temple"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6C6C0E4433AED30B"]
+			id: "613E9E998C35600E"
+			tasks: [{
+				id: "14FF2210057A7822"
+				item: { count: 1, id: "deeperdarker:sculk_transmitter" }
 				type: "item"
 			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6C6C0E4433AED30B"]
+			icon: {
+				id: "deeperdarker:stalker_spawn_egg"
+			}
+			id: "4075E21C03A2125E"
 			tasks: [{
-				id: "47E183BC174AE6B0"
+				id: "1C916CE7ADDB44E3"
+				observe_type: 0
+				timer: 0L
+				to_observe: "deeperdarker:ancient_vase"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1194E231E957088A"]
+			id: "14549189E9943627"
+			tasks: [{
+				id: "08E254A4DBBF914B"
 				type: "checkmark"
 			}]
-			x: 1.0d
-			y: 0.0d
+			x: 2.0d
+			y: 2.5d
 		}
 	]
 }
