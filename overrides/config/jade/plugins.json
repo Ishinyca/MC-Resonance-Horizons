@@ -116,6 +116,9 @@
     "wt_master_location": true,
     "wt_owner": true
   },
+  "enderio": {
+    "soul_bound": true
+  },
   "projecte": {
     "emc_provider": true
   },
