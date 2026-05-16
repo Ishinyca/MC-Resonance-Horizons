@@ -76,7 +76,7 @@
 [biome_title_display]
 	#Display biome names when entering biomes
 	#Defaults to false if Traveler's Titles mod is loaded
-	show_biome_titles = true
+	show_biome_titles = false
 	#Only display biome titles if the biome provides a level bonus
 	#When false (default), biome titles always display when entering biomes
 	#When true, biome titles only display if biomeBonus > 0
