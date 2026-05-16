@@ -1,13 +1,13 @@
 #Time in seconds for a dragon egg to hatch.
 # Default: 600
 # Range: 0 ~ 2147483647
-hatch_time = 600
+hatch_time = 1200
 #Time in seconds for a dragon to grow.
 # Default: 600
 # Range: 0 ~ 2147483647
-growth_time = 600
+growth_time = 1200
 #Enable or disable natural dragon spawns.
-enable_natural_dragon_spawns = true
+enable_natural_dragon_spawns = false
 #The maximum number of dragons to keep track of in the dragon history. This allows recalling missing dragons through commands. Larger values may increase world save size.
 # Default: 20
 # Range: > 1
@@ -29,17 +29,17 @@ dragon_history_size = 20
 	#Multiplier for dragon egg spawn chances in loot sources. 0 disables spawning, 1 is default rate, 2 doubles the chance.
 	# Default: 1.0
 	# Range: 0.0 ~ 100.0
-	dragon_egg_spawn_chance = 1.0
+	dragon_egg_spawn_chance = 0.8
 
 [base_stats]
 	#Base health of all dragons.
 	# Default: 60.0
 	# Range: 1.0 ~ 1.7976931348623157E308
-	base_health = 60.0
+	base_health = 75.0
 	#Passive health regen value for dragons.
 	# Default: 1.0
 	# Range: 0.0 ~ 1.7976931348623157E308
-	health_regen = 1.0
+	health_regen = 0.6
 	#Base damage of all dragons.
 	# Default: 8.0
 	# Range: 1.0 ~ 1.7976931348623157E308
