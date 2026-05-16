@@ -18,6 +18,7 @@ const addBlockTags = [
             "powah:reactor_spirited",
             "powah:reactor_nitro",
             "minecraft:spawner",
+            "ars_nouveau:storage_lectern",
         ],
     }
 ];
