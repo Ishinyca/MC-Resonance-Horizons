@@ -120,7 +120,7 @@
 [dimension_title_display]
 	#Display dimension names when entering dimensions
 	#Defaults to false if Traveler's Titles mod is loaded
-	show_dimension_titles = true
+	show_dimension_titles = false
 	#Only display dimension titles if the dimension modifies leveling
 	#When false (default), dimension titles always display when entering dimensions
 	#When true, dimension titles only display if the dimension has leveling settings
