@@ -1,0 +1,24 @@
+{
+  "roll": {
+    "type": "constant",
+    "count": 10
+  },
+  "pool": [
+    {
+      "value": "saplings",
+      "weight": 5
+    },
+        {
+      "value": "seeds",
+      "weight": 5
+    },
+    {
+      "value": "sophisticated_storage",
+      "weight": 0.5
+    },
+    {
+      "value": "junk",
+      "weight": 5
+    }
+  ]
+}

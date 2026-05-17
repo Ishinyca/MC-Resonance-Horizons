@@ -1,0 +1,71 @@
+{
+  "roll": {
+    "type": "constant",
+    "count": 1
+  },
+  "input1": {
+    "filter": "magic_coins:silver_coin",
+    "count": {
+      "type": "constant",
+      "count": 3
+    }
+  },
+  "output": [
+    {
+      "item": "minecraft:cod",
+      "count": {
+        "type": "constant",
+        "count": 2
+      },
+      "weight": 10
+    },
+    {
+      "item": "minecraft:beef",
+      "count": {
+        "type": "constant",
+        "count": 1
+      },
+      "weight": 10
+    },
+    {
+      "item": "minecraft:porkchop",
+      "count": {
+        "type": "constant",
+        "count": 1
+      },
+      "weight": 10
+    },
+    {
+      "item": "minecraft:arrow",
+      "count": {
+        "type": "constant",
+        "count": 5
+      },
+      "weight": 15
+    },
+    {
+      "item": "minecraft:iron_sword",
+      "count": {
+        "type": "constant",
+        "count": 1
+      },
+      "weight": 2
+    },
+    {
+      "item": "minecraft:oak_log",
+      "count": {
+        "type": "constant",
+        "count": 8
+      },
+      "weight": 15
+    },
+    {
+      "item": "minecraft:bow",
+      "count": {
+        "type": "constant",
+        "count": 1
+      },
+      "weight": 1
+    }
+  ]
+}

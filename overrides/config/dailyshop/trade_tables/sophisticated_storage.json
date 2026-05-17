@@ -1,0 +1,46 @@
+{
+  "roll": {
+    "type": "constant",
+    "count": 1
+  },
+  "input1": {
+    "filter": "magic_coins:gold_coin",
+    "count": {
+      "type": "constant",
+      "count": 2
+    }
+  },
+ "input2": {
+    "filter": "magic_coins:silver_coin",
+    "count": {
+      "type": "constant",
+      "count": 2
+    }
+  },
+  "output": [
+    {
+      "item": "sophisticatedstorage:basic_to_copper_tier_upgrade",
+      "count": {
+        "type": "constant",
+        "count": 1
+      },
+      "weight": 0.5
+    },
+    {
+      "item": "sophisticatedstorage:super_packing_tape",
+      "count": {
+        "type": "constant",
+        "count": 1
+      },
+      "weight": 2
+    },
+    {
+      "item": "sophisticatedstorage:upgrade_base",
+      "count": {
+        "type": "constant",
+        "count": 5
+      },
+      "weight": 10
+    }
+  ]
+}
