@@ -13,7 +13,7 @@
 	#Random bonus levels added to entities (0-value)
 	random_level_bonus = 0
 	#Additional experience multiplier per level
-	experience_bonus_per_level = 0.1
+	experience_bonus_per_level = 0.05
 
 [environmental_leveling]
 	#How many levels to add per block from world spawn
@@ -63,7 +63,7 @@
 	#Set to 0 to disable periodic updates (only event-driven updates will occur)
 	# Default: 600
 	# Range: 0 ~ 1200
-	player_level_update_interval = 600
+	player_level_update_interval = 1200
 
 [playtime_based_scaling]
 	#Enable playtime-based level scaling
@@ -126,12 +126,12 @@
 	#operation: add_value (flat addition), add_multiplied_base (percentage of base), or add_multiplied_total (percentage of final value)
 	#Leave empty to disable all attribute bonuses
 	level_bonus_per_attribute = [
-		["minecraft:generic.attack_damage", 2.5,"add_value"],
+		["minecraft:generic.attack_damage", 1.5,"add_value"],
 		["minecraft:generic.armor", 0.35, "add_value"],
 		["minecraft:generic.max_health", 0.03, "add_multiplied_base"],
-		["dynamic_difficulty:projectile_damage_bonus", 0.75, "add_value"],
-		["dynamic_difficulty:magic_damage_bonus", 0.75, "add_value"],
-		["dynamic_difficulty:explosion_damage_bonus", 0.50, "add_value"]
+		["dynamic_difficulty:projectile_damage_bonus", 0.55, "add_value"],
+		["dynamic_difficulty:magic_damage_bonus", 0.55, "add_value"],
+		["dynamic_difficulty:explosion_damage_bonus", 0.425, "add_value"]
 	]
 
 [level_up_items]
