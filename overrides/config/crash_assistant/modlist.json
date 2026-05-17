@@ -541,14 +541,6 @@
     "curseForgeHash": 2324986114,
     "modrinthHash": "870521cfaa1a4cb6c830e2409e8b9e4cf179aff2"
   },
-  "betterchunkloading-1.21-5.4.jar": {
-    "jarName": "betterchunkloading-1.21-5.4.jar",
-    "modId": "betterchunkloading",
-    "name": "betterchunkloading mod",
-    "version": "5.4",
-    "curseForgeHash": 905693615,
-    "modrinthHash": "848d47200e760cfa566e476257ff863de30d7f8f"
-  },
   "betterdays-1.21.1-3.3.6.3-NEOFORGE.jar": {
     "jarName": "betterdays-1.21.1-3.3.6.3-NEOFORGE.jar",
     "modId": "betterdays",
@@ -692,14 +684,6 @@
     "version": "1.3.0",
     "curseForgeHash": 4001344475,
     "modrinthHash": "3f0d3eed4633d9ef3a713de4b39ee4e683aa9389"
-  },
-  "chunksending-1.21-2.9.jar": {
-    "jarName": "chunksending-1.21-2.9.jar",
-    "modId": "chunksending",
-    "name": "chunksending mod",
-    "version": "2.9",
-    "curseForgeHash": 3840699650,
-    "modrinthHash": "636a121a3252028bb0ec14a3f39f9bbf723ddacd"
   },
   "Clavis-NEOFORGE-0.2.13+1.21.1.jar": {
     "jarName": "Clavis-NEOFORGE-0.2.13+1.21.1.jar",
@@ -965,6 +949,14 @@
     "curseForgeHash": 3369040487,
     "modrinthHash": "c2820b6222fb8f209d04347c2bfb2fa6dee3c564"
   },
+  "DailyShop-mc1.21.1-v1.1.3-neoforge.jar": {
+    "jarName": "DailyShop-mc1.21.1-v1.1.3-neoforge.jar",
+    "modId": "dailyshop",
+    "name": "DailyShop",
+    "version": "1.1.3",
+    "curseForgeHash": 1218328687,
+    "modrinthHash": "82151797685ac5a4fd0ca74828d440100c936457"
+  },
   "databank-1.3.1.jar": {
     "jarName": "databank-1.3.1.jar",
     "modId": "databank",
@@ -1044,11 +1036,6 @@
     "version": "1.9.2",
     "curseForgeHash": 2059124342,
     "modrinthHash": "261c87d7fb0888622b26a27f54da039f01b25c06"
-  },
-  "drippy_early_loading_module_neoforge_3.1.2_MC_1.21.1.jar": {
-    "jarName": "drippy_early_loading_module_neoforge_3.1.2_MC_1.21.1.jar",
-    "curseForgeHash": 1750736043,
-    "modrinthHash": "1aa0b076f18e60671c11db2f3d3f8f2c23cd1d04"
   },
   "drippyloadingscreen_neoforge_3.1.2_MC_1.21.1.jar": {
     "jarName": "drippyloadingscreen_neoforge_3.1.2_MC_1.21.1.jar",
@@ -2782,14 +2769,6 @@
     "version": "4.2.4",
     "curseForgeHash": 2744731042,
     "modrinthHash": "13d8835813b3851d4818c59ec8f7124e4a826c14"
-  },
-  "smoothchunk-1.21-4.1.jar": {
-    "jarName": "smoothchunk-1.21-4.1.jar",
-    "modId": "smoothchunk",
-    "name": "Smoothchunk mod",
-    "version": "4.1",
-    "curseForgeHash": 2270201149,
-    "modrinthHash": "f54d5d352e15560240f151a7d054096a33a58f4a"
   },
   "sodium-extra-neoforge-0.6.0+mc1.21.1.jar": {
     "jarName": "sodium-extra-neoforge-0.6.0+mc1.21.1.jar",
