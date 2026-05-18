@@ -237,13 +237,13 @@
     "curseForgeHash": 1748391263,
     "modrinthHash": "00056f29646f3bf86116b281c2362c0dabdb4533"
   },
-  "Apotheosis-1.21.1-8.5.2.jar": {
-    "jarName": "Apotheosis-1.21.1-8.5.2.jar",
+  "Apotheosis-1.21.1-8.5.3.jar": {
+    "jarName": "Apotheosis-1.21.1-8.5.3.jar",
     "modId": "apotheosis",
     "name": "Apotheosis",
-    "version": "8.5.2",
-    "curseForgeHash": 3263674676,
-    "modrinthHash": "eb484177b383dc397bfa37d06ef09ec39053bb50"
+    "version": "8.5.3",
+    "curseForgeHash": 1206032462,
+    "modrinthHash": "9a334c834b4b11f90c0b86595fd0a47fae3a8e3a"
   },
   "apothic_cataclysm-1.2.0.jar": {
     "jarName": "apothic_cataclysm-1.2.0.jar",
@@ -269,13 +269,13 @@
     "curseForgeHash": 3209464755,
     "modrinthHash": "e7f669e1b45d75076200436f37c40a6dd3b6a6ff"
   },
-  "ApothicEnchanting-1.21.1-1.5.2.jar": {
-    "jarName": "ApothicEnchanting-1.21.1-1.5.2.jar",
+  "ApothicEnchanting-1.21.1-1.5.3.jar": {
+    "jarName": "ApothicEnchanting-1.21.1-1.5.3.jar",
     "modId": "apothic_enchanting",
     "name": "Apothic Enchanting",
-    "version": "1.5.2",
-    "curseForgeHash": 1183634350,
-    "modrinthHash": "aad9bb6b4e5ba7ea85af4d143467b99f0ed022fc"
+    "version": "1.5.3",
+    "curseForgeHash": 2936100431,
+    "modrinthHash": "751276a13db49a5f2202e50715b8864f5ae40cb6"
   },
   "ApothicSpawners-1.21.1-1.3.4.jar": {
     "jarName": "ApothicSpawners-1.21.1-1.3.4.jar",
@@ -1109,13 +1109,13 @@
     "curseForgeHash": 53663144,
     "modrinthHash": "e4fa515c5deab3165f250f2a1297ac836d496064"
   },
-  "enderio-8.2.9-beta.jar": {
-    "jarName": "enderio-8.2.9-beta.jar",
+  "enderio-8.2.10-beta.jar": {
+    "jarName": "enderio-8.2.10-beta.jar",
     "modId": "enderio",
     "name": "Ender IO",
-    "version": "8.2.9-beta",
-    "curseForgeHash": 3967605106,
-    "modrinthHash": "67d07c7613ee885f7467fbf73ea9a38bfd435062"
+    "version": "8.2.10-beta",
+    "curseForgeHash": 3415550697,
+    "modrinthHash": "6459bb0f9bae10f3f0da66d98c2a88380413f009"
   },
   "endrem-neoforge-1.21.X-6.0.2.jar": {
     "jarName": "endrem-neoforge-1.21.X-6.0.2.jar",
@@ -1149,13 +1149,13 @@
     "curseForgeHash": 3374630768,
     "modrinthHash": "3460532417842063306c5a12428b3c877e18d073"
   },
-  "eternalstarlight-0.7.0-hotfix+1.21.1+neoforge.jar": {
-    "jarName": "eternalstarlight-0.7.0-hotfix+1.21.1+neoforge.jar",
+  "eternalstarlight-0.8.1+1.21.1+neoforge.jar": {
+    "jarName": "eternalstarlight-0.8.1+1.21.1+neoforge.jar",
     "modId": "eternal_starlight",
     "name": "Eternal Starlight",
-    "version": "0.7.0-hotfix+1.21.1+neoforge",
-    "curseForgeHash": 1118423292,
-    "modrinthHash": "6efc861be86ad3ef29ae756c1fdf0f22bbc2a4a1"
+    "version": "0.8.1+1.21.1+neoforge",
+    "curseForgeHash": 2955342771,
+    "modrinthHash": "7deb37b78198efafb053ca84551b3a7d573a2737"
   },
   "EuphoriaPatcher-1.8.6-r5.7.1-neoforge.jar": {
     "jarName": "EuphoriaPatcher-1.8.6-r5.7.1-neoforge.jar",
@@ -1253,6 +1253,14 @@
     "curseForgeHash": 1703092068,
     "modrinthHash": "87e019715314631f2c8288cf7c73a52a61b2d61b"
   },
+  "FastFurnace-1.21.1-9.0.1.jar": {
+    "jarName": "FastFurnace-1.21.1-9.0.1.jar",
+    "modId": "fastfurnace",
+    "name": "FastFurnace",
+    "version": "9.0.1",
+    "curseForgeHash": 3399518281,
+    "modrinthHash": "acdcdc7c61b49b3b04490fce9843dcf8b531dfc3"
+  },
   "FastItemFrames-v21.1.6-1.21.1-NeoForge.jar": {
     "jarName": "FastItemFrames-v21.1.6-1.21.1-NeoForge.jar",
     "modId": "fastitemframes",
@@ -1268,6 +1276,14 @@
     "version": "6.0.7",
     "curseForgeHash": 4068539984,
     "modrinthHash": "664e62684311f727f1fac18f0de28e5317874b7e"
+  },
+  "FastWorkbench-1.21.1-9.1.3.jar": {
+    "jarName": "FastWorkbench-1.21.1-9.1.3.jar",
+    "modId": "fastbench",
+    "name": "Fast Workbench",
+    "version": "9.1.3",
+    "curseForgeHash": 1474752946,
+    "modrinthHash": "7343b63ded70c0546811c768118d16d3a86418ee"
   },
   "fdbosses-3.1.0.3-1.21.1.jar": {
     "jarName": "fdbosses-3.1.0.3-1.21.1.jar",
@@ -1485,13 +1501,13 @@
     "curseForgeHash": 3317451202,
     "modrinthHash": "c7875d444b85a019381b8ea36c21c9c93e112f8a"
   },
-  "GlitchCore-neoforge-1.21.1-2.1.0.0.jar": {
-    "jarName": "GlitchCore-neoforge-1.21.1-2.1.0.0.jar",
+  "GlitchCore-neoforge-1.21.1-2.1.0.2.jar": {
+    "jarName": "GlitchCore-neoforge-1.21.1-2.1.0.2.jar",
     "modId": "glitchcore",
     "name": "GlitchCore",
-    "version": "2.1.0.0",
-    "curseForgeHash": 152279774,
-    "modrinthHash": "8bce11b0b5233146051bb7b7a227247e03fe88b2"
+    "version": "2.1.0.2",
+    "curseForgeHash": 1418461883,
+    "modrinthHash": "a31c3f36330f19aa538add3d727782a62c9c30ad"
   },
   "Glodium-1.21-2.2-neoforge.jar": {
     "jarName": "Glodium-1.21-2.2-neoforge.jar",
@@ -2666,13 +2682,13 @@
     "curseForgeHash": 2093242437,
     "modrinthHash": "5b8a0b43a474c066371b2e16f9bfb88622552a74"
   },
-  "seasonhud-neoforge-1.21.1-2.0.5.jar": {
-    "jarName": "seasonhud-neoforge-1.21.1-2.0.5.jar",
+  "seasonhud-neoforge-1.21.1-2.0.6.jar": {
+    "jarName": "seasonhud-neoforge-1.21.1-2.0.6.jar",
     "modId": "seasonhud",
     "name": "SeasonHud",
-    "version": "2.0.5",
-    "curseForgeHash": 1946137296,
-    "modrinthHash": "b0ed506a1eb769fb43554f8b68ce3494fd401959"
+    "version": "2.0.6",
+    "curseForgeHash": 1307203879,
+    "modrinthHash": "57455390641d8dcf4566ff266676390c203894cf"
   },
   "SereneSeasons-neoforge-1.21.1-10.1.0.3.jar": {
     "jarName": "SereneSeasons-neoforge-1.21.1-10.1.0.3.jar",
@@ -3009,6 +3025,14 @@
     "version": "3.0.16",
     "curseForgeHash": 3571140483,
     "modrinthHash": "7be6d8b24f3120fa6a2520c32a2e6c8c4254322c"
+  },
+  "trashcans-1.0.18c-neoforge-mc1.21.jar": {
+    "jarName": "trashcans-1.0.18c-neoforge-mc1.21.jar",
+    "modId": "trashcans",
+    "name": "Trash Cans",
+    "version": "1.0.18+c",
+    "curseForgeHash": 4070200547,
+    "modrinthHash": "8e853e0784b01b36b4503ef5599be2724be74b07"
   },
   "Tropicraft-9.8.1.jar": {
     "jarName": "Tropicraft-9.8.1.jar",
