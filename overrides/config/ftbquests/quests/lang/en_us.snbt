@@ -8,6 +8,7 @@
 	chapter.29236C355EF25B6B.title: "Basic Storage"
 	chapter.29B6D19079E519CC.title: "Iron's Spells 'n Spellbooks"
 	chapter.2B4C63DE293D5BA8.title: "Dragons Mount Remastered"
+	chapter.3013F0DF90A7C5A4.title: "Helpful Tips"
 	chapter.37C8384647C2943F.title: "Chapter 4: To The Skies!"
 	chapter.3CD86C62FC6997B0.title: "Just Dire Things"
 	chapter.3D401D98C6105B09.title: "Basic Power"
@@ -39,7 +40,10 @@
 	quest.041A1C64A8468087.quest_desc: ["Suspended high in the sky, this arrowhead-shaped airship drifts on a massive aft propeller. Boarding is perilous, but those who succeed will witness its strange and fearsome inhabitants riding boar-like beasts, their eyeless faces obscured by ominous cages. Danger and mystery ride with them across the clouds."]
 	quest.041A1C64A8468087.quest_subtitle: "Find a Heavenly Rider"
 	quest.04E3599A10D8D30B.quest_subtitle: "More channels!"
+	quest.0792B98729B3AC1B.quest_desc: ["Should there be more useful tips in this section? Provide suggestions on the Discord server!"]
 	quest.08358C86AE890F9D.title: "&6&lBounty:&r Kill 25x Skeletons"
+	quest.0A55DFFB90B6E3B6.quest_desc: ["Guess you observed an amethyst and collected one. Now check the info quest to see how to automate them."]
+	quest.0A55DFFB90B6E3B6.title: "Amethyst"
 	quest.0A74CBB5097177C7.title: "Aether Portal"
 	quest.0B89EB36AC565461.quest_desc: ["Deep within this subterranean city, the heat of molten lava and the hum of industry dominate the air. The Nether’s influence is strong here, fueling forges and animating Forge Sentinels that patrol every corridor. Only those prepared for fire and steel will survive, and claim the treasures forged within."]
 	quest.0B89EB36AC565461.quest_subtitle: "Find a Foundry"
@@ -63,17 +67,30 @@
 	quest.14549189E9943627.quest_desc: ["Chapter 6 is hidden unless you click the checkmark."]
 	quest.14857DBF1DCBF100.quest_desc: ["Cresting the waves like a shadow of the past, this cursed vessel is crewed by skeletons that seem impossible to keep down. Every deck hides danger, every hold whispers of lost treasure and every strike you land may be fleeting. Only the bold (or the foolhardy) dare to face its relentless undead crew."]
 	quest.14857DBF1DCBF100.quest_subtitle: "Find an Undead Pirate Ship"
+	quest.154ADFD2A3D88F1E.quest_desc: ["This modpack is full of surprises and various ways to achieve items and goals. If you ever need help with something, refer to the tips section and see how to get certain items easily!"]
 	quest.16526B624CB886B6.quest_desc: ["There will be more quests in the future. If you wish to help with making quests, please let me know!"]
 	quest.16526B624CB886B6.title: "Quests"
 	quest.1706C8CC1B7465FC.quest_desc: ["Packing Tape is used to tape up your Sophisticated Chests so you can break them without spilling out all of the contents."]
 	quest.1706C8CC1B7465FC.quest_subtitle: "Might as well give you Super Packing Tape for free"
 	quest.1706C8CC1B7465FC.title: "Need to move chests?"
+	quest.1828423F49139311.quest_desc: [
+		"To easily get Budding Amethyst, make an Amethyst golem!"
+		""
+		"You can check the quest above and is linked to Ars Nouveau. To easily farm the budding amethyst, you can remain using the Amethyst golem or for faster speed, go with Oritech Enderic lasers. You can also speed up the crystal growth with AE2 Growth Accelerator."
+		""
+		"{@pagebreak}"
+		"To easily store the amethyst shards, we recommend that you store them in Functional Storage and lock the drawer. This way, they will always store amethyst in the drawer. Also, add upgrades to the drawer to have increased stack size capacity and void card. This way, your world doesn't get messy with all the random amethyst drops."
+		""
+		"{@pagebreak}"
+		"If Amethyst Golems are too slow at picking and storing the items, you can attach a vacuum chest or item collector and pump into the chest."
+	]
 	quest.188AAB5B74C6EAAE.quest_subtitle: "Discover an Infested Temple explorer map"
 	quest.1C375606107C117F.quest_subtitle: "Find Keep Kayra"
 	quest.1CCA31D9352C60E6.quest_desc: ["Clustered around a towering central “grandmother” mushroom, these villages appear quaint from afar. Yet the villagers within are far more aggressive than their old-world counterparts, hiding a cunning fierceness beneath their colorful caps. Approach with caution as this village may welcome the unwary only to spring its traps."]
 	quest.1CCA31D9352C60E6.quest_subtitle: "Find a mushroom village"
 	quest.1CEF2A38948010A2.quest_desc: ["Out on the open seas, the &6Illagers&r have taken to the waves, commandeering massive galleys and swift corsairs. Their sails cast long shadows, and their cannons roar with fury. Only the bravest dare to board, for fortune favors those who seize it."]
 	quest.1CEF2A38948010A2.quest_subtitle: "Find an Illager Corsair or an Illager Galley"
+	quest.1D0CEAFC1845AE68.quest_desc: ["There are various ways to get amethyst and farm them."]
 	quest.1F10BC33D22328BD.quest_desc: ["Time has claimed this once-sacred site, leaving its halls cracked and overgrown. Now, ghostly skeletons and trickster illusioners linger within, guarding little more than shadows of former glory. Though its dangers are real, the temple’s sturdy walls make it a tempting refuge for those seeking a foothold in this hostile world."]
 	quest.1F10BC33D22328BD.quest_subtitle: "Find an Abandoned Temple"
 	quest.21426F5EEC922866.quest_desc: ["Half-submerged in the oceans lie the petrified remains of a colossal beast, its skeletal form stretching farther than the eye can follow. Was it a creature of the deep, dragged ashore in ages past—or did it fall from the heavens themselves? No records remain, only questions carved into stone."]
@@ -96,6 +113,9 @@
 	quest.25742EADF8C7C792.quest_desc: ["The dragons like to eat fish so just collect some raw fish and right click on them!"]
 	quest.25742EADF8C7C792.quest_subtitle: "Dragons like fish"
 	quest.25742EADF8C7C792.title: "Collect Raw Fish"
+	quest.2730586227FD39BD.quest_desc: ["You can spend your coins to buy items at the shop! Shop inventory resets every 20 minutes on the dot."]
+	quest.2730586227FD39BD.quest_subtitle: "FINALLY GET TO USE COINS?!"
+	quest.274DB278E2C24C93.quest_desc: ["Just a simple coal generator from Just Dire Things mod."]
 	quest.27CF8F79874DBDFA.quest_desc: ["You should definitely craft a shield. It is your best defense item in the game. Really, block everything!"]
 	quest.27CF8F79874DBDFA.quest_subtitle: "Block that!"
 	quest.2851A90CE80B1F31.quest_desc: [
@@ -224,6 +244,7 @@
 	quest.5C1D8688BB4BCD0D.quest_subtitle: "Legally Unpaid Interns"
 	quest.5CF89BD17745E712.title: "Troll's Cave"
 	quest.5DC54FF3893BF798.title: "Ur-Ghast"
+	quest.5E7D418E969C673A.quest_subtitle: "Harness the power of Amethyst Golems!"
 	quest.5EDA9EE840DC72E2.title: "&bBasic Survival Part II"
 	quest.60F2287AA77A6B65.title: "Lich"
 	quest.61707A2ED6BD53DB.quest_subtitle: "Cast them ingots awayt!"
@@ -268,6 +289,8 @@
 	quest.76DAECF378BA3F19.quest_subtitle: "Find a Mining System"
 	quest.772D3B613376231C.quest_desc: ["Any Minecraft flowers will do."]
 	quest.772D3B613376231C.quest_subtitle: "Lovely"
+	quest.78E43DB29545F7EC.quest_desc: ["Spectre coils are pretty good for free power."]
+	quest.78E43DB29545F7EC.quest_subtitle: "FREE POWER REAL ESTATE???"
 	quest.794430168497918E.quest_desc: ["There are various tiered glyphs to be made."]
 	quest.79A2C972E2EE5053.quest_desc: ["Find your first &l&3Simply Sword&r&r weapon!"]
 	quest.79A2C972E2EE5053.title: "&l&bSimply Swords"
@@ -276,17 +299,21 @@
 	quest.7AA09C60D4872C95.quest_subtitle: "Boring..."
 	quest.7C689569C467AC1E.title: "EnderIO Energy Conduit"
 	quest.7D97A435295734ED.title: "Windmills"
+	task.04F437505C951BC4.title: "More tips?"
 	task.0753C8124C6A1705.title: "Thermodynamic Conductor"
 	task.08B17E2A7DA36DCB.title: "Defeat the Maledictus"
 	task.08E254A4DBBF914B.title: "Open Chapter 6"
 	task.09C028168F69C1E5.title: "Back to the Overworld"
 	task.0A95212173A95D79.title: "See Boss Chapter"
+	task.0B0F1CEA0B7B236E.title: "Farming Amethyst"
 	task.10B8E5E5AF97CD96.title: "Find The Underworld Knight"
 	task.123F1971244C94DF.title: "Just Dire Things"
+	task.15C136A804F4AEF2.title: "Naturally Spawning Amethyst Clusters"
 	task.18A88F07777EC3B9.title: "The Deeper Down"
 	task.19F86692B24A0E84.title: "Enter the Lich's Tower"
 	task.1A6C561E0AA32F2E.title: "Don't Count Your Moas"
 	task.1B160A5FDCAA2C73.title: "Logistical Transporter"
+	task.1C35270B6650E14F.title: "Need Budding Amethyst Early?"
 	task.1C916CE7ADDB44E3.title: "Stalker"
 	task.1C9F84F14ACF60FB.title: "Defeat the Ender Dragon"
 	task.1DBA5C3F14CA020A.title: "Simple Machines"
@@ -297,6 +324,7 @@
 	task.224D501996D6FE7F.title: "Any #minecraft:flowers"
 	task.2295861BA7A8B6D5.title: "Ride the Black Moa"
 	task.23F4B0D2A1C66ED9.title: "Alternative Way to make Steel"
+	task.245DAFEEAE40748C.title: "Useful Tips"
 	task.25AFC553B520CD66.title: "See End Progression Chapter"
 	task.2EB05600001E2911.title: "Fluid Tanks"
 	task.2F96791CDE59EFA1.title: "Beat the Bronze Dungeon"

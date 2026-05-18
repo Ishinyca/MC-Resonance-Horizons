@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "ars_nouveau"
 	group: "43F67A65C7C2CE11"
+	icon: {
+		id: "ars_nouveau:creative_spell_book"
+	}
 	id: "42D3B79DDFDA06E0"
 	order_index: 0
 	quest_links: [ ]

@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "dragons_mount_remastered"
 	group: "69C66C6408A97599"
+	icon: {
+		id: "dmr:dragon_whistle.white"
+	}
 	id: "2B4C63DE293D5BA8"
 	order_index: 1
 	quest_links: [ ]

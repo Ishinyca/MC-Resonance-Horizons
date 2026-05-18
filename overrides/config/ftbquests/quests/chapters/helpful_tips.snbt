@@ -1,0 +1,199 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "helpful_tips"
+	group: "2A5D074FFC415AEC"
+	icon: {
+		components: {
+			"ftbquests:icon": "relics:textures/gui/description/research/tip_background.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "3013F0DF90A7C5A4"
+	order_index: 0
+	quest_links: [
+		{
+			id: "67B75E4D7568DD79"
+			linked_quest: "5E7D418E969C673A"
+			shape: "hexagon"
+			size: 2.0d
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			id: "3F21B46FCEEB6AC5"
+			linked_quest: "3CA0C7A1663B4F01"
+			shape: "hexagon"
+			size: 2.0d
+			x: 1.0d
+			y: -5.0d
+		}
+	]
+	quests: [
+		{
+			disable_toast: true
+			id: "154ADFD2A3D88F1E"
+			rewards: [{
+				id: "5EF9B5EC7CEF06AB"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "245DAFEEAE40748C"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D0CEAFC1845AE68"]
+			disable_toast: true
+			id: "0A55DFFB90B6E3B6"
+			rewards: [{
+				id: "3BDC70BA486D51B5"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					icon: {
+						id: "minecraft:budding_amethyst"
+					}
+					id: "317C1A71AD1FC335"
+					observe_type: 0
+					timer: 0L
+					to_observe: "minecraft:budding_amethyst"
+					type: "observation"
+				}
+				{
+					id: "6453CF65C6C3A8BE"
+					item: { count: 1, id: "minecraft:amethyst_shard" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1D0CEAFC1845AE68"]
+			disable_toast: true
+			id: "16207A96B68538D2"
+			rewards: [{
+				id: "71DFB753E290CC91"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "009B357A6320DB7D"
+				structure: "cataclysm:amethyst_nest"
+				type: "structure"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["154ADFD2A3D88F1E"]
+			disable_toast: true
+			id: "1D0CEAFC1845AE68"
+			rewards: [{
+				id: "10C7C82EF8DD6A3D"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B0F1CEA0B7B236E"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1D0CEAFC1845AE68"]
+			disable_toast: true
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "stellaris:textures/gui/util/planet_selection_info_button_hover.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "1828423F49139311"
+			rewards: [{
+				id: "11F19D176FA5477D"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			size: 1.5d
+			tasks: [{
+				id: "1C35270B6650E14F"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			disable_toast: true
+			icon: {
+				components: {
+					"ftbquests:icon": "fzzy_config:textures/gui/sprites/widget/decoration/question.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "0792B98729B3AC1B"
+			rewards: [{
+				id: "3BDF225062CF0A79"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			size: 1.5d
+			tasks: [{
+				id: "04F437505C951BC4"
+				type: "checkmark"
+			}]
+			x: -2.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["154ADFD2A3D88F1E"]
+			disable_toast: true
+			id: "2730586227FD39BD"
+			rewards: [{
+				id: "7164109AF4761CF6"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "585BDB68B50B7A27"
+				item: { count: 1, id: "dailyshop:daily_shop" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+}

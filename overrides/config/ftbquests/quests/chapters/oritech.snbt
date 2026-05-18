@@ -26,14 +26,24 @@
 				"7633CF10984465A1"
 			]
 			id: "67D24D9F844725F8"
-			rewards: [{
-				id: "782D278470252706"
-				item: {
-					count: 1
-					id: "magic_coins:gold_coin"
+			rewards: [
+				{
+					id: "782D278470252706"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "14581B618AC59E0F"
+					item: {
+						count: 1
+						id: "oritech:machine_core_2"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "6147F7E7771A6903"
 				item: { count: 1, id: "oritech:assembler_block" }
@@ -87,14 +97,24 @@
 		{
 			dependencies: ["7633CF10984465A1"]
 			id: "42D0C73B271FB9CE"
-			rewards: [{
-				id: "0B0C139E92C7A5FC"
-				item: {
-					count: 1
-					id: "magic_coins:gold_coin"
+			rewards: [
+				{
+					id: "0B0C139E92C7A5FC"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "47EECA74CB876299"
+					item: {
+						count: 1
+						id: "oritech:machine_core_2"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3262660634973BC7"
 				item: { count: 1, id: "oritech:foundry_block" }
@@ -166,14 +186,24 @@
 		{
 			dependencies: ["7633CF10984465A1"]
 			id: "68FCC8F5EF7AC403"
-			rewards: [{
-				id: "2014930CD04C1503"
-				item: {
-					count: 1
-					id: "magic_coins:gold_coin"
+			rewards: [
+				{
+					id: "2014930CD04C1503"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "3E6BBFE57D7E39DF"
+					item: {
+						count: 1
+						id: "oritech:machine_core_2"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "18D712171B508753"
 				item: { count: 1, id: "oritech:centrifuge_block" }
@@ -215,14 +245,24 @@
 		{
 			dependencies: ["7633CF10984465A1"]
 			id: "6FA23383C757DF8E"
-			rewards: [{
-				id: "1AF415A96EB52A40"
-				item: {
-					count: 1
-					id: "magic_coins:gold_coin"
+			rewards: [
+				{
+					id: "1AF415A96EB52A40"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "2E910E61435E3C6A"
+					item: {
+						count: 1
+						id: "oritech:pulverizer_block"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4F2F565D12B419CD"
 				item: { count: 1, id: "oritech:pulverizer_block" }
@@ -324,6 +364,9 @@
 		}
 		{
 			dependencies: ["3C15FCBD0BED40CE"]
+			icon: {
+				id: "oritech:laser_arm_block"
+			}
 			id: "3CA0C7A1663B4F01"
 			rewards: [
 				{
@@ -398,14 +441,24 @@
 				"3342651C274DC080"
 			]
 			id: "0398DBBEDA46DC78"
-			rewards: [{
-				id: "3EDD1E6C79F90535"
-				item: {
-					count: 1
-					id: "magic_coins:gold_coin"
+			rewards: [
+				{
+					id: "3EDD1E6C79F90535"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "7DD6D54B8F1FFB79"
+					item: {
+						count: 1
+						id: "oritech:machine_core_2"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "6D661D7BC89AE508"
 				item: { count: 1, id: "oritech:atomic_forge_block" }
@@ -507,14 +560,25 @@
 		{
 			dependencies: ["1BBC91A22DFBC00D"]
 			id: "0DAE85314DB5BEA7"
-			rewards: [{
-				id: "367D9751D3B60E02"
-				item: {
-					count: 1
-					id: "magic_coins:crystal_coin"
+			rewards: [
+				{
+					id: "367D9751D3B60E02"
+					item: {
+						count: 1
+						id: "magic_coins:crystal_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 8
+					id: "1FA6A551C792C868"
+					item: {
+						count: 1
+						id: "oritech:fluxite"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "4AA33557368FA42E"
@@ -614,14 +678,24 @@
 		{
 			dependencies: ["1207CA9821152F82"]
 			id: "0286A841A27EE7FD"
-			rewards: [{
-				id: "201357AEDD1C405B"
-				item: {
-					count: 1
-					id: "magic_coins:gold_coin"
+			rewards: [
+				{
+					id: "201357AEDD1C405B"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "409538BFC52F3C0F"
+					item: {
+						count: 1
+						id: "oritech:machine_core_2"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "00B8910FFE7CB8F6"
 				item: { count: 1, id: "oritech:fragment_forge_block" }
@@ -634,14 +708,24 @@
 			icon_scale: 2.0d
 			id: "5E49408BCA5C0B6F"
 			optional: true
-			rewards: [{
-				id: "33265D0247732AB3"
-				item: {
-					count: 1
-					id: "magic_coins:gold_coin"
+			rewards: [
+				{
+					id: "33265D0247732AB3"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "70B81F0A6AFD30E5"
+					item: {
+						count: 1
+						id: "oritech:machine_extender"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "38A7FC3C0A493061"
 				item: { count: 1, id: "oritech:machine_extender" }
@@ -654,14 +738,24 @@
 			dependencies: ["5E49408BCA5C0B6F"]
 			id: "46C54E606AE1AF4C"
 			optional: true
-			rewards: [{
-				id: "078833F195724CCC"
-				item: {
-					count: 1
-					id: "magic_coins:gold_coin"
+			rewards: [
+				{
+					id: "078833F195724CCC"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "207116E2CE997FAA"
+					item: {
+						count: 1
+						id: "oritech:machine_speed_addon"
+					}
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "069FD810AF2C107C"
@@ -675,14 +769,24 @@
 			dependencies: ["5E49408BCA5C0B6F"]
 			id: "6C3F3BBDD2231D45"
 			optional: true
-			rewards: [{
-				id: "1CB2713F786A8B00"
-				item: {
-					count: 1
-					id: "magic_coins:gold_coin"
+			rewards: [
+				{
+					id: "1CB2713F786A8B00"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "3368C4BCDCCA3AA1"
+					item: {
+						count: 1
+						id: "oritech:machine_acceptor_addon"
+					}
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "562965E33FE8252A"
@@ -696,14 +800,24 @@
 			dependencies: ["5E49408BCA5C0B6F"]
 			id: "26DBD1A393E666C7"
 			optional: true
-			rewards: [{
-				id: "0EBBAE54A37F4A02"
-				item: {
-					count: 1
-					id: "magic_coins:gold_coin"
+			rewards: [
+				{
+					id: "0EBBAE54A37F4A02"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "0D7B983B05577F21"
+					item: {
+						count: 1
+						id: "oritech:machine_efficiency_addon"
+					}
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "325FBA0BE538AC59"
@@ -717,14 +831,24 @@
 			dependencies: ["5E49408BCA5C0B6F"]
 			id: "4EDAF8B9700D14F8"
 			optional: true
-			rewards: [{
-				id: "5D864A0B7AD961D7"
-				item: {
-					count: 1
-					id: "magic_coins:gold_coin"
+			rewards: [
+				{
+					id: "5D864A0B7AD961D7"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "3A811103DFD018FB"
+					item: {
+						count: 1
+						id: "oritech:machine_capacitor_addon"
+					}
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "01E294C9960C415E"
@@ -738,14 +862,24 @@
 			dependencies: ["5E49408BCA5C0B6F"]
 			id: "39A981633194432F"
 			optional: true
-			rewards: [{
-				id: "4265D010BDBFC907"
-				item: {
-					count: 1
-					id: "magic_coins:gold_coin"
+			rewards: [
+				{
+					id: "4265D010BDBFC907"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "0CC5A0E5A00C56A8"
+					item: {
+						count: 1
+						id: "oritech:machine_hunter_addon"
+					}
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "45FE0D8C88160AC7"
@@ -759,14 +893,24 @@
 			dependencies: ["5E49408BCA5C0B6F"]
 			id: "0815593265BA7635"
 			optional: true
-			rewards: [{
-				id: "406BC2B0561B9F0C"
-				item: {
-					count: 1
-					id: "magic_coins:gold_coin"
+			rewards: [
+				{
+					id: "406BC2B0561B9F0C"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "13B9695E087D7FCA"
+					item: {
+						count: 1
+						id: "oritech:machine_yield_addon"
+					}
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "35398956B82F5622"
@@ -799,14 +943,24 @@
 		{
 			dependencies: ["5E49408BCA5C0B6F"]
 			id: "7F0E31CD0398773D"
-			rewards: [{
-				id: "37857565C5EA0C3D"
-				item: {
-					count: 1
-					id: "magic_coins:gold_coin"
+			rewards: [
+				{
+					id: "37857565C5EA0C3D"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "5B1F5BB9DF76EC32"
+					item: {
+						count: 1
+						id: "oritech:machine_redstone_addon"
+					}
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "4777D3CB8AAB5238"
