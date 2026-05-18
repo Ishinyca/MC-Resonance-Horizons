@@ -15,3 +15,8 @@ RecipeViewerEvents.removeEntries('item', event => {
         event.remove(item)
     })
 })
+
+// Add Daily Shop
+RecipeViewerEvents.addEntries('item', event => {
+    event.add('dailyshop:daily_shop')
+})
