@@ -6,11 +6,11 @@
 	#Tick interval for snow pillers in ticks. Default is 20 (1 second).
 	# Default: 20
 	# Range: > 1
-	tickSnowPiller = 80
+	tickSnowPiller = 600
 	#Tick interval for snow replacer in ticks. Default is 20 (1 second).
 	# Default: 100
 	# Range: > 1
-	tickSnowReplacer = 120
+	tickSnowReplacer = 1200
 
 [snowstorm]
 	#Enable snowstorm mode which increases snow pilling intensity.
@@ -24,7 +24,7 @@
 	#Maximum total snow layers allowed per column (8 layers = 1 block). Default 24 = 3 blocks.
 	# Default: 24
 	# Range: 0 ~ 512
-	maxSnowAccumulationLayers = 12
+	maxSnowAccumulationLayers = 3
 
 [seasonSync]
 	#Lock seasons to current Canadian calendar months (Eastern time).
