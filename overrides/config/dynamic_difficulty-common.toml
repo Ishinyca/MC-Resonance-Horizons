@@ -111,8 +111,16 @@
 		"ars_nouveau:wixie",
 		"ars_nouveau:familiar_wixie",
 
-		# Dragons Mount Remastered
+		# Dragons Mount Remastered. Should be done in their own config for scaling
 		"dmr:dragon",
+
+		# Armour stands for some reason getting a level when it shouldnt
+		"minecraft:armor_stand",
+
+		# Bosses should be in their own configs for scaling
+		"cataclysm:*",
+		"bosses_of_mass_destruction:*",
+		"block_factorys_bosses:*",
 	]
 	#If not empty, only these entities can level up
 	#Supports wildcards: use 'modid:*' to whitelist all entities from a mod
@@ -126,7 +134,7 @@
 	#operation: add_value (flat addition), add_multiplied_base (percentage of base), or add_multiplied_total (percentage of final value)
 	#Leave empty to disable all attribute bonuses
 	level_bonus_per_attribute = [
-		["minecraft:generic.attack_damage", 1.5,"add_value"],
+		["minecraft:generic.attack_damage", 0.85,"add_value"],
 		["minecraft:generic.armor", 0.35, "add_value"],
 		["minecraft:generic.max_health", 0.03, "add_multiplied_base"],
 		["dynamic_difficulty:projectile_damage_bonus", 0.55, "add_value"],
