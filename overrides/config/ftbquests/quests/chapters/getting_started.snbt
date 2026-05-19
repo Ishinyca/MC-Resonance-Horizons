@@ -30,7 +30,7 @@
 				type: "checkmark"
 			}]
 			x: -1.5d
-			y: 0.75d
+			y: 1.0499999999999998d
 		}
 		{
 			id: "51CDCAE4736893A1"
@@ -39,7 +39,7 @@
 				type: "checkmark"
 			}]
 			x: 0.5d
-			y: 0.7d
+			y: 1.0d
 		}
 		{
 			dependencies: ["51CDCAE4736893A1"]
@@ -50,7 +50,7 @@
 				type: "dimension"
 			}]
 			x: 2.5d
-			y: -0.8d
+			y: 0.0d
 		}
 		{
 			dependencies: ["51CDCAE4736893A1"]
@@ -61,7 +61,7 @@
 				type: "dimension"
 			}]
 			x: 2.5d
-			y: 0.2d
+			y: 1.0d
 		}
 		{
 			dependencies: ["51CDCAE4736893A1"]
@@ -72,18 +72,7 @@
 				type: "dimension"
 			}]
 			x: 2.5d
-			y: 1.2000000000000002d
-		}
-		{
-			dependencies: ["51CDCAE4736893A1"]
-			id: "52F497636A55E399"
-			tasks: [{
-				dimension: "the_bumblezone:the_bumblezone"
-				id: "682AE1F72FACE835"
-				type: "dimension"
-			}]
-			x: 2.5d
-			y: 2.2d
+			y: 2.0d
 		}
 	]
 }
