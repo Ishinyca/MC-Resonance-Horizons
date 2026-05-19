@@ -6,5 +6,180 @@
 	id: "51A8F6D0383FA895"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "541ACD5EBDD42544"
+			rewards: [
+				{
+					count: 10
+					id: "7E29438E01BA6E3A"
+					item: {
+						count: 1
+						id: "magic_coins:crystal_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "5AD077A1B98B4809"
+					item: {
+						components: {
+							"mekanism:energy": {
+								energy_containers: [L;256000000L]
+							}
+						}
+						count: 1
+						id: "mekanism:ultimate_energy_cube"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "3B7BBAA06D450BA5"
+				max_input: 1069L
+				type: "forge_energy"
+				value: 100000000L
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			id: "7C1B4BEE599106C8"
+			rewards: [
+				{
+					count: 10
+					id: "5C57CDCCA0EBB240"
+					item: {
+						count: 1
+						id: "magic_coins:crystal_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6F2D02EE547791B7"
+					item: {
+						count: 1
+						id: "projecte:rm_katar"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				DynamicDifficulty: {
+					check: 0b
+					comparison: "EQUALS"
+					level_first: 1
+					level_second: 2
+				}
+				any_entity: true
+				entity: "minecraft:zombie"
+				id: "1FCE1766BFC40309"
+				mode: "TOTAL"
+				type: "damage"
+				value: 100000000L
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			id: "31FEFE62F8190D10"
+			rewards: [{
+				count: 10
+				id: "190ADB85A1006B96"
+				item: {
+					count: 1
+					id: "magic_coins:crystal_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "76DEBBC0824008FE"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 10000000
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			id: "259EEA571D5DFD08"
+			rewards: [{
+				count: 10
+				id: "09DE9F4971041856"
+				item: {
+					count: 1
+					id: "magic_coins:crystal_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				icon: {
+					id: "forbidden_arcanus:obsidian_skull"
+				}
+				id: "2B8BF7511DABE55B"
+				stat: "minecraft:time_since_death"
+				type: "stat"
+				value: 12102000
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			id: "79D7783D5D64A6E3"
+			rewards: [{
+				count: 5
+				id: "4303E8581FDC6D58"
+				item: {
+					count: 1
+					id: "magic_coins:crystal_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5CD3CFFDA45B8CE7"
+				stat: "minecraft:play_time"
+				type: "stat"
+				value: 12102000
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			id: "617C9D74082D833B"
+			rewards: [{
+				count: 100
+				id: "5B0F223D6D7E1E08"
+				item: {
+					count: 1
+					id: "magic_coins:crystal_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				comparison_mode: "GREATER_OR_EQUAL"
+				id: "3FE6C05DCA572B96"
+				mode: "PAY"
+				required_amount: 1000000.0d
+				type: "pay"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			disable_toast: true
+			id: "264A7101D7E4A02B"
+			tasks: [{
+				id: "6CECC06867485DB5"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+	]
 }
