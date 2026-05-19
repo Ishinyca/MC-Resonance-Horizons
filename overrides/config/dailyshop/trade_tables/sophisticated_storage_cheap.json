@@ -10,46 +10,45 @@
       "count": 2
     }
   },
+  "input2": {
+    "filter": "magic_coins:silver_coin",
+    "count": {
+      "type": "constant",
+      "count": 2
+    }
+  },
   "output": [
     {
-      "item": "wheat_seeds",
+      "item": "sophisticatedstorage:upgrade_base",
       "count": {
         "type": "constant",
         "count": 1
       },
-      "weight": 1.0
+      "weight": 1
     },
     {
-      "item": "pumpkin_seeds",
+      "item": "sophisticatedbackpacks:upgrade_base",
       "count": {
         "type": "constant",
         "count": 1
       },
-      "weight": 1.0
+      "weight": 1
     },
     {
-      "item": "melon_seeds",
+      "item": "sophisticatedstorage:chest",
       "count": {
         "type": "constant",
         "count": 1
       },
-      "weight": 1.0
+      "weight": 1
     },
     {
-      "item": "torchflower_seeds",
+      "item": "sophisticatedbackpacks:backpack",
       "count": {
         "type": "constant",
         "count": 1
       },
-      "weight": 1.0
-    },
-    {
-      "item": "beetroot_seeds",
-      "count": {
-        "type": "constant",
-        "count": 1
-      },
-      "weight": 1.0
+      "weight": 1
     }
   ]
 }

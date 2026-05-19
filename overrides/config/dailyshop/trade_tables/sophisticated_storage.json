@@ -7,7 +7,7 @@
     "filter": "magic_coins:gold_coin",
     "count": {
       "type": "constant",
-      "count": 2
+      "count": 5
     }
   },
  "input2": {
