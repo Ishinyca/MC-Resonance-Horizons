@@ -43,6 +43,12 @@
 	quest.04E3599A10D8D30B.quest_subtitle: "More channels!"
 	quest.0792B98729B3AC1B.quest_desc: ["Should there be more useful tips in this section? Provide suggestions on the Discord server!"]
 	quest.08358C86AE890F9D.title: "&6&lBounty:&r Kill 25x Skeletons"
+	quest.09A04F0B95B69A6A.quest_desc: [
+		"Another upgrade."
+		""
+		"&lTier 3&r: 32 slots, 65535 items per slot"
+	]
+	quest.09A04F0B95B69A6A.quest_subtitle: "Biggest"
 	quest.0A55DFFB90B6E3B6.quest_desc: ["Guess you observed an amethyst and collected one. Now check the info quest to see how to automate them."]
 	quest.0A55DFFB90B6E3B6.title: "Amethyst"
 	quest.0A74CBB5097177C7.title: "Aether Portal"
@@ -56,6 +62,12 @@
 	quest.0D0736A86261B836.title: "Contraptions"
 	quest.0D95EEE56AB91A43.quest_desc: ["&lOops. Looks like you died somehow.&r"]
 	quest.0D95EEE56AB91A43.title: "Died to Skill Issue"
+	quest.0E27EFC568902A57.quest_desc: [
+		"&6Beeeeeeeeeeees.&r"
+		""
+		"This modpack does have &lProductive Bees&r. So, if you want some infinite resources, go do Bees stuff!"
+	]
+	quest.0E27EFC568902A57.quest_subtitle: "BEES?!"
 	quest.105610DAF5F4583F.title: "&6&lBounty:&r Kill 25x Zombies"
 	quest.1070FE1B2649ED66.title: "Welcome To Oritech!"
 	quest.114C5137D98ED36D.quest_desc: [
@@ -66,6 +78,12 @@
 		"&9Active&r: Place combustables in the machine and will burn the fuel to create power."
 	]
 	quest.114C5137D98ED36D.quest_subtitle: "At least this is still usable somewhat"
+	quest.133FAEAEA2AB0EDB.quest_desc: [
+		"Do you seriously have trouble staying alive?"
+		""
+		"Take a potion for your efforts for dying 5 times so far!"
+	]
+	quest.133FAEAEA2AB0EDB.quest_subtitle: "More skill issues"
 	quest.144557C43C28921F.quest_desc: ["Change the iron furnace type to food smelting stuff"]
 	quest.144557C43C28921F.quest_subtitle: "Cook I say?"
 	quest.14549189E9943627.quest_desc: ["Chapter 6 is hidden unless you click the checkmark."]
@@ -115,6 +133,8 @@
 		""
 		"You can feed the same bee all 24 times."
 	]
+	quest.235D3E99C995AB27.quest_desc: ["Seriously, skill issue? I think you need something better"]
+	quest.235D3E99C995AB27.quest_subtitle: "Bigger Skill Issues"
 	quest.23E53C7D1FCCDD9E.title: "Snow Queen"
 	quest.2405988B9871DF64.quest_desc: ["Change the iron furnace to blasting stuff"]
 	quest.2405988B9871DF64.quest_subtitle: "Blast them away"
@@ -158,6 +178,12 @@
 	quest.2A19A8B453EE3AA3.title: "Defeat the Ender Dragon Pt2?"
 	quest.2A1B0386B7987DD3.quest_desc: ["Vast and dreamlike, the Aviary stretches high into wtilight sky, its halls divided into four whimsical quadrants. Each one unfolds as a surreal scene—bright, strange, and perilous in its own way. To wander here feels like stepping beyond reality itself. Is this the journey’s end… or just another beginning?"]
 	quest.2A1B0386B7987DD3.quest_subtitle: "Find an Aviary"
+	quest.2A21D04BAEB4D694.quest_desc: [
+		"Simple tiered pocket mass storage. Very useful if you want to hold a lot of cobblestone or whatever junk in your inventory."
+		""
+		"&lTier 1&r: 8 slots, 255 items per slot."
+	]
+	quest.2A21D04BAEB4D694.quest_subtitle: "Hold a lot of stuff in one slot"
 	quest.2A41C5B7BC1E20BE.quest_desc: [
 		"&bSophisticated Storage&r is slightly different in this pack in terms of obtaining it. You will need to go through &n&8Create&r&r assembly line to obtain the upgrade installer."
 		""
@@ -225,6 +251,12 @@
 	quest.3F016FA9CAF0B951.title: "It's your gravestone!"
 	quest.4118927D9D079DC8.quest_desc: ["Rising like jagged thorns from the ground, these massive towers are defended by skeletons entwined with deadly roses. Each level is heavily fortified, and flying rose guards patrol the skies above. Only those who ascend to the top will claim the treasures and secrets hidden within."]
 	quest.4118927D9D079DC8.quest_subtitle: "Visit the Thornborn Towers"
+	quest.411DFABEEFB1900C.quest_desc: [
+		"An upgrade from the Tier 1."
+		""
+		"&lTier 2&r: 16 slots, 4095 items per slot."
+	]
+	quest.411DFABEEFB1900C.quest_subtitle: "Bigger"
 	quest.436231715C11E3BA.quest_desc: ["Scattered across the wilds, small bands of Illagers set up camp beneath their distinctive purple tents. Though their supplies are meager and their loot scarce, their presence is a warning, the Illagers’ reach grows wider with every outpost."]
 	quest.436231715C11E3BA.quest_subtitle: "Find an Illager Campsite"
 	quest.44D115281B0BFB75.quest_desc: ["Whispers speak of a &9flying vessel&r that hovers above the world, shimmering with strange energy. Few dare approach, for those who return tell of eerie lights, warped corridors, and guardians not of this realm. Seek it out, if you dare—and uncover the secrets hidden within its metallic shell."]
@@ -359,8 +391,10 @@
 	task.09C028168F69C1E5.title: "Back to the Overworld"
 	task.0A95212173A95D79.title: "See Boss Chapter"
 	task.0B0F1CEA0B7B236E.title: "Farming Amethyst"
+	task.0BB83801884ABA1E.title: "Seriously, stay alive"
 	task.10B8E5E5AF97CD96.title: "Find The Underworld Knight"
 	task.123F1971244C94DF.title: "Just Dire Things"
+	task.14683BF3325CCCBD.title: "Death Wish"
 	task.15C136A804F4AEF2.title: "Naturally Spawning Amethyst Clusters"
 	task.167177018A9BC9C3.title: "Any #the_bumblezone:armors/chestplates"
 	task.18A88F07777EC3B9.title: "The Deeper Down"
@@ -411,6 +445,7 @@
 	task.55573B0B6840B2AF.title: "Beat the Silver Dungeon"
 	task.571B3E97B8FB208F.title: "Create an Assembly Line"
 	task.588A93AADC757810.title: "The Easy Storage Solution"
+	task.58AF98400143E863.title: "Amethyst Crabs?!"
 	task.59C78E5C9CF9B249.title: "Bosses'Rising"
 	task.5BB174AD407E0E7C.title: "&6&lBounty:&r Kill 25x Creepers"
 	task.5C3E7D34292557AA.title: "Visit the End"
