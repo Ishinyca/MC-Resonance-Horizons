@@ -61,6 +61,9 @@ const commonRecipeIdsToRemove = [
 	// Duplicates
 	///eternal_starlight:(.+?)_from_deepsilver_ingot/,
 	/eternal_starlight:.*_from_deepsilver_ingot/,
+	'aether:skyroot_grindstone_holystone_slab',
+	'aether:skyroot_grindstone',
+	'aether:skyroot_smithing_table',
 ];
 
 const commonRecipeOutputToRemove = [
