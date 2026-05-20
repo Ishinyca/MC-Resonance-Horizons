@@ -48,7 +48,15 @@
 			image: "minecraft:block/chiseled_copper"
 			rotation: 0.0d
 			width: 1.5d
-			x: 0.0d
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/amethyst_block"
+			rotation: 0.0d
+			width: 1.5d
+			x: 0.5d
 			y: -2.5d
 		}
 	]
@@ -57,6 +65,8 @@
 		{
 			id: "2ACFE69BCE2B6505"
 			linked_quest: "67F05CEB4CF3571F"
+			shape: "gear"
+			size: 1.5d
 			x: 4.0d
 			y: -7.5d
 		}
@@ -115,7 +125,7 @@
 				structure: "minecraft:trial_chambers"
 				type: "structure"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: -2.5d
 		}
 		{
@@ -152,8 +162,8 @@
 				to_observe: "epitaphs:grave"
 				type: "observation"
 			}]
-			x: -2.0d
-			y: -5.0d
+			x: -1.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["24FF7BCAC7C31E44"]
@@ -275,7 +285,7 @@
 				value: 1
 			}]
 			x: 0.0d
-			y: -5.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["24FF7BCAC7C31E44"]
@@ -1001,6 +1011,209 @@
 			}]
 			x: 5.5d
 			y: -10.5d
+		}
+		{
+			dependencies: ["24FF7BCAC7C31E44"]
+			hide_dependency_lines: true
+			icon: {
+				id: "cataclysm:blessed_amethyst_crab_meat"
+			}
+			icon_scale: 2.0d
+			id: "2448C151807F4947"
+			rewards: [{
+				id: "0C7DB475C8E8FFA9"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "58AF98400143E863"
+				structure: "cataclysm:amethyst_nest"
+				type: "structure"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3F016FA9CAF0B951"]
+			id: "133FAEAEA2AB0EDB"
+			rewards: [
+				{
+					id: "60314ABF1864C07D"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "2BA2F212FF080467"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:strong_healing"
+							}
+						}
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					components: {
+						"ftbquests:icon": "tempad:textures/gui/sprites/marker/death.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "0BB83801884ABA1E"
+				stat: "minecraft:deaths"
+				type: "stat"
+				value: 5
+			}]
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["133FAEAEA2AB0EDB"]
+			id: "235D3E99C995AB27"
+			rewards: [
+				{
+					id: "69261E00859AAE55"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2344AA32161C6C4F"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:strong_regeneration"
+							}
+						}
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					components: {
+						"ftbquests:icon": "enderio:item/death_pouch"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "14683BF3325CCCBD"
+				stat: "minecraft:deaths"
+				type: "stat"
+				value: 10
+			}]
+			x: -1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["24FF7BCAC7C31E44"]
+			id: "2A21D04BAEB4D694"
+			rewards: [{
+				id: "04281FD46D32690D"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "57C98F8399231A5C"
+				item: { count: 1, id: "pocketstorage:psu_1" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2A21D04BAEB4D694"]
+			id: "411DFABEEFB1900C"
+			rewards: [{
+				id: "4C27520D79B0C1E0"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2D14C79F1FC9EA29"
+				item: { count: 1, id: "pocketstorage:psu_2" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["411DFABEEFB1900C"]
+			id: "09A04F0B95B69A6A"
+			rewards: [{
+				id: "041FE17E1914A8CA"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "74311112A051B921"
+				item: { count: 1, id: "pocketstorage:psu_3" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["24FF7BCAC7C31E44"]
+			icon_scale: 1.5d
+			id: "0E27EFC568902A57"
+			rewards: [
+				{
+					id: "42AD5C9F4252D65E"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "4AD7AF821C3A5581"
+					item: {
+						count: 1
+						id: "minecraft:honey_bottle"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				icon: {
+					id: "minecraft:bee_nest"
+				}
+				id: "0E63FF12868AA09E"
+				item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:bee_nest)item(minecraft:beehive))", "minecraft:custom_name": "\"Bee Nest / Beehive\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.35d
+			y: -2.8d
 		}
 	]
 }
