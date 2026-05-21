@@ -12,7 +12,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "MC Resonance Horizons",
-  "version": "B2.0",
+  "version": "B2.0.1",
   "author": "",
   "files": [
     {
@@ -319,12 +319,6 @@
       "projectID": 241160,
       "fileID": 5623547,
       "required": true,
-      "isLocked": false
-    },
-    {
-      "projectID": 1390924,
-      "fileID": 8032772,
-      "required": false,
       "isLocked": false
     },
     {
@@ -2185,12 +2179,6 @@
       "projectID": 1005914,
       "fileID": 7568897,
       "required": true,
-      "isLocked": false
-    },
-    {
-      "projectID": 1517654,
-      "fileID": 8066643,
-      "required": false,
       "isLocked": false
     },
     {
