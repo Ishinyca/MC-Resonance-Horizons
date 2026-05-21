@@ -725,13 +725,13 @@
     "curseForgeHash": 83917681,
     "modrinthHash": "ec63110d126cf95dabe220116bd394e701265de7"
   },
-  "colorwheel-neoforge-1.2.6+mc1.21.1.jar": {
-    "jarName": "colorwheel-neoforge-1.2.6+mc1.21.1.jar",
+  "colorwheel-neoforge-1.2.7+mc1.21.1.jar": {
+    "jarName": "colorwheel-neoforge-1.2.7+mc1.21.1.jar",
     "modId": "colorwheel",
     "name": "Colorwheel",
-    "version": "1.2.6+mc1.21.1",
-    "curseForgeHash": 2561868415,
-    "modrinthHash": "d482d4b6bffe9809b7ca8774fa390cb7b28af3cd"
+    "version": "1.2.7+mc1.21.1",
+    "curseForgeHash": 4283126253,
+    "modrinthHash": "890fccd7b569b4637feec89ac77a80b3170e16c8"
   },
   "colorwheel_patcher-neoforge-1.0.5+mc1.21.1.jar": {
     "jarName": "colorwheel_patcher-neoforge-1.0.5+mc1.21.1.jar",
@@ -885,13 +885,13 @@
     "curseForgeHash": 776288483,
     "modrinthHash": "2bd194da923dd38239ef49df30ecf1a720d38997"
   },
-  "createdieselgenerators-1.21.1-1.3.11.jar": {
-    "jarName": "createdieselgenerators-1.21.1-1.3.11.jar",
+  "createdieselgenerators-1.21.1-1.3.12.jar": {
+    "jarName": "createdieselgenerators-1.21.1-1.3.12.jar",
     "modId": "createdieselgenerators",
     "name": "Create Diesel Generators",
-    "version": "1.21.1-1.3.11",
-    "curseForgeHash": 3868004730,
-    "modrinthHash": "4251563ec3c21048cf0f097dd0c6d21f2475507b"
+    "version": "1.21.1-1.3.12",
+    "curseForgeHash": 306645335,
+    "modrinthHash": "e68fda4cae98450b3a1eba82f577155b9954ab62"
   },
   "CreateDragonsPlus-1.10.1.jar": {
     "jarName": "CreateDragonsPlus-1.10.1.jar",
@@ -1802,6 +1802,14 @@
     "curseForgeHash": 1007033281,
     "modrinthHash": "1c3ebb5409e11be575dc018ac9799bdf6ac54535"
   },
+  "kubejsarsnouveau-1.3.2.jar": {
+    "jarName": "kubejsarsnouveau-1.3.2.jar",
+    "modId": "kubejsarsnouveau",
+    "name": "kubejsarsnouveau",
+    "version": "1.3.2",
+    "curseForgeHash": 2704605223,
+    "modrinthHash": "f39f4f409e628731be551fd961fac2964768d358"
+  },
   "kubejsde-1.21.1-1.1.0.jar": {
     "jarName": "kubejsde-1.21.1-1.1.0.jar",
     "modId": "kubejsde",
@@ -2170,13 +2178,13 @@
     "curseForgeHash": 2577448317,
     "modrinthHash": "fb3c54a8d5b5f0b16fb151b8b1005f2740a434a9"
   },
-  "moonlight-neoforge-1.21.1-3.0.9.jar": {
-    "jarName": "moonlight-neoforge-1.21.1-3.0.9.jar",
+  "moonlight-neoforge-1.21.1-3.0.10.jar": {
+    "jarName": "moonlight-neoforge-1.21.1-3.0.10.jar",
     "modId": "moonlight",
     "name": "Moonlight Lib",
-    "version": "1.21.1-3.0.9",
-    "curseForgeHash": 3607646210,
-    "modrinthHash": "a2f27a3a18e548b32d7ec7bbd722bd443e43481f"
+    "version": "1.21.1-3.0.10",
+    "curseForgeHash": 573414067,
+    "modrinthHash": "4f714ab05830405824d241c6ec7f02cf7b5d2fef"
   },
   "more_quest_types-neoforge-1.2.6.jar": {
     "jarName": "more_quest_types-neoforge-1.2.6.jar",
@@ -2337,14 +2345,6 @@
     "version": "0.12.15.5-beta.1+1.21",
     "curseForgeHash": 990455198,
     "modrinthHash": "48dda11a6710591cf162bdbedf982ea21dd1f2ed"
-  },
-  "packetfixer-3.3.1-1.20.5-1.21.X-merged.jar": {
-    "jarName": "packetfixer-3.3.1-1.20.5-1.21.X-merged.jar",
-    "modId": "packetfixer",
-    "name": "PacketFixer",
-    "version": "3.3.1",
-    "curseForgeHash": 3606950632,
-    "modrinthHash": "a8bb6e25807682e72c23bf4065f3cd5f6373ece3"
   },
   "pamhc2crops-NEOFORGE-1.21.1-1.0.9.jar": {
     "jarName": "pamhc2crops-NEOFORGE-1.21.1-1.0.9.jar",
@@ -2698,13 +2698,13 @@
     "curseForgeHash": 341671071,
     "modrinthHash": "8b9034d4c43f880b1f1ebdd3943219de0b0bc4c5"
   },
-  "servercore-neoforge-1.5.10+1.21.1.jar": {
-    "jarName": "servercore-neoforge-1.5.10+1.21.1.jar",
+  "servercore-neoforge-1.5.17+1.21.1.jar": {
+    "jarName": "servercore-neoforge-1.5.17+1.21.1.jar",
     "modId": "servercore",
     "name": "ServerCore",
-    "version": "1.5.10+1.21.1",
-    "curseForgeHash": 4288444823,
-    "modrinthHash": "4524cd40cfa5019d8b5fbcb628b1616031838a0c"
+    "version": "1.5.17+1.21.1",
+    "curseForgeHash": 373790998,
+    "modrinthHash": "6d3b89ceeecae56baa37427e858fb1cb4718b9b0"
   },
   "sg_economy-1.0.4.jar": {
     "jarName": "sg_economy-1.0.4.jar",
@@ -2810,13 +2810,13 @@
     "curseForgeHash": 3799943056,
     "modrinthHash": "32e9bbe18ae1f2f7f672ce08af51ec1928599182"
   },
-  "sophisticatedbackpacks-1.21.1-3.25.45.1742.jar": {
-    "jarName": "sophisticatedbackpacks-1.21.1-3.25.45.1742.jar",
+  "sophisticatedbackpacks-1.21.1-3.25.46.1746.jar": {
+    "jarName": "sophisticatedbackpacks-1.21.1-3.25.46.1746.jar",
     "modId": "sophisticatedbackpacks",
     "name": "Sophisticated Backpacks",
-    "version": "3.25.45",
-    "curseForgeHash": 2726846575,
-    "modrinthHash": "5aae4550409eaddef7ab08200cb5bb0c6748de10"
+    "version": "3.25.46",
+    "curseForgeHash": 1380327138,
+    "modrinthHash": "a56ddd1d048f1ce71a13a1e3627aae350a5b03b3"
   },
   "sophisticatedbackpackscreateintegration-1.21.1-0.1.5.29.jar": {
     "jarName": "sophisticatedbackpackscreateintegration-1.21.1-0.1.5.29.jar",
@@ -2826,21 +2826,21 @@
     "curseForgeHash": 2555194351,
     "modrinthHash": "51851c61e8be5b799b5ad8aa109b3416509605b7"
   },
-  "sophisticatedcore-1.21.1-1.4.39.1852.jar": {
-    "jarName": "sophisticatedcore-1.21.1-1.4.39.1852.jar",
+  "sophisticatedcore-1.21.1-1.4.40.1855.jar": {
+    "jarName": "sophisticatedcore-1.21.1-1.4.40.1855.jar",
     "modId": "sophisticatedcore",
     "name": "Sophisticated Core",
-    "version": "1.4.39",
-    "curseForgeHash": 4062048323,
-    "modrinthHash": "6365d4d66c86c2a8f02c04513d6fd127e47801ff"
+    "version": "1.4.40",
+    "curseForgeHash": 1581975146,
+    "modrinthHash": "93261164f4cdaed72690d810d156ad51c7cd7e8c"
   },
-  "sophisticatedstorage-1.21.1-1.5.47.1724.jar": {
-    "jarName": "sophisticatedstorage-1.21.1-1.5.47.1724.jar",
+  "sophisticatedstorage-1.21.1-1.5.48.1728.jar": {
+    "jarName": "sophisticatedstorage-1.21.1-1.5.48.1728.jar",
     "modId": "sophisticatedstorage",
     "name": "Sophisticated Storage",
-    "version": "1.5.47",
-    "curseForgeHash": 747520839,
-    "modrinthHash": "95705e7391880b84831abe3ef8c68dbfd75a7739"
+    "version": "1.5.48",
+    "curseForgeHash": 75412784,
+    "modrinthHash": "d5a9e634188f675abfb1146f918aba086447eb8a"
   },
   "sophisticatedstoragecreateintegration-1.21.1-0.1.17.132.jar": {
     "jarName": "sophisticatedstoragecreateintegration-1.21.1-0.1.17.132.jar",
@@ -3081,13 +3081,13 @@
     "curseForgeHash": 535795202,
     "modrinthHash": "e7498e89bd7347c6d0f4411f55bd312490dfe814"
   },
-  "VanillaBackport-neoforge-1.21.1-1.1.7.4.jar": {
-    "jarName": "VanillaBackport-neoforge-1.21.1-1.1.7.4.jar",
+  "VanillaBackport-neoforge-1.21.1-1.1.7.6.jar": {
+    "jarName": "VanillaBackport-neoforge-1.21.1-1.1.7.6.jar",
     "modId": "vanillabackport",
     "name": "VanillaBackport",
-    "version": "1.1.7.4",
-    "curseForgeHash": 2485288639,
-    "modrinthHash": "ddf5d98cc31d1c3b9da67caab254f8f2b77fbc60"
+    "version": "1.1.7.6",
+    "curseForgeHash": 844627080,
+    "modrinthHash": "775f5d49c7e3bad27f381b70f9894f0e0b112330"
   },
   "voicechat-neoforge-1.21.1-2.6.17.jar": {
     "jarName": "voicechat-neoforge-1.21.1-2.6.17.jar",
