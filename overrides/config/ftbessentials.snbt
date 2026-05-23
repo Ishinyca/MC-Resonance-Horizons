@@ -172,7 +172,7 @@
 			# You can override this with FTB Ranks using ftbessentials.back.cooldown
 			# Default: 30
 			# Range: 0 ~ 604800
-			cooldown: 60
+			cooldown: 45
 			
 			# Default: true
 			enabled: true
@@ -191,7 +191,7 @@
 			# You can override this with FTB Ranks using ftbessentials.back.warmup
 			# Default: 0
 			# Range: 0 ~ 604800
-			warmup: 5
+			warmup: 3
 		}
 		
 		# Blacklists for all teleport commands
@@ -212,7 +212,7 @@
 			# You can override this with FTB Ranks using ftbessentials.home.cooldown
 			# Default: 10
 			# Range: 0 ~ 604800
-			cooldown: 30
+			cooldown: 60
 			
 			# Default: true
 			enabled: true
