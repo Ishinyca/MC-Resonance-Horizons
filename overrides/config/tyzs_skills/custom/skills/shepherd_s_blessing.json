@@ -1,0 +1,51 @@
+{
+  "active": true,
+  "id": "shepherd_s_blessing",
+  "maximumLevel": 15,
+  "prices": [
+    2,
+    2,
+    3,
+    3,
+    4,
+    4,
+    5,
+    5,
+    6,
+    6,
+    7,
+    7,
+    8,
+    8,
+    9
+  ],
+  "type": "IMMUTABLE",
+  "category": "nature",
+  "icon": "tyzs_skills:textures/gui/skills/shepherd_s_blessing.png",
+  "displayName": "skill.tyzs_skills.shepherd_s_blessing.displayName",
+  "description": "skill.tyzs_skills.shepherd_s_blessing.description",
+  "modifiers": [],
+  "customValues": {
+    "growth_speed": {
+      "values": [
+        20.0,
+        40.0,
+        60.0,
+        80.0,
+        100.0,
+        120.0,
+        140.0,
+        160.0,
+        180.0,
+        200.0,
+        220.0,
+        240.0,
+        260.0,
+        280.0,
+        300.0
+      ],
+      "unit": "skill.tyzs_skills.unit.percentage"
+    }
+  },
+  "config": {}
+}
