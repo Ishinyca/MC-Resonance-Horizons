@@ -2,6 +2,7 @@
 	chapter.001A01E1F21ECEF6.title: "Draconic Evolution"
 	chapter.0D4F7124C9E25099.title: "Welcome"
 	chapter.0EE254FA73AF87A1.title: "Apotheosis"
+	chapter.119FF81A2775B16F.title: "Apothic Enchanting"
 	chapter.12F8F725A155C206.title: "Chapter 6: It's Time To End This"
 	chapter.146A9F56E47B33EE.title: "Mekanism"
 	chapter.231570DE6A7FCD52.title: "When Dungeons Arise"
@@ -9,6 +10,7 @@
 	chapter.29B6D19079E519CC.title: "Iron's Spells 'n Spellbooks"
 	chapter.2B4C63DE293D5BA8.title: "Dragons Mount Remastered"
 	chapter.3013F0DF90A7C5A4.title: "Helpful Tips"
+	chapter.371D6A80DB6DAF11.title: "Stellaris"
 	chapter.37C8384647C2943F.title: "Chapter 4: To The Skies!"
 	chapter.39DBA9F473D4BD49.title: "The Bumblezone"
 	chapter.3CD86C62FC6997B0.title: "Just Dire Things"
@@ -19,7 +21,6 @@
 	chapter.4EEDECACDE8F5A67.title: "Oritech"
 	chapter.51A8F6D0383FA895.title: "Challenges"
 	chapter.52805200DB691919.title: "Chapter 1: A New Beginning"
-	chapter.56514C3103856C6A.title: "Getting Started"
 	chapter.636897E6C19C8E62.title: "Theurgy"
 	chapter.646C49F0E98F631C.title: "Chapter 3: Nether"
 	chapter.664F9EC033517D41.title: "Chapter 5: Going Deeper"
@@ -34,6 +35,8 @@
 	chapter_group.69C66C6408A97599.title: "Adventure"
 	chapter_group.6FCD6CD6E3B683F5.title: "Achievements"
 	file.0000000000000001.title: "&f&lMC Resonance Horizons!&r"
+	quest.01D8FDF4AC637C7B.quest_subtitle: "EVEN BETTER ARMOR?!"
+	quest.01D8FDF4AC637C7B.title: "&cBasic Survival Part IV"
 	quest.02CB075775B6AD52.title: "Minishroom"
 	quest.0331AC0315EBB66D.quest_desc: ["Nestled among the trees, this lively tavern is usually a haven for villagers looking to unwind. Yet when the ale flows too freely, even the most peaceful patrons turn aggressive, defending their pub with surprising ferocity. Enter carefully or risk being caught in a drunken brawl."]
 	quest.0331AC0315EBB66D.quest_subtitle: "Find a Greenwood Pub"
@@ -41,6 +44,7 @@
 	quest.041A1C64A8468087.quest_desc: ["Suspended high in the sky, this arrowhead-shaped airship drifts on a massive aft propeller. Boarding is perilous, but those who succeed will witness its strange and fearsome inhabitants riding boar-like beasts, their eyeless faces obscured by ominous cages. Danger and mystery ride with them across the clouds."]
 	quest.041A1C64A8468087.quest_subtitle: "Find a Heavenly Rider"
 	quest.04E3599A10D8D30B.quest_subtitle: "More channels!"
+	quest.0707DB7E6D8634B3.title: "Purely Vanilla"
 	quest.0792B98729B3AC1B.quest_desc: ["Should there be more useful tips in this section? Provide suggestions on the Discord server!"]
 	quest.08358C86AE890F9D.title: "&6&lBounty:&r Kill 25x Skeletons"
 	quest.09A04F0B95B69A6A.quest_desc: [
@@ -68,6 +72,9 @@
 		"This modpack does have &lProductive Bees&r. So, if you want some infinite resources, go do Bees stuff!"
 	]
 	quest.0E27EFC568902A57.quest_subtitle: "BEES?!"
+	quest.0F528DF3E49E8E2C.quest_desc: ["The best translator for your clues."]
+	quest.0FF8FC3C52D883C5.quest_subtitle: "EVEN BETTER WEAPON?!"
+	quest.0FF8FC3C52D883C5.title: "&cStronger Weapon"
 	quest.105610DAF5F4583F.title: "&6&lBounty:&r Kill 25x Zombies"
 	quest.1070FE1B2649ED66.title: "Welcome To Oritech!"
 	quest.114C5137D98ED36D.quest_desc: [
@@ -84,6 +91,12 @@
 		"Take a potion for your efforts for dying 5 times so far!"
 	]
 	quest.133FAEAEA2AB0EDB.quest_subtitle: "More skill issues"
+	quest.136E4EFBFC40854A.quest_desc: [
+		"With some infusions with Apothic Enchanting, there needs to be very specific range/amount. To do this, you need specific bookshelves that has negative stats."
+		""
+		"Each shelf listed in this quest will lower the amount to their respective quantities."
+	]
+	quest.136E4EFBFC40854A.quest_subtitle: "We need to lessen the other types"
 	quest.144557C43C28921F.quest_desc: ["Change the iron furnace type to food smelting stuff"]
 	quest.144557C43C28921F.quest_subtitle: "Cook I say?"
 	quest.14549189E9943627.quest_desc: ["Chapter 6 is hidden unless you click the checkmark."]
@@ -110,6 +123,7 @@
 	]
 	quest.188AAB5B74C6EAAE.quest_subtitle: "Discover an Infested Temple explorer map"
 	quest.1C375606107C117F.quest_subtitle: "Find Keep Kayra"
+	quest.1C4DEE27CA0588C2.title: "Can"
 	quest.1CCA31D9352C60E6.quest_desc: ["Clustered around a towering central “grandmother” mushroom, these villages appear quaint from afar. Yet the villagers within are far more aggressive than their old-world counterparts, hiding a cunning fierceness beneath their colorful caps. Approach with caution as this village may welcome the unwary only to spring its traps."]
 	quest.1CCA31D9352C60E6.quest_subtitle: "Find a mushroom village"
 	quest.1CEF2A38948010A2.quest_desc: ["Out on the open seas, the &6Illagers&r have taken to the waves, commandeering massive galleys and swift corsairs. Their sails cast long shadows, and their cannons roar with fury. Only the bravest dare to board, for fortune favors those who seize it."]
@@ -122,12 +136,18 @@
 	]
 	quest.1DCD0A2753123912.quest_desc: ["The Bumblezone is all about bees. BEES!"]
 	quest.1DCD0A2753123912.title: "&e&lEnter The Bumblezone&r"
+	quest.1E557A80BA35E9AC.quest_desc: ["This bookshelf will get rid of the incrased chances of bad enchantments."]
+	quest.1E557A80BA35E9AC.quest_subtitle: "prreeeettyyy... GET RID OF THEM!"
 	quest.1EC4EC1360450327.quest_desc: ["Kill 4 Endermites"]
 	quest.1F10BC33D22328BD.quest_desc: ["Time has claimed this once-sacred site, leaving its halls cracked and overgrown. Now, ghostly skeletons and trickster illusioners linger within, guarding little more than shadows of former glory. Though its dangers are real, the temple’s sturdy walls make it a tempting refuge for those seeking a foothold in this hostile world."]
 	quest.1F10BC33D22328BD.quest_subtitle: "Find an Abandoned Temple"
 	quest.1FDC7A5C9775369F.quest_desc: ["Drink 8 Honey Bottles"]
+	quest.2005D166AD0D9767.quest_desc: ["&cQuanta&r mix the enchantment pool but has a downside. Weaker enchantments can be more common with this."]
+	quest.2005D166AD0D9767.quest_subtitle: "Mixing Enchantment pool"
+	quest.2005D166AD0D9767.title: "&cQuanta"
 	quest.21426F5EEC922866.quest_desc: ["Half-submerged in the oceans lie the petrified remains of a colossal beast, its skeletal form stretching farther than the eye can follow. Was it a creature of the deep, dragged ashore in ages past—or did it fall from the heavens themselves? No records remain, only questions carved into stone."]
 	quest.21426F5EEC922866.quest_subtitle: "Find a Typhon"
+	quest.21FE89A0F320E557.quest_desc: ["Just an upgrade. That's all."]
 	quest.22E20CB51702C159.quest_desc: [
 		"Feed a bee something honey-related like Honey Bottles or Bee Bread 24 times."
 		""
@@ -143,6 +163,8 @@
 	quest.2450CA876EBADF5A.quest_desc: ["Store the power!"]
 	quest.24A3F2844BE51265.quest_desc: ["Some starter powers"]
 	quest.24A3F2844BE51265.title: "Early Power Generation Options"
+	quest.24FF7BCAC7C31E44.quest_desc: [""]
+	quest.24FF7BCAC7C31E44.title: "&6A Brand New World&r"
 	quest.2550C4418FBDC864.quest_desc: ["Some early game power banks at your disposal"]
 	quest.2550C4418FBDC864.title: "Early Power Storage"
 	quest.25588339CBB18A48.quest_desc: ["It's really easy to make molten steel. Just throw in coal and iron ingot to produce steel"]
@@ -163,6 +185,7 @@
 	quest.27954818DBFDF3C7.quest_desc: ["Trade with the Bee Queen 128 times."]
 	quest.27CF8F79874DBDFA.quest_desc: ["You should definitely craft a shield. It is your best defense item in the game. Really, block everything!"]
 	quest.27CF8F79874DBDFA.quest_subtitle: "Block that!"
+	quest.27F42C09B2C1B872.quest_desc: ["Remove a specific enchant from the pool? Say no more!"]
 	quest.2851A90CE80B1F31.quest_desc: [
 		"Taming a dragon is very simple. You need to find one of the rare eggs found in any dungeon loots. Once you find the egg, hatch it. It will take &l&610 minutes&r for it to hatch and &l&610 minutes&r for it to fully grow into adult."
 		""
@@ -220,12 +243,17 @@
 	quest.31FEFE62F8190D10.quest_subtitle: "Mob slayer"
 	quest.321BE79B988D7AC1.quest_desc: ["Hello there friend and welcome to &lMC Resonance Horizons&l!"]
 	quest.321BE79B988D7AC1.title: "Welcome"
+	quest.3259CC7B562EB050.quest_desc: ["There are a few power options from Stellaris mod."]
 	quest.36D8CF803CD1C83A.title: "Knight Phantom"
 	quest.374B8A457598CDE3.title: "Assebler Matrix Structure"
 	quest.376F4A768C6A17CF.quest_subtitle: "Get your first diamond"
 	quest.376F4A768C6A17CF.title: "DIAMONDS?!"
+	quest.37C3D6DC0D6B89B4.quest_desc: ["&aEterna&r sets the enchantment level of which enchantments you will get. It's just similar to vanilla Minecraft but a different take on it."]
+	quest.37C3D6DC0D6B89B4.quest_subtitle: "Better levels?"
+	quest.37C3D6DC0D6B89B4.title: "&aEterna"
 	quest.38E4245CC00B4D74.quest_desc: ["There are tons of upgrades for Sophisticated Storage. Look through all the upgrades the mod has to offer and craft what you need."]
 	quest.38E4245CC00B4D74.quest_subtitle: "Base Upgrade? Yes please."
+	quest.39AD36B6E3388415.quest_desc: ["Hold your enchantment books and can take out whatever you like, BUT BETTER!"]
 	quest.39C18383B6135B55.title: "Giant's Cloud"
 	quest.3CEFE6DE9218A829.quest_desc: [
 		"Craft a full set of &6Wooden Armour"
@@ -257,6 +285,16 @@
 		"&lTier 2&r: 16 slots, 4095 items per slot."
 	]
 	quest.411DFABEEFB1900C.quest_subtitle: "Bigger"
+	quest.42BC522CC3968C45.quest_desc: [
+		"You can make Budding Amethyst this way via Apothic Enchanting."
+		""
+		"The requirements to do this as follows:"
+		"- &2Eterna:&r 60"
+		"- &4Quanta:&r Between 30% - 50%"
+		"- &5Arcana:&r 50%"
+		""
+		"This is easily done with 15 &4Glowing Hellshelves&r and 4 &2Melonshelves.&r"
+	]
 	quest.436231715C11E3BA.quest_desc: ["Scattered across the wilds, small bands of Illagers set up camp beneath their distinctive purple tents. Though their supplies are meager and their loot scarce, their presence is a warning, the Illagers’ reach grows wider with every outpost."]
 	quest.436231715C11E3BA.quest_subtitle: "Find an Illager Campsite"
 	quest.44D115281B0BFB75.quest_desc: ["Whispers speak of a &9flying vessel&r that hovers above the world, shimmering with strange energy. Few dare approach, for those who return tell of eerie lights, warped corridors, and guardians not of this realm. Seek it out, if you dare—and uncover the secrets hidden within its metallic shell."]
@@ -292,12 +330,14 @@
 		""
 		"Hint: Throw the Pollen Puff at placed flowers."
 	]
+	quest.5393717987D4DEFD.quest_desc: ["You can either make Steel Ingot or find Steel Ore in the world"]
 	quest.53AF2B722A69DCDC.quest_desc: ["Tucked away in the tall grass, this lonely house stands weathered and broken, its timbers groaning with age. Easy to overlook, it bears little more than the memory of those who once called it home. Still, even the smallest refuge can hold a story."]
 	quest.53AF2B722A69DCDC.quest_subtitle: "Find a Small Prairie House"
 	quest.541ACD5EBDD42544.quest_desc: ["Power the planet! Or maybe, power all them AI Data Centers!"]
 	quest.541ACD5EBDD42544.quest_subtitle: "AI Data Centers"
 	quest.541BBC35DA4F0B73.quest_desc: ["Sprouting from a cluster of towering fungi, this outpost of miners has carved their livelihood into the surface world. Ruthless and territorial, they will defend their claim with tooth and nail. Whether the giant mushrooms shield them from the sun or serve some darker purpose, none can say. One truth remains certain: the mine runs rich with ore, for those bold enough to claim it."]
 	quest.541BBC35DA4F0B73.quest_subtitle: "Find a Mushroom Mine"
+	quest.54BB84EAFDBB78B1.quest_desc: ["Just a bit more &5Quanta&r and &2Eterna.&r"]
 	quest.55CD869F874D17DF.quest_desc: ["Fire 32 Bee Stingers from Bows or Crossbows"]
 	quest.56CC4D63313E1E86.title: "Defeat Ignis"
 	quest.5702A67204F2A299.quest_desc: ["More efficient with fuels"]
@@ -313,6 +353,14 @@
 	quest.5C1D8688BB4BCD0D.quest_subtitle: "Legally Unpaid Interns"
 	quest.5CF89BD17745E712.title: "Troll's Cave"
 	quest.5DC54FF3893BF798.title: "Ur-Ghast"
+	quest.5E5378D9D641863D.quest_desc: [
+		"Tidal Observation Card is a pretty cool mod that let's you observe a card at the cost of the currency."
+		""
+		"Like the reward? Pay even more to claim the reward!"
+		""
+		"Or you can simply give up the reward to save their remaining resources for other cards."
+	]
+	quest.5E5378D9D641863D.quest_subtitle: "Let's go gambling!"
 	quest.5E7D418E969C673A.quest_subtitle: "Harness the power of Amethyst Golems!"
 	quest.5EDA9EE840DC72E2.title: "&bBasic Survival Part II"
 	quest.60F2287AA77A6B65.title: "Lich"
@@ -352,7 +400,7 @@
 	quest.6CB5ACBAAED66871.quest_desc: ["Shaped from the stem and cap of a giant fungus, this whimsical dwelling offers a rare touch of charm in a perilous world. Lightly guarded and easy to claim, the mushroom house makes for a delightful refuge, perfect for any adventurer who’s ever dreamed of calling a mushroom home."]
 	quest.6CB5ACBAAED66871.quest_subtitle: "Find a Mushroom House"
 	quest.6D752D7150C5253C.quest_desc: [""]
-	quest.6D752D7150C5253C.title: "The Twilight Forest"
+	quest.6D752D7150C5253C.title: "&2Welcome to Twilight Forest&r"
 	quest.6E7DA4B16ECC3BD9.quest_desc: ["Probably be helpful if you can get yourself a &2Flawless Budding Certus Block&r."]
 	quest.70327C3AC547B354.quest_desc: ["Marked by its dark prismarine and yellow terracotta roof, this temple has long since fallen to corruption. Inside, swarms of spider-like creatures creep through its halls, striking with venom and ferocity. To enter is to step into a nest where every shadow crawls."]
 	quest.70327C3AC547B354.quest_subtitle: "Find an Infested Temple"
@@ -362,6 +410,12 @@
 	quest.73D5EE5238C37982.quest_desc: ["In the wilds rests the skeletal form of a great creature. its skeleton stretching skyward like branches of pale bone. Whether a relic of forgotten myth or a beast once hunted to extinction, none can say. Its silent frame endures as a monument to creatures long lost."]
 	quest.73D5EE5238C37982.quest_subtitle: "Find a Ceryneian Hind"
 	quest.746F14C89164CD7F.quest_desc: ["There are various ways to get &5Budding Amethyst block&r. Check out the JEI with a few options."]
+	quest.76234127DB3339B8.quest_desc: [
+		"This modpack uses the Tyz's Skills mod. Level up by doing things. Earn SP by leveling up. Get stronger."
+		""
+		"Please note: There will be balance changes to the skills depending on how weak/powerful the skills are."
+	]
+	quest.76234127DB3339B8.quest_subtitle: "WE CAN LEVEL?!"
 	quest.7633CF10984465A1.quest_desc: ["These two items are used in various crafting recipes"]
 	quest.76DAECF378BA3F19.quest_desc: ["Far beneath the surface lies a labyrinth of rails and tunnels, carved by long-forgotten hands. The air is thick with dust and danger. Creatures lurk in the shadows, and the echoes of minecarts rattle through the dark. Yet for those who endure, veins of treasure and hidden chambers make the descent worthwhile."]
 	quest.76DAECF378BA3F19.quest_subtitle: "Find a Mining System"
@@ -377,13 +431,18 @@
 	quest.7AA09C60D4872C95.quest_desc: ["You can just be basic and go with the typical regular sword..."]
 	quest.7AA09C60D4872C95.quest_subtitle: "Boring..."
 	quest.7B78090DA9BB059A.quest_desc: ["Kill 16 Cave Spiders"]
+	quest.7BB114C36D046A77.quest_desc: ["&5Arcana&r increases the amount of enchantments you get and makes the rare enchantments more common."]
+	quest.7BB114C36D046A77.quest_subtitle: "More ENCHANTS?!"
+	quest.7BB114C36D046A77.title: "&5Arcana"
 	quest.7C1B4BEE599106C8.quest_desc: ["You dealt that much damage over the span of playing this modpack? Congratulations!"]
 	quest.7C689569C467AC1E.title: "EnderIO Energy Conduit"
 	quest.7D3678E50EC17B70.quest_desc: ["Breed 8 pairs of bees"]
 	quest.7D97A435295734ED.title: "Windmills"
+	quest.7FD2BB4969B67C57.quest_desc: ["Hold your enchantment books and can take out whatever you like."]
 	task.005E4ED955D3D49C.title: "Any #the_bumblezone:armors/helmets"
-	task.00ED659ADF2A850F.title: "Enter The Bumblezone"
+	task.02648FF06210EA94.title: "Earth's Moon"
 	task.04F437505C951BC4.title: "More tips?"
+	task.062F26289AD9BCB7.title: "Player Levels and Skills"
 	task.07026A2F4C4F4EC2.title: "Any #the_bumblezone:armors/boots"
 	task.0753C8124C6A1705.title: "Thermodynamic Conductor"
 	task.08B17E2A7DA36DCB.title: "Defeat the Maledictus"
@@ -428,6 +487,7 @@
 	task.34F4969BD470B7B5.title: "Chemical Tanks"
 	task.3744C2FC96AFDCC8.title: "&l&6When Dungeon Arises"
 	task.375FFF007F1133EA.title: "&6&lBounty:&r Kill 25x Spiders"
+	task.395FE2F733E46196.title: "Any #stellaris:can"
 	task.3D45D3F5DE594C29.title: "Bugs?"
 	task.3D49F928A22A6D24.title: "Visit the Nether"
 	task.41518E9C09FDE0DD.title: "Defeat the Underworld Knight"
@@ -439,6 +499,7 @@
 	task.49AF099BFE7508A8.title: "More Dimensions?"
 	task.4AA57D50368ACC11.title: "Naga"
 	task.4B7D6BDDBCB6FC75.title: "Welcome"
+	task.4C76176BCA66FFED.title: "Moon Desh Ore"
 	task.4D91EEC831C128B5.title: "Updates"
 	task.50449755AF28A897.title: "Defeat The Leviathan"
 	task.5352792BF48E7A96.title: "How to Visit the Nether"
@@ -447,6 +508,7 @@
 	task.588A93AADC757810.title: "The Easy Storage Solution"
 	task.58AF98400143E863.title: "Amethyst Crabs?!"
 	task.59C78E5C9CF9B249.title: "Bosses'Rising"
+	task.5B1961D637965863.title: "Any #c:bookshelves"
 	task.5BB174AD407E0E7C.title: "&6&lBounty:&r Kill 25x Creepers"
 	task.5C3E7D34292557AA.title: "Visit the End"
 	task.5EDEAA9228995D2C.title: "Naga Courtyard"
@@ -471,10 +533,12 @@
 	task.76CD659AADFAF38A.title: "Bounce on the Blue Aercloud"
 	task.77138AB78CE48083.title: "... Until They Hatch!"
 	task.779DAFBBEB892F7B.title: "Visit Twilight Forest"
+	task.7B5D3039F64F439D.title: "Stellaris Power Options"
 	task.7BD562107F463AD7.title: "Pressurized Tube"
 	task.7C44BC91C7F90327.title: "Vanilla"
 	task.7DE3233F37256DBD.title: "Find any Egg"
 	task.7DEB0B46AE68E657.title: "Defeat the Sandworm"
 	task.7E2AEB1B8E7871D2.title: "Knight's Stronghold"
 	task.7E48EC4B7DFB8318.title: "Visit the Otherside"
+	task.7FF5AFDC6782F332.title: "Any #stellaris:rocket_skin"
 }
