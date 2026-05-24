@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	disable_toast: true
 	filename: "helpful_tips"
-	group: "2A5D074FFC415AEC"
+	group: "3F5D023B3188755E"
 	icon: {
 		components: {
 			"ftbquests:icon": "relics:textures/gui/description/research/tip_background.png"
@@ -11,7 +11,7 @@
 		id: "ftbquests:custom_icon"
 	}
 	id: "3013F0DF90A7C5A4"
-	order_index: 0
+	order_index: 1
 	quest_links: [
 		{
 			id: "67B75E4D7568DD79"
@@ -33,6 +33,12 @@
 	quests: [
 		{
 			disable_toast: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ars_nouveau:textures/gui/documentation/doc_icon_help.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "154ADFD2A3D88F1E"
 			rewards: [{
 				id: "5EF9B5EC7CEF06AB"
@@ -194,6 +200,155 @@
 			}]
 			x: 2.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["154ADFD2A3D88F1E"]
+			id: "5E5378D9D641863D"
+			rewards: [{
+				id: "205F1898D419868F"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3BBE3C8EC2D26DFC"
+				item: { count: 1, id: "trs:tidal_observation_card" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["154ADFD2A3D88F1E"]
+			icon: {
+				components: {
+					"ftbquests:icon": "tyzs_skills:textures/gui/skills/swift_learn.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "76234127DB3339B8"
+			rewards: [{
+				id: "56CD97677112E648"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "062F26289AD9BCB7"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["154ADFD2A3D88F1E"]
+			icon: {
+				components: {
+					"ftbquests:icon": "betteradvancedtooltips:textures/font/icons/info.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "4C45EEAE3C7A412E"
+			optional: true
+			rewards: [{
+				id: "2EAEE4307523C8D0"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			size: 1.5d
+			tasks: [{
+				id: "220B502B0FCD9DB4"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 2.05d
+		}
+		{
+			dependencies: [
+				"154ADFD2A3D88F1E"
+				"4C45EEAE3C7A412E"
+			]
+			id: "51CDCAE4736893A1"
+			rewards: [{
+				id: "587FA6EFF9FA6CE6"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "49AF099BFE7508A8"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["51CDCAE4736893A1"]
+			id: "466CFAD1E39FA5CC"
+			rewards: [{
+				id: "52EE20E82ED3D5D9"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "pastel:deeper_down"
+				id: "18A88F07777EC3B9"
+				type: "dimension"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["51CDCAE4736893A1"]
+			id: "0E9155315FC53178"
+			rewards: [{
+				id: "19DC7C5FCDB5DFC7"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "eternal_starlight:starlight"
+				id: "7AC246CB19CBAA18"
+				type: "dimension"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["51CDCAE4736893A1"]
+			id: "525108BD7E178AA1"
+			rewards: [{
+				id: "44E44E4AE2CECE3A"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "tropicraft:tropics"
+				id: "0381E14FFCB33297"
+				type: "dimension"
+			}]
+			x: 6.0d
+			y: 3.0d
 		}
 	]
 }
