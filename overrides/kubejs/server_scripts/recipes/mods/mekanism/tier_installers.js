@@ -13,7 +13,7 @@ ServerEvents.recipes(event => {
 			C: 'immersiveengineering:ingot_steel',
 			D: '#minecraft:planks'
 		}
-	)
+	).id('mekanism:basic_tier_installer')
 		
 	event.shaped(
 		Item.of('mekanism:advanced_tier_installer'),
@@ -28,7 +28,7 @@ ServerEvents.recipes(event => {
 			C: 'minecraft:diamond',
 			D: '#minecraft:planks'
 		}
-	)
+	).id('mekanism:advanced_tier_installer')
 
 	event.shaped(
 		Item.of('mekanism:elite_tier_installer'),
@@ -43,7 +43,8 @@ ServerEvents.recipes(event => {
 			C: 'oritech:adamant_ingot',
 			D: '#minecraft:planks'
 		}
-	)
+	).id('mekanism:elite_tier_installer')
+
 	event.shaped(
 		Item.of('mekanism:ultimate_tier_installer'),
 		[
@@ -57,7 +58,7 @@ ServerEvents.recipes(event => {
 			C: 'oritech:duratium_ingot',
 			D: '#minecraft:planks'
 		}
-	)
+	).id('mekanism:ultimate_tier_installer')
 
 	//console.log('Hello! The recipe event has fired!')
 })

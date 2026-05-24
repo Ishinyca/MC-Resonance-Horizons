@@ -16,7 +16,7 @@ ServerEvents.recipes(event => {
             event.recipes.create.deploying(transitional, [transitional, 'minecraft:comparator']),
             event.recipes.create.deploying(transitional, [transitional, 'create:precision_mechanism'])
         ]
-    )
+    ).id('sophisticatedstorage:controller')
         .transitionalItem(transitional) // Set the transitional item
         .loops(1) // Set the number of loops
 
@@ -36,7 +36,7 @@ ServerEvents.recipes(event => {
             event.recipes.create.pressing(transitional, transitional),
             event.recipes.create.deploying(transitional, [transitional, 'create:precision_mechanism'])
         ]
-    )
+    ).id('sophisticatedstorage:storage_input')
         .transitionalItem(transitional) // Set the transitional item
         .loops(1) // Set the number of loops
 
@@ -57,7 +57,7 @@ ServerEvents.recipes(event => {
             event.recipes.create.pressing(transitional, transitional),
             event.recipes.create.deploying(transitional, [transitional, 'create:precision_mechanism'])
         ]
-    )
+    ).id('sophisticatedstorage:storage_output')
         .transitionalItem(transitional) // Set the transitional item
         .loops(1) // Set the number of loops
 })

@@ -13,5 +13,5 @@ ServerEvents.recipes(event => {
 			C: 'oritech:magnetic_coil',
 			D: 'minecraft:furnace'
 		}
-	)
+	).id('oritech:basic_generator_block')
 });

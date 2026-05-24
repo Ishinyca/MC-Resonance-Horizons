@@ -12,7 +12,7 @@ ServerEvents.recipes(event => {
             B: 'minecraft:chorus_fruit',
             C: 'waystones:warp_dust'
         }
-    )
+    ).id('waystones:warp_stone')
 
 
     event.remove({id: 'waystones:warp_dust'})
@@ -24,5 +24,5 @@ ServerEvents.recipes(event => {
             'minecraft:nether_star',
             'minecraft:chorus_fruit'
         ]
-    )
+    ).id('waystones:warp_dust')
 });

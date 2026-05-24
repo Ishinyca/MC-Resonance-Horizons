@@ -5,7 +5,7 @@ ServerEvents.recipes(event => {
 		'cataclysm:ignitium_upgrade_smithing_template', // template
 		'minecraft:shield',
 		'projecte:dark_matter_block' // upgrade item
-	)
+	).id('projectextended:dark_matter_shield')
 
 	// Recipe for Red Matter Shield
 	event.smithing(
@@ -13,5 +13,5 @@ ServerEvents.recipes(event => {
 		'cataclysm:cursium_upgrade_smithing_template',
 		'projectextended:dark_matter_shield',
 		'projecte:red_matter_block'
-	)
+	).id('projectextended:red_matter_shield')
 })

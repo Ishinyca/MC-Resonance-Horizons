@@ -16,7 +16,7 @@ ServerEvents.recipes(event => {
             event.recipes.create.deploying(transitional, [transitional, 'minecraft:netherite_ingot']),
             event.recipes.create.pressing(transitional, transitional)
         ]
-    )
+    ).id('sophisticatedstorage:diamond_to_netherite_tier_upgrade')
         .transitionalItem(transitional) // Set the transitional item
         .loops(2) // Set the number of loops
 })

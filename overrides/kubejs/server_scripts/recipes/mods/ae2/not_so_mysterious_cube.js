@@ -24,7 +24,7 @@ ServerEvents.recipes(event => {
             event.recipes.create.deploying(transitional, [transitional, 'ae2:sky_stone_block']),
             event.recipes.create.pressing(transitional, transitional)
         ]
-    )
+    ).id('ae2:not_so_mysterious_cube')
         .transitionalItem(transitional) // Set the transitional item
         .loops(1) // Set the number of loops
 })

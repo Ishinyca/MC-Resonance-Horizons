@@ -15,7 +15,7 @@ ServerEvents.recipes(event => {
             event.recipes.create.deploying(transitional, [transitional, 'minecraft:gold_block']),
             event.recipes.create.pressing(transitional, transitional)
         ]
-    )
+    ).id('sophisticatedstorage:iron_to_gold_tier_upgrade')
         .transitionalItem(transitional) // Set the transitional item
         .loops(1) // Set the number of loops
 })

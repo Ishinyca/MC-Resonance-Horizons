@@ -11,7 +11,7 @@ ServerEvents.recipes(event => {
 			B: 'minecraft:iron_block',
 			C: 'minecraft:ender_eye'
 		}
-	)
+	).id('cataclysm:mech_eye')
 
 	event.shaped(
 		Item.of('cataclysm:flame_eye'),
@@ -26,7 +26,7 @@ ServerEvents.recipes(event => {
 			C: 'minecraft:ender_eye',
 			D: 'minecraft:soul_sand'
 		}
-	)
+	).id('cataclysm:flame_eye')
 
 	//event.shaped(
 	//	Item.of('cataclysm:void_eye'),
@@ -54,7 +54,7 @@ ServerEvents.recipes(event => {
 			B: 'minecraft:crying_obsidian',
 			C: 'minecraft:ender_eye'
 		}
-	)
+	).id('cataclysm:monstrous_eye')
 
 	event.shaped(
 		Item.of('cataclysm:abyss_eye'),
@@ -69,7 +69,7 @@ ServerEvents.recipes(event => {
 			C: 'minecraft:ender_eye',
 			D: 'minecraft:coal_block'
 		}
-	)
+	).id('cataclysm:abyss_eye')
 
 	event.shaped(
 		Item.of('cataclysm:desert_eye'),
@@ -87,7 +87,7 @@ ServerEvents.recipes(event => {
 			F: 'minecraft:cactus',
 			G: 'minecraft:bone_block'
 		}
-	)
+	).id('cataclysm:desert_eye')
 
 	event.shaped(
 		Item.of('cataclysm:cursed_eye'),
@@ -103,7 +103,7 @@ ServerEvents.recipes(event => {
 			D: 'immersive_armors:bone_helmet',
 			E: 'minecraft:rotten_flesh'
 		}
-	)
+	).id('cataclysm:cursed_eye')
 
 	event.shaped(
 		Item.of('cataclysm:storm_eye'),
@@ -120,6 +120,6 @@ ServerEvents.recipes(event => {
 			E: 'minecraft:lightning_rod',
 			F: 'minecraft:water_bucket'
 		}
-	)
+	).id('cataclysm:storm_eye')
 
 })

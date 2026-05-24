@@ -13,5 +13,5 @@ ServerEvents.recipes(event => {
             D: 'minecraft:emerald',
             E: 'minecraft:oak_planks'
         }
-    )
+    ).id('dailyshop:daily_shop')
 })

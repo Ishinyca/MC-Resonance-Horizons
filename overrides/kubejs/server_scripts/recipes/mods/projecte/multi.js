@@ -16,7 +16,7 @@ ServerEvents.recipes(event => {
 			F: 'oritech:prometheum_ingot',
 			G: 'minecraft:nether_star'
 		}
-	)
+	).id('projecte:rm_katar')
 
 	// Dark Matter Hammer
 	// no recipe for it atm

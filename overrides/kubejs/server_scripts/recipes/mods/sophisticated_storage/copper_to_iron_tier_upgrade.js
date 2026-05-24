@@ -15,7 +15,7 @@ ServerEvents.recipes(event => {
             event.recipes.create.deploying(transitional, [transitional, 'minecraft:iron_block']),
             event.recipes.create.pressing(transitional, transitional)
         ]
-    )
+    ).id('sophisticatedstorage:copper_to_iron_tier_upgrade')
         .transitionalItem(transitional) // Set the transitional item
         .loops(1) // Set the number of loops
 })

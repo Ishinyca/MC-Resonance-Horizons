@@ -22,7 +22,7 @@ ServerEvents.recipes(event => {
             C: '#minecraft:logs',
             D: 'projecte:dark_matter_block'
         }
-    )
+    ).id('torchmaster:megatorch')
 
     event.shaped(
         Item.of('torchmaster:dreadlamp'),
@@ -39,7 +39,7 @@ ServerEvents.recipes(event => {
             E: 'minecraft:crying_obsidian',
             F: 'projecte:dark_matter_block'
         }
-    )
+    ).id('torchmaster:dreadlamp')
 
     event.shaped(
         Item.of('torchmaster:feral_flare_lantern'),
@@ -53,5 +53,5 @@ ServerEvents.recipes(event => {
             B: '#c:glass_blocks',
             C: 'minecraft:gold_block',
         }
-    )
+    ).id('torchmaster:feral_flare_lantern')
 });

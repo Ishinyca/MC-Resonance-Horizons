@@ -13,7 +13,7 @@ ServerEvents.recipes(event => {
 			C: 'minecraft:redstone',
 			D: 'mekanism:ingot_osmium'
 		}
-	)
+	).id('mekanism:metallurgic_infuser')
 
 	//console.log('Hello! The recipe event has fired!')
 })

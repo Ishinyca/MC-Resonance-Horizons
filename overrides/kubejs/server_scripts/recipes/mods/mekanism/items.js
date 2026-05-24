@@ -13,7 +13,7 @@ ServerEvents.recipes(event => {
 			C: 'mekanism:alloy_atomic',
 			D: 'minecraft:netherite_ingot'
 		}
-	)
+	).id('mekanism:teleportation_core')
 
 	// Quantum Entangloporter
 	event.shaped(
@@ -29,5 +29,5 @@ ServerEvents.recipes(event => {
 			C: 'mekanism:alloy_atomic',
 			D: 'mekanism:teleportation_core'
 		}
-	)
+	).id('mekanism:quantum_entangloporter')
 })

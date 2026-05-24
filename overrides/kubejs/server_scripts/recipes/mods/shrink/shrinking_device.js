@@ -15,5 +15,5 @@ ServerEvents.recipes(event => {
 			C: 'ars_nouveau:source_gem_block',
 			D: 'minecraft:stone_button'
 		}
-	)
+	).id(shrinkingDevice)
 })

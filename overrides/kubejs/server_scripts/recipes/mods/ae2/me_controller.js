@@ -16,5 +16,5 @@ ServerEvents.recipes(event => {
         'ae2:engineering_processor', // reagent
         'ae2:controller', // output
         2000
-    )
+    ).id('ae2:controller')
 })
