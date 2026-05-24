@@ -1,0 +1,910 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "apothic_enchanting"
+	group: "43F67A65C7C2CE11"
+	icon: {
+		id: "minecraft:enchanting_table"
+	}
+	id: "119FF81A2775B16F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0FB16F1D191491D0"
+			rewards: [
+				{
+					id: "544B1C39CF7738A4"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "7ACE560B68D90735"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3BFFA72AAF7D801E"
+				item: { count: 1, id: "minecraft:enchanting_table" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0FB16F1D191491D0"]
+			id: "0707DB7E6D8634B3"
+			rewards: [
+				{
+					id: "3D76C5E5093E2365"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "2F39C509E848E1BB"
+					item: {
+						count: 1
+						id: "minecraft:bookshelf"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 15L
+				id: "60B9A1C2BCEC28DD"
+				item: { count: 1, id: "minecraft:bookshelf" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0707DB7E6D8634B3"]
+			icon: {
+				id: "minecraft:enchanting_table"
+			}
+			id: "4F8086008B90633D"
+			rewards: [
+				{
+					id: "7AA548721E396D54"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "7BA1A16068760F56"
+					item: {
+						count: 1
+						id: "minecraft:lapis_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:story/enchant_item"
+				criterion: ""
+				id: "47A3E0655F7D936E"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4F8086008B90633D"]
+			id: "7BB114C36D046A77"
+			rewards: [
+				{
+					id: "0179F2B665D15536"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "13919C21C922176F"
+					item: {
+						count: 1
+						id: "minecraft:lapis_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "13A770365A0D8FC8"
+				item: { count: 1, id: "apothic_enchanting:seashelf" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4F8086008B90633D"]
+			id: "2005D166AD0D9767"
+			rewards: [
+				{
+					id: "69FB28268A1EB736"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "49821DF868CBF615"
+					item: {
+						count: 1
+						id: "minecraft:lapis_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0D007E85493B9715"
+				item: { count: 1, id: "apothic_enchanting:hellshelf" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4F8086008B90633D"]
+			id: "37C3D6DC0D6B89B4"
+			rewards: [
+				{
+					id: "2ABEFB361511FB3E"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "4F5AF7AE9BBF8C21"
+					item: {
+						count: 1
+						id: "minecraft:lapis_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "minecraft:bookshelf"
+				}
+				id: "5B1961D637965863"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:bookshelves)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"37C3D6DC0D6B89B4"
+				"7BB114C36D046A77"
+				"2005D166AD0D9767"
+			]
+			id: "136E4EFBFC40854A"
+			rewards: [
+				{
+					id: "1C8E8A22BC75DB11"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0F24B8852426211C"
+					item: {
+						count: 1
+						id: "minecraft:lapis_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "06A05E400AAB269D"
+					item: { count: 1, id: "apothic_enchanting:beeshelf" }
+					type: "item"
+				}
+				{
+					id: "51C976F5343FDF65"
+					item: { count: 1, id: "apothic_enchanting:stoneshelf" }
+					type: "item"
+				}
+				{
+					id: "387448C51ACC03EC"
+					item: { count: 1, id: "apothic_enchanting:melonshelf" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4F8086008B90633D"]
+			id: "1E557A80BA35E9AC"
+			rewards: [
+				{
+					id: "393ED9D833970EFC"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "678D7D8B91AA0B6B"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [{
+				id: "09F91E020C4A665A"
+				item: { count: 1, id: "apothic_enchanting:geode_shelf" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4F8086008B90633D"]
+			id: "1AACDF68F89F9D72"
+			rewards: [
+				{
+					id: "25362D0B447F555B"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6E5B13C92256F925"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [{
+				count: 15L
+				id: "421A065FA7B37830"
+				item: { count: 1, id: "apothic_enchanting:hellshelf" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4F8086008B90633D"]
+			id: "108BBBE0BBD26D9B"
+			rewards: [
+				{
+					id: "75F5C03261DEA82F"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "1AB94A908BE41F4B"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [{
+				count: 15L
+				id: "2BBE50F2662F9CBC"
+				item: { count: 1, id: "apothic_enchanting:seashelf" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1AACDF68F89F9D72"]
+			id: "0C057C91D8AC7157"
+			rewards: [
+				{
+					id: "4FE382E6087813F8"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "57E872CCA68E0C2D"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [{
+				count: 12L
+				id: "18D249416B537AFA"
+				item: { count: 1, id: "apothic_enchanting:infused_hellshelf" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["108BBBE0BBD26D9B"]
+			id: "7488D31F518729A2"
+			rewards: [
+				{
+					id: "1F4060B392C54CD7"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "30D0DF71D9A08DF0"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [{
+				id: "2D5D55D6ABA0A8B8"
+				item: { count: 1, id: "apothic_enchanting:infused_seashelf" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0C057C91D8AC7157"]
+			id: "4A2E1C959A5303A4"
+			rewards: [
+				{
+					id: "564D4DBC6CA6913C"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "7A631CBE75CAF40D"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [{
+				count: 12L
+				id: "339E33C84B176630"
+				item: { count: 1, id: "apothic_enchanting:glowing_hellshelf" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7488D31F518729A2"]
+			id: "209E00C7394CDBED"
+			rewards: [
+				{
+					id: "57331BB1CC7C96E2"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "4F75112F684A27B5"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [{
+				count: 12L
+				id: "17E659E9EEB5F760"
+				item: { count: 1, id: "apothic_enchanting:crystal_seashelf" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0C057C91D8AC7157"]
+			id: "0F528DF3E49E8E2C"
+			rewards: [
+				{
+					id: "72E58B1608BACAE5"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "1F44EAB2A688A37C"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					id: "3F1E1ADBC7F2AB00"
+					item: { count: 1, id: "apothic_enchanting:sightshelf" }
+					type: "item"
+				}
+				{
+					id: "467DE88769F21FE8"
+					item: { count: 1, id: "apothic_enchanting:sightshelf_t2" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0C057C91D8AC7157"]
+			id: "54BB84EAFDBB78B1"
+			rewards: [
+				{
+					id: "248A6B2878E750D8"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "2073E6C598737512"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [{
+				id: "1D2EAA22829048FC"
+				item: { count: 1, id: "apothic_enchanting:blazing_hellshelf" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7488D31F518729A2"]
+			id: "27F42C09B2C1B872"
+			rewards: [
+				{
+					id: "6D3747AD39588500"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "271444B3C470A415"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [{
+				id: "56313C5AF4C99391"
+				item: { count: 1, id: "apothic_enchanting:filtering_shelf" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7488D31F518729A2"]
+			id: "21FE89A0F320E557"
+			rewards: [
+				{
+					id: "4D544B85B16E9964"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "28F3BEB2D35FA0AA"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [{
+				id: "1B0388C34CD23A0D"
+				item: { count: 1, id: "apothic_enchanting:heart_seashelf" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"209E00C7394CDBED"
+				"4A2E1C959A5303A4"
+				"1E557A80BA35E9AC"
+			]
+			id: "39D571914373DE85"
+			rewards: [
+				{
+					id: "56D69C8AD47A9D66"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "26AB33ACD4FCEA4D"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "53EB077A09366AB8"
+				item: { count: 1, id: "apothic_enchanting:dormant_deepshelf" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["39D571914373DE85"]
+			id: "4A927DAD3E615ECA"
+			rewards: [
+				{
+					id: "599A9DD5BC8B5DCF"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "4D7FCB08C47625D8"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [{
+				count: 10L
+				id: "24A7987F057AD743"
+				item: { count: 1, id: "apothic_enchanting:deepshelf" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["4A927DAD3E615ECA"]
+			id: "64A891F0BBF03475"
+			rewards: [
+				{
+					id: "6764C42DDF33B3FA"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "357EF926251D6FD7"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [{
+				id: "1076DDD5BDD6035A"
+				item: { count: 1, id: "apothic_enchanting:soul_touched_deepshelf" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["64A891F0BBF03475"]
+			id: "464EDD4F6A246DE4"
+			rewards: [
+				{
+					id: "174CB4F087DD47CC"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "4BEA927A431C0782"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [{
+				id: "2031B13445A63A0A"
+				item: { count: 1, id: "apothic_enchanting:soul_touched_sculkshelf" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["4A927DAD3E615ECA"]
+			id: "5AC7C31683AD0900"
+			rewards: [
+				{
+					id: "2379554F833DCFE0"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "33378F84D7EB1DFB"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [{
+				id: "2728785453788B5A"
+				item: { count: 1, id: "apothic_enchanting:echoing_deepshelf" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["5AC7C31683AD0900"]
+			id: "74C1A699830412D4"
+			rewards: [
+				{
+					id: "488B35131A8E945B"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "509DFC27EB6EE9FD"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [{
+				id: "554DF6D4FB342799"
+				item: { count: 1, id: "apothic_enchanting:echoing_sculkshelf" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 17.0d
+		}
+		{
+			dependencies: [
+				"464EDD4F6A246DE4"
+				"74C1A699830412D4"
+			]
+			id: "31C5C1C12C7713B0"
+			rewards: [
+				{
+					id: "72A9C7DE027FD77D"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "04F9E8BB9BF014F1"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "0678FC3C356F2F2D"
+				item: { count: 1, id: "apothic_enchanting:infused_breath" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["31C5C1C12C7713B0"]
+			id: "40ED126D8AC8F38C"
+			rewards: [
+				{
+					id: "1947F4B239130335"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "1EC5D1D54E153533"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "1F798545564C28C5"
+				item: { count: 1, id: "apothic_enchanting:endshelf" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["40ED126D8AC8F38C"]
+			id: "4367936302A4449C"
+			rewards: [
+				{
+					id: "608F18BF7D9B4172"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "44C4A3EAB4E0BB3D"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "597AA3B91F2DD85D"
+				item: { count: 1, id: "apothic_enchanting:pearl_endshelf" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["40ED126D8AC8F38C"]
+			id: "1F269DBF5551AAB7"
+			rewards: [
+				{
+					id: "7F55EC318C9F0800"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "77D85822AEF3F4BD"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "40667FE8223ECB93"
+				item: { count: 1, id: "apothic_enchanting:draconic_endshelf" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["0FB16F1D191491D0"]
+			id: "7FD2BB4969B67C57"
+			rewards: [
+				{
+					id: "2FFCF743099E012F"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "782FED781AB8CCA1"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:sharpness": 2
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4FE8F65D73F63C07"
+				item: { count: 1, id: "apothic_enchanting:library" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7FD2BB4969B67C57"]
+			id: "39AD36B6E3388415"
+			rewards: [
+				{
+					id: "08032EA79D84DC1C"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "38834D8B8E6D9BA9"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:mending": 1
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7BE0F58628AE462B"
+				item: { count: 1, id: "apothic_enchanting:ender_library" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0FB16F1D191491D0"]
+			id: "42BC522CC3968C45"
+			rewards: [
+				{
+					id: "55BE7EB6F0FC77DD"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "64C1CC7B3940C6C2"
+					item: {
+						count: 1
+						id: "minecraft:budding_amethyst"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A286E659D99C6A4"
+				item: { count: 1, id: "minecraft:budding_amethyst" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+	]
+}
