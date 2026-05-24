@@ -45,6 +45,8 @@ const projectERecipeIdsToRemove = [
 	'projecte:destruction_catalyst',
 	'projecte:mercurial_eye',
 	'projecte:archangel_smite',
+	'projecte:interdiction_torch',
+	'projectextended:interdiction_lantern',
 ];
 
 ServerEvents.recipes(event => {
