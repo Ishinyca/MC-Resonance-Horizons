@@ -5,16 +5,9 @@
 	group: "69C66C6408A97599"
 	icon: {
 		components: {
-			"stellaris:rocket_component": {
-				fuel: 5000
-				fuel_capacity: 5000
-				fuel_texture: "stellaris:util/energy_full"
-				fuel_type: "radioactive"
-				model: "tiny"
-				skin: "stellaris"
-			}
+			"ftbquests:icon": "stellaris:textures/gui/tablet/rocket_page_hover.png"
 		}
-		id: "stellaris:rocket"
+		id: "ftbquests:custom_icon"
 	}
 	id: "371D6A80DB6DAF11"
 	order_index: 4
