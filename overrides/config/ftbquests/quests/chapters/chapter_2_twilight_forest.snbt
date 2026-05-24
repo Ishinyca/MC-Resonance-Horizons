@@ -15,7 +15,13 @@
 			dependencies: ["4BD4592C741FC0F9"]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
+			icon: {
+				id: "twilightforest:hollow_oak_sapling"
+			}
+			icon_scale: 2.0d
 			id: "6D752D7150C5253C"
+			shape: "none"
+			size: 1.5d
 			tasks: [{
 				dimension: "twilightforest:twilight_forest"
 				id: "62130BB9CA923A47"
@@ -638,26 +644,122 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["6D752D7150C5253C"]
+			dependencies: ["504E4F2CE05DA44E"]
+			icon: {
+				id: "twilightforest:raven_feather"
+			}
 			id: "314F27CFAB6AC6C3"
-			tasks: [
+			rewards: [
 				{
-					id: "418F17D7D559A856"
-					item: { count: 1, id: "twilightforest:raven_feather" }
+					id: "5EEDD1E96805B844"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
 					type: "item"
 				}
 				{
-					id: "1FE6F050AEE467E6"
-					item: { count: 1, id: "twilightforest:magic_map_focus" }
-					type: "item"
-				}
-				{
-					id: "4AD40857EC6ECC30"
-					item: { count: 1, id: "twilightforest:magic_map" }
+					id: "1DCDDA691E625DEB"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
 					type: "item"
 				}
 			]
-			x: -0.5d
+			tasks: [{
+				id: "418F17D7D559A856"
+				item: { count: 1, id: "twilightforest:raven_feather" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["314F27CFAB6AC6C3"]
+			id: "788555A97A438F3F"
+			rewards: [{
+				id: "49C7E69409917627"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "59586DD1379A2305"
+				item: { count: 1, id: "twilightforest:magic_map_focus" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["788555A97A438F3F"]
+			id: "0F6DAE68CF83903E"
+			rewards: [
+				{
+					id: "6C3B02EED8105F2B"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "025C8E37A2DD31C9"
+					item: {
+						count: 1
+						id: "twilightforest:magic_map"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "48BE578D7B3C483E"
+				item: { count: 1, id: "twilightforest:magic_map" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6D752D7150C5253C"]
+			id: "504E4F2CE05DA44E"
+			rewards: [{
+				id: "17B800DE7768572B"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "twilightforest:twilight_hunter"
+				criterion: ""
+				id: "7C76BD362A937122"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6D752D7150C5253C"]
+			id: "57B3673BCED36274"
+			rewards: [{
+				id: "51D9AE0989B980C4"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "08779682DE4B3DEC"
+				item: { count: 1, id: "twilightforest:quest_ram_trophy" }
+				type: "item"
+			}]
+			x: 0.5d
 			y: -1.0d
 		}
 	]

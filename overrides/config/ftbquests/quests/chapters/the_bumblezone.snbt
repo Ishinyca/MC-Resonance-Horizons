@@ -35,8 +35,8 @@
 			]
 			shape: "rsquare"
 			tasks: [{
-				dimension: "minecraft:overworld"
-				id: "00ED659ADF2A850F"
+				dimension: "the_bumblezone:the_bumblezone"
+				id: "78110CFA99341805"
 				type: "dimension"
 			}]
 			x: -2.5d

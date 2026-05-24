@@ -8,14 +8,24 @@
 		id: "aether:aether_portal_frame"
 	}
 	id: "37C8384647C2943F"
-	images: [{
-		height: 1.5d
-		image: "minecraft:block/reinforced_deepslate_top"
-		rotation: 0.0d
-		width: 1.5d
-		x: 9.5d
-		y: 0.0d
-	}]
+	images: [
+		{
+			height: 1.5d
+			image: "minecraft:block/reinforced_deepslate_top"
+			rotation: 0.0d
+			width: 1.5d
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			height: 3.0d
+			image: "aether:item/miscellaneous/aether_portal_frame"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.5d
+			y: 0.0d
+		}
+	]
 	order_index: 3
 	quest_links: [ ]
 	quests: [
@@ -36,7 +46,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["5FA4F887ADAE89BA"]
+			dependencies: ["1621379C0307EAAD"]
+			icon: {
+				id: "aether:gold_dungeon_key"
+			}
 			id: "6891CFCE0057E456"
 			rewards: [{
 				id: "79D0BAAC20D5CC73"
@@ -46,17 +59,27 @@
 				}
 				type: "item"
 			}]
-			tasks: [{
-				advancement: "aether:gold_dungeon"
-				criterion: ""
-				id: "1F978E3CD3313150"
-				type: "advancement"
-			}]
-			x: 5.0d
+			tasks: [
+				{
+					id: "6EB642C85CB82134"
+					structure: "aether:gold_dungeon"
+					type: "structure"
+				}
+				{
+					advancement: "aether:gold_dungeon"
+					criterion: ""
+					id: "1F978E3CD3313150"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["1621379C0307EAAD"]
+			icon: {
+				id: "aether:bronze_dungeon_key"
+			}
 			id: "5C2FDC8DE5D55A64"
 			rewards: [{
 				id: "2E5CFEABCD85167A"
@@ -66,17 +89,27 @@
 				}
 				type: "item"
 			}]
-			tasks: [{
-				advancement: "aether:bronze_dungeon"
-				criterion: ""
-				id: "2F96791CDE59EFA1"
-				type: "advancement"
-			}]
-			x: 2.0d
-			y: 0.0d
+			tasks: [
+				{
+					id: "271540B2A45E2818"
+					structure: "aether:bronze_dungeon"
+					type: "structure"
+				}
+				{
+					advancement: "aether:bronze_dungeon"
+					criterion: ""
+					id: "2F96791CDE59EFA1"
+					type: "advancement"
+				}
+			]
+			x: 2.5d
+			y: 0.5d
 		}
 		{
-			dependencies: ["5C2FDC8DE5D55A64"]
+			dependencies: ["1621379C0307EAAD"]
+			icon: {
+				id: "aether:silver_dungeon_key"
+			}
 			id: "5FA4F887ADAE89BA"
 			rewards: [{
 				id: "78D176992608CCA5"
@@ -86,14 +119,21 @@
 				}
 				type: "item"
 			}]
-			tasks: [{
-				advancement: "aether:silver_dungeon"
-				criterion: ""
-				id: "55573B0B6840B2AF"
-				type: "advancement"
-			}]
-			x: 3.5d
-			y: 0.0d
+			tasks: [
+				{
+					id: "37FAE67E06E9B20A"
+					structure: "aether:silver_dungeon"
+					type: "structure"
+				}
+				{
+					advancement: "aether:silver_dungeon"
+					criterion: ""
+					id: "55573B0B6840B2AF"
+					type: "advancement"
+				}
+			]
+			x: 2.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["1621379C0307EAAD"]
@@ -186,24 +226,40 @@
 		{
 			dependencies: ["6891CFCE0057E456"]
 			id: "354A4AE76A1072E5"
+			rewards: [{
+				id: "0D5F0CD4FBCD56FE"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1C125150E3AD02F5"
 				item: { count: 1, id: "aether:sun_altar" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: 5.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["6891CFCE0057E456"]
 			id: "5364D87FDDB4EAF3"
+			rewards: [{
+				id: "1D228F3D27F104F5"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				advancement: "aether:gold_dungeon"
 				criterion: ""
 				id: "2CEA047C1243D82A"
 				type: "advancement"
 			}]
-			x: 6.0d
+			x: 5.5d
 			y: 0.5d
 		}
 		{
@@ -212,6 +268,14 @@
 				id: "minecraft:sculk_shrieker"
 			}
 			id: "1E6EFCA4F1EC5A8A"
+			rewards: [{
+				id: "3FFC0996F0E56466"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "47AAFB608DAAC232"
 				structure: "minecraft:ancient_city"
@@ -223,6 +287,14 @@
 		{
 			dependencies: ["6891CFCE0057E456"]
 			id: "29FCF777C4BDB8E2"
+			rewards: [{
+				id: "701E34282EA0BCD2"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "09C028168F69C1E5"
 				type: "checkmark"
