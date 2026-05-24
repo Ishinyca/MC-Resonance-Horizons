@@ -1,0 +1,99 @@
+{
+  // Reward pools support item.id, item.tag, item.components, item.custom_data, and item.nbt.
+  // For 1.21.1 enchantments, names, potions, and similar data, prefer components.
+  // Legacy custom NBT can still be written as custom_data or nbt.
+  // Levels 1-3 use gold ingots as the default observe/redeem currency, so these pools do not return gold ingots directly.
+  // Levels 4-5 use emeralds as the default currency, so these pools do not return emeralds directly.
+  "pool1": [
+    { "item": { "tag": "minecraft:logs" }, "weight": 12, "count_min": 24, "count_max": 36, "price_min": 1, "price_max": 2 },
+    { "item": { "tag": "minecraft:planks" }, "weight": 12, "count_min": 40, "count_max": 56, "price_min": 1, "price_max": 2 },
+    { "item": { "tag": "minecraft:coals" }, "weight": 11, "count_min": 14, "count_max": 22, "price_min": 1, "price_max": 2 },
+    { "item": { "id": "minecraft:iron_ingot" }, "weight": 10, "count_min": 3, "count_max": 5, "price_min": 1, "price_max": 2 },
+    { "item": { "id": "minecraft:copper_ingot" }, "weight": 10, "count_min": 14, "count_max": 22, "price_min": 1, "price_max": 2 },
+    { "item": { "id": "minecraft:redstone" }, "weight": 9, "count_min": 14, "count_max": 22, "price_min": 1, "price_max": 2 },
+    { "item": { "id": "minecraft:lapis_lazuli" }, "weight": 9, "count_min": 12, "count_max": 20, "price_min": 1, "price_max": 2 },
+    { "item": { "tag": "minecraft:wool" }, "weight": 8, "count_min": 12, "count_max": 20, "price_min": 1, "price_max": 2 },
+    { "item": { "id": "minecraft:leather" }, "weight": 8, "count_min": 7, "count_max": 11, "price_min": 1, "price_max": 2 },
+    { "item": { "id": "minecraft:bread" }, "weight": 7, "count_min": 8, "count_max": 14, "price_min": 1, "price_max": 2 },
+    { "item": { "tag": "minecraft:arrows" }, "weight": 6, "count_min": 16, "count_max": 28, "price_min": 1, "price_max": 2 },
+    { "item": { "id": "minecraft:ender_pearl" }, "weight": 2, "count_min": 1, "count_max": 2, "price_min": 2, "price_max": 3 },
+  ],
+  "pool2": [
+    { "item": { "id": "minecraft:iron_ingot" }, "weight": 11, "count_min": 9, "count_max": 14, "price_min": 2, "price_max": 4 },
+    { "item": { "id": "minecraft:redstone" }, "weight": 10, "count_min": 28, "count_max": 42, "price_min": 2, "price_max": 4 },
+    { "item": { "id": "minecraft:lapis_lazuli" }, "weight": 10, "count_min": 24, "count_max": 36, "price_min": 2, "price_max": 4 },
+    { "item": { "id": "minecraft:amethyst_shard" }, "weight": 9, "count_min": 14, "count_max": 22, "price_min": 2, "price_max": 4 },
+    { "item": { "id": "minecraft:prismarine_shard" }, "weight": 9, "count_min": 16, "count_max": 24, "price_min": 2, "price_max": 4 },
+    { "item": { "tag": "minecraft:terracotta" }, "weight": 8, "count_min": 24, "count_max": 40, "price_min": 2, "price_max": 4 },
+    { "item": { "tag": "minecraft:fishes" }, "weight": 8, "count_min": 10, "count_max": 16, "price_min": 2, "price_max": 4 },
+    { "item": { "id": "minecraft:slime_ball" }, "weight": 7, "count_min": 8, "count_max": 14, "price_min": 3, "price_max": 5 },
+    { "item": { "id": "minecraft:obsidian" }, "weight": 7, "count_min": 8, "count_max": 12, "price_min": 3, "price_max": 5 },
+    { "item": { "id": "minecraft:blaze_rod" }, "weight": 6, "count_min": 3, "count_max": 5, "price_min": 3, "price_max": 5 },
+    { "item": { "id": "minecraft:ender_pearl" }, "weight": 6, "count_min": 3, "count_max": 5, "price_min": 3, "price_max": 5 },
+    { "item": { "id": "minecraft:diamond" }, "weight": 2, "count_min": 1, "count_max": 2, "price_min": 4, "price_max": 6 },
+  ],
+  "pool3": [
+    { "item": { "id": "minecraft:diamond" }, "weight": 10, "count_min": 2, "count_max": 4, "price_min": 5, "price_max": 8 },
+    { "item": { "id": "minecraft:ender_pearl" }, "weight": 10, "count_min": 6, "count_max": 10, "price_min": 5, "price_max": 8 },
+    { "item": { "id": "minecraft:blaze_rod" }, "weight": 9, "count_min": 6, "count_max": 10, "price_min": 5, "price_max": 8 },
+    { "item": { "id": "minecraft:obsidian" }, "weight": 9, "count_min": 18, "count_max": 28, "price_min": 5, "price_max": 8 },
+    { "item": { "id": "minecraft:quartz" }, "weight": 8, "count_min": 36, "count_max": 56, "price_min": 5, "price_max": 8 },
+    { "item": { "id": "minecraft:crying_obsidian" }, "weight": 7, "count_min": 8, "count_max": 14, "price_min": 6, "price_max": 9 },
+    { "item": { "id": "minecraft:golden_carrot" }, "weight": 7, "count_min": 12, "count_max": 20, "price_min": 5, "price_max": 8 },
+    { "item": { "id": "minecraft:golden_apple" }, "weight": 5, "count_min": 1, "count_max": 2, "price_min": 6, "price_max": 9 },
+    { "item": { "id": "minecraft:shulker_shell" }, "weight": 4, "count_min": 1, "count_max": 2, "price_min": 7, "price_max": 10 },
+    { "item": { "id": "minecraft:potion", "components": { "minecraft:custom_name": "{\"text\":\"Tidal Strength Potion\",\"color\":\"red\",\"italic\":false}", "minecraft:potion_contents": { "custom_effects": [ { "id": "minecraft:strength", "amplifier": 3, "duration": 1800, "show_particles": true, "show_icon": true } ] } } }, "weight": 2, "count_min": 1, "count_max": 1, "price_min": 8, "price_max": 10 },
+    { "item": { "id": "minecraft:stick", "components": { "minecraft:custom_name": "{\"text\":\"Tidal Knockback Rod\",\"color\":\"aqua\",\"italic\":false}", "minecraft:enchantments": { "levels": { "minecraft:knockback": 5 }, "show_in_tooltip": true } } }, "weight": 2, "count_min": 1, "count_max": 1, "price_min": 8, "price_max": 10 },
+    { "item": { "id": "minecraft:iron_pickaxe", "components": { "minecraft:custom_name": "{\"text\":\"Tidal Pickaxe\",\"color\":\"gold\",\"italic\":false}", "minecraft:enchantments": { "levels": { "minecraft:efficiency": 4, "minecraft:unbreaking": 3 }, "show_in_tooltip": true } } }, "weight": 2, "count_min": 1, "count_max": 1, "price_min": 8, "price_max": 10 },
+  ],
+  "pool4": [
+    { "item": { "id": "minecraft:diamond" }, "weight": 10, "count_min": 4, "count_max": 7, "price_min": 3, "price_max": 5 },
+    { "item": { "id": "minecraft:shulker_shell" }, "weight": 9, "count_min": 2, "count_max": 4, "price_min": 3, "price_max": 5 },
+    { "item": { "id": "minecraft:golden_apple" }, "weight": 8, "count_min": 3, "count_max": 5, "price_min": 3, "price_max": 5 },
+    { "item": { "id": "minecraft:dragon_breath" }, "weight": 8, "count_min": 5, "count_max": 8, "price_min": 3, "price_max": 5 },
+    { "item": { "id": "minecraft:prismarine_crystals" }, "weight": 8, "count_min": 28, "count_max": 44, "price_min": 3, "price_max": 5 },
+    { "item": { "id": "minecraft:sea_lantern" }, "weight": 7, "count_min": 10, "count_max": 16, "price_min": 3, "price_max": 5 },
+    { "item": { "id": "minecraft:netherite_scrap" }, "weight": 4, "count_min": 1, "count_max": 2, "price_min": 4, "price_max": 6 },
+    { "item": { "id": "minecraft:heart_of_the_sea" }, "weight": 3, "count_min": 1, "count_max": 1, "price_min": 5, "price_max": 7 },
+    { "item": { "id": "minecraft:trident" }, "weight": 2, "count_min": 1, "count_max": 1, "price_min": 6, "price_max": 8 },
+    { "item": { "id": "minecraft:iron_chestplate", "components": { "minecraft:custom_name": "{\"text\":\"Tidal Guardian Chestplate\",\"color\":\"blue\",\"italic\":false}", "minecraft:enchantments": { "levels": { "minecraft:protection": 5, "minecraft:unbreaking": 3 }, "show_in_tooltip": true } } }, "weight": 2, "count_min": 1, "count_max": 1, "price_min": 6, "price_max": 8 },
+    { "item": { "id": "minecraft:crossbow", "components": { "minecraft:custom_name": "{\"text\":\"Tidal Repeater\",\"color\":\"dark_aqua\",\"italic\":false}", "minecraft:enchantments": { "levels": { "minecraft:quick_charge": 4, "minecraft:unbreaking": 3 }, "show_in_tooltip": true } } }, "weight": 2, "count_min": 1, "count_max": 1, "price_min": 6, "price_max": 8 },
+    { "item": { "id": "minecraft:enchanted_golden_apple" }, "weight": 1, "count_min": 1, "count_max": 1, "price_min": 7, "price_max": 9 },
+  ],
+  "pool5": [
+    { "item": { "id": "minecraft:netherite_scrap" }, "weight": 10, "count_min": 3, "count_max": 5, "price_min": 5, "price_max": 8 },
+    { "item": { "id": "minecraft:diamond" }, "weight": 9, "count_min": 10, "count_max": 16, "price_min": 5, "price_max": 8 },
+    { "item": { "id": "minecraft:shulker_shell" }, "weight": 8, "count_min": 4, "count_max": 6, "price_min": 5, "price_max": 8 },
+    { "item": { "id": "minecraft:dragon_breath" }, "weight": 8, "count_min": 8, "count_max": 12, "price_min": 5, "price_max": 8 },
+    { "item": { "id": "minecraft:golden_apple" }, "weight": 8, "count_min": 7, "count_max": 10, "price_min": 5, "price_max": 8 },
+    { "item": { "id": "minecraft:wither_skeleton_skull" }, "weight": 4, "count_min": 1, "count_max": 2, "price_min": 7, "price_max": 10 },
+    { "item": { "id": "minecraft:nether_star" }, "weight": 2, "count_min": 1, "count_max": 1, "price_min": 9, "price_max": 12 },
+    { "item": { "id": "minecraft:mace" }, "weight": 2, "count_min": 1, "count_max": 1, "price_min": 8, "price_max": 12 },
+    { "item": { "id": "minecraft:potion", "components": { "minecraft:custom_name": "{\"text\":\"Tidal Giant Strength Potion\",\"color\":\"dark_red\",\"italic\":false}", "minecraft:potion_contents": { "custom_effects": [ { "id": "minecraft:strength", "amplifier": 3, "duration": 3600, "show_particles": true, "show_icon": true }, { "id": "minecraft:resistance", "amplifier": 1, "duration": 3600, "show_particles": true, "show_icon": true } ] } } }, "weight": 2, "count_min": 1, "count_max": 2, "price_min": 8, "price_max": 12 },
+    { "item": { "id": "minecraft:iron_leggings", "components": { "minecraft:custom_name": "{\"text\":\"Tidal Guardian Leggings\",\"color\":\"blue\",\"italic\":false}", "minecraft:enchantments": { "levels": { "minecraft:protection": 5, "minecraft:unbreaking": 3 }, "show_in_tooltip": true } } }, "weight": 2, "count_min": 1, "count_max": 1, "price_min": 8, "price_max": 12 },
+    { "item": { "id": "minecraft:stick", "components": { "minecraft:custom_name": "{\"text\":\"Tidal Ebb Rod\",\"color\":\"light_purple\",\"italic\":false}", "minecraft:enchantments": { "levels": { "minecraft:knockback": 8, "minecraft:fire_aspect": 2 }, "show_in_tooltip": true } } }, "weight": 2, "count_min": 1, "count_max": 1, "price_min": 8, "price_max": 12 },
+    { "item": { "id": "minecraft:enchanted_golden_apple" }, "weight": 1, "count_min": 1, "count_max": 2, "price_min": 10, "price_max": 12 },
+  ],
+
+  // Abandon compensation is only a light fallback and should not become a stable profit loop.
+  "abandon1": [
+    { "item": { "id": "minecraft:amethyst_shard" }, "weight": 24, "count_min": 1, "count_max": 3 },
+    { "item": { "id": "trs:spin_voucher" }, "weight": 1, "count_min": 1, "count_max": 1 },
+  ],
+  "abandon2": [
+    { "item": { "id": "minecraft:amethyst_shard" }, "weight": 22, "count_min": 2, "count_max": 4 },
+    { "item": { "id": "trs:spin_voucher" }, "weight": 1, "count_min": 1, "count_max": 1 },
+  ],
+  "abandon3": [
+    { "item": { "id": "minecraft:prismarine_shard" }, "weight": 20, "count_min": 3, "count_max": 6 },
+    { "item": { "id": "trs:spin_voucher" }, "weight": 1, "count_min": 1, "count_max": 1 },
+  ],
+  "abandon4": [
+    { "item": { "id": "minecraft:gold_nugget" }, "weight": 18, "count_min": 6, "count_max": 10 },
+    { "item": { "id": "trs:spin_voucher" }, "weight": 1, "count_min": 1, "count_max": 1 },
+  ],
+  "abandon5": [
+    { "item": { "id": "minecraft:gold_nugget" }, "weight": 16, "count_min": 9, "count_max": 15 },
+    { "item": { "id": "trs:spin_voucher" }, "weight": 1, "count_min": 1, "count_max": 1 },
+  ],
+}

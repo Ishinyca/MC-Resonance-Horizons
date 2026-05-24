@@ -1,0 +1,50 @@
+{
+  // Whether Tide Spin is available from observed white cards.
+  "enabled": true,
+
+  "entry": {
+    // Whether entering Tide Spin consumes an entry cost.
+    "enabled": true,
+
+    // Entry cost uses sqrt(observe_cost * redeem_cost), then applies this multiplier.
+    "cost_multiplier": 1.0,
+
+    // Creative players can enter Tide Spin without entry cost.
+    "creative_free": true
+  },
+
+  "points": {
+    // Base tide points available after entering Tide Spin.
+    "base": 17,
+
+    // Extra starting tide points during full moon.
+    "full_moon_bonus": 3
+  },
+
+  "costs": {
+    // Creative players ignore lock and micro-adjustment tide point costs.
+    "creative_free": true,
+
+    // If false, micro-adjustments cost 0 tide points in survival.
+    "orb_cost_enabled": true,
+
+    // Lock uses sequence rule: [1, 2, 3] means use 1, then 2, then 3 forever.
+    // Full refresh always uses the first value. Double/triple/drift use the first value as base and then +1 per use in the same spin.
+    "lock": [1, 2, 4, 8],
+    "full_refresh": [5],
+    "double": [3],
+    "triple": [4],
+    "drift": [3]
+  },
+
+  "orb_range_hint": {
+    // Chance that Double / Triple / Drift displays its exact affected slots.
+    // Hidden ranges are still fixed server-side, but the UI shows ?-?.
+    "chance_percent": 65
+  },
+
+  "moon_modifiers": {
+    // Keeps the current moon-phase bonuses and penalties.
+    "enabled": true
+  }
+}

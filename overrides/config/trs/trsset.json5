@@ -1,0 +1,114 @@
+{
+  // Misc settings for the Tidal Observation Card.
+  // version is reserved for future config migration. Do not edit it unless you know why.
+  "version": 1,
+
+  "ui": {
+    // Level color mode: preset / custom / off.
+    "level_color_mode": "preset",
+
+    // Preset color palette: classic / ocean / warm / mono.
+    "level_color_preset": "classic",
+
+    // Original level slots shown on gray cards.
+    // Example: [1, 3, 5] displays I/II/III but uses the original level 1/3/5 costs and pools.
+    "visible_level_slots": [1, 2, 3, 4, 5],
+
+    // Custom colors for levels I-V. Only used when level_color_mode = custom.
+    // Format must be #RRGGBB.
+    "custom_level_colors": {
+      "1": "#55C76A",
+      "2": "#4A90E2",
+      "3": "#F2C94C",
+      "4": "#EB5757",
+      "5": "#9B51E0"
+    },
+
+    // Controls where level colors are applied in the UI.
+    "apply_level_colors_to": {
+      // Level chips shown on gray cards.
+      "level_selector_chips": true,
+
+      // The corner level marker on observed cards.
+      "card_corner_marker": true,
+
+      // Header/accent area of the gray-card confirmation state.
+      "confirm_panel_header": true,
+
+      // Header/accent area of the observed-card menu state.
+      "menu_panel_header": true,
+
+      // Card edge glow/highlight.
+      "card_glow": false,
+
+      // Whether main text uses level colors.
+      "text": false
+    },
+
+    // Whether card flip animation is enabled.
+    "enable_flip_animation": true,
+
+    // Card flip animation duration in milliseconds.
+    "flip_animation_duration_ms": 420
+  },
+
+  "broadcast": {
+    // Whether scheduled refreshes send a chat message.
+    "enable_daily_refresh_message": true,
+
+    // Whether forced/debug refreshes send a chat message.
+    "enable_forced_refresh_message": true,
+
+    // Whether players without a Tidal Observation Card still receive refresh messages.
+    "broadcast_without_card": false
+  },
+
+  "cards": {
+    // Each page contains 12 cards. Page count is independent from observe mode.
+    "page_count": 1,
+
+    // manual = choose from visible levels; random_single = each gray card shows one random level.
+    "observe_mode": "manual",
+
+    "random_single": {
+      // Random weights for levels I-V. Higher levels are intentionally rarer by default.
+      "weights": [45, 28, 16, 8, 3]
+    }
+  },
+
+  "refresh": {
+    // fixed_daily = old fixed daily refresh; interval = refresh by real-time interval; manual_only = commands only.
+    "mode": "fixed_daily",
+
+    // Used by interval mode. 2880 minutes = 48 hours.
+    "interval_minutes": 2880
+  },
+
+  "observe_draw": {
+    // Whether the observation result plays a CSGO-style draw animation before the card flips.
+    "enabled": true,
+
+    // Whether Space can skip the draw animation.
+    "skip_key_enabled": true,
+
+    // Lower levels resolve faster; higher levels keep more suspense.
+    "duration_ms_by_level": {
+      "1": 3200,
+      "2": 3200,
+      "3": 3200,
+      "4": 3200,
+      "5": 3200
+    }
+  },
+
+  "misc": {
+    // Whether creative-mode players ignore observe costs.
+    "creative_free_observe": true,
+
+    // Whether creative-mode players ignore redeem costs.
+    "creative_free_redeem": true,
+
+    // Whether players receive one Tidal Observation Card on their first join.
+    "grant_starter_card_on_first_join": true
+  }
+}
