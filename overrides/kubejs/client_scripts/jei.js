@@ -8,6 +8,17 @@ const hide_jei_items = [
     'mekanism:mekasuit_boots',
     'mekanism:meka_tool',
     '#mekanism:unit',
+    'sophisticatedstorage:basic_tier_upgrade',
+    'sophisticatedstorage:basic_to_iron_tier_upgrade',
+    'sophisticatedstorage:basic_to_gold_tier_upgrade',
+    'sophisticatedstorage:basic_to_diamond_tier_upgrade',
+    'sophisticatedstorage:basic_to_netherite_tier_upgrade',
+    'sophisticatedstorage:copper_to_gold_tier_upgrade',
+    'sophisticatedstorage:copper_to_diamond_tier_upgrade',
+    'sophisticatedstorage:copper_to_netherite_tier_upgrade',
+    'sophisticatedstorage:iron_to_diamond_tier_upgrade',
+    'sophisticatedstorage:iron_to_netherite_tier_upgrade',
+    'sophisticatedstorage:gold_to_netherite_tier_upgrade',
 ]
 
 RecipeViewerEvents.removeEntries('item', event => {
