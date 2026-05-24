@@ -1,5 +1,5 @@
 {
-  "starting_level": 5,
+  "starting_level": 3,
   "max_level": 40,
-  "levels_per_distance": 0.0035
+  "levels_per_distance": 0.0034
 }
