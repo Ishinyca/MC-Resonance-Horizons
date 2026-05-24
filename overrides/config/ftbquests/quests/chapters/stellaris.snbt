@@ -1,0 +1,648 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "stellaris"
+	group: "69C66C6408A97599"
+	icon: {
+		components: {
+			"stellaris:rocket_component": {
+				fuel: 5000
+				fuel_capacity: 5000
+				fuel_texture: "stellaris:util/energy_full"
+				fuel_type: "radioactive"
+				model: "tiny"
+				skin: "stellaris"
+			}
+		}
+		id: "stellaris:rocket"
+	}
+	id: "371D6A80DB6DAF11"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5393717987D4DEFD"
+			rewards: [{
+				id: "0DEF1E27D8C159BC"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "218D4097BAF15D69"
+				item: { count: 1, id: "mekanism:ingot_steel" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5393717987D4DEFD"]
+			id: "3DD6ED57EB849D82"
+			rewards: [{
+				id: "4CB3782AA5585269"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3CE005C27D406812"
+				item: { count: 1, id: "stellaris:heavy_metal_ingot" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"3DD6ED57EB849D82"
+				"4E470500E9EE5146"
+			]
+			id: "0CE63C22BB61B867"
+			rewards: [{
+				id: "6FD163FB952D29C5"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "401F7B9A8073B311"
+				item: { count: 1, id: "stellaris:water_pump" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5393717987D4DEFD"]
+			id: "4E470500E9EE5146"
+			rewards: [{
+				id: "2AF5FC95864BEA13"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5724DCA235DA4C15"
+				item: { count: 1, id: "stellaris:cable" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"0CE63C22BB61B867"
+				"6FAD3ECC0B098BF4"
+			]
+			id: "62D285AFAD2CC747"
+			rewards: [{
+				id: "2C70C6C5E942F668"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6ADDBAAB470B2B0E"
+				item: { count: 1, id: "stellaris:water_separator" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5393717987D4DEFD"]
+			hide_dependency_lines: true
+			id: "3259CC7B562EB050"
+			rewards: [{
+				id: "6CF0989F5E0A4CA2"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B5D3039F64F439D"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3DD6ED57EB849D82"]
+			id: "6FAD3ECC0B098BF4"
+			rewards: [{
+				id: "0653341A0EAC09D8"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A06EEBBF89FBF4F"
+				item: { count: 1, id: "stellaris:pipe_t1" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"62D285AFAD2CC747"
+				"74B991367C0922C5"
+			]
+			id: "22EABC7723EA28A3"
+			rewards: [{
+				id: "3682A8D038224623"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3BFEAA55C9AF564A"
+					item: { count: 1, id: "stellaris:space_suit_helmet" }
+					type: "item"
+				}
+				{
+					id: "10E7A4CBC8A5E754"
+					item: { components: { "stellaris:fluid": { amounts: [L; 0L, 0L ], fluids: [ "minecraft:empty", "minecraft:empty" ] } }, count: 1, id: "stellaris:space_suit_chestplate" }
+					type: "item"
+				}
+				{
+					id: "69BD909989E20AF9"
+					item: { count: 1, id: "stellaris:space_suit_leggings" }
+					type: "item"
+				}
+				{
+					id: "1A89C7C2D667FFA6"
+					item: { count: 1, id: "stellaris:space_suit_boots" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5393717987D4DEFD"]
+			hide_dependency_lines: true
+			id: "74B991367C0922C5"
+			rewards: [{
+				id: "68382CA97B8038E7"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E62A9C0D5449AE5"
+				item: { components: { "stellaris:fluid": { amounts: [L;0L], fluids: ["minecraft:empty"] } }, count: 1, id: "stellaris:oxygen_tank" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3DD6ED57EB849D82"]
+			id: "4EC6BD8B7B07F729"
+			rewards: [{
+				id: "4532A7000AE17FF5"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "54D8A61DEB62551A"
+				item: { count: 1, id: "stellaris:oxygen_distributor" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["43C0882F8A82E62E"]
+			id: "03C98E739DC29304"
+			rewards: [{
+				id: "1DB00983EA7FAA09"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B9BF59EF383F02A"
+				item: { count: 1, id: "stellaris:fuel_refinery" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5393717987D4DEFD"]
+			id: "43C0882F8A82E62E"
+			rewards: [{
+				id: "242DE9E3238295F1"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "413D1F92D37052AA"
+				item: { components: { "stellaris:energy": 0 }, count: 1, id: "stellaris:oil_finder" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5393717987D4DEFD"]
+			id: "4DBEB03C826DEE21"
+			rewards: [{
+				id: "29203461DAC5D593"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "651CF8AA1399CFE0"
+				item: { count: 1, id: "stellaris:pumpjack" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5393717987D4DEFD"]
+			id: "4FBBCED94A58B4C3"
+			rewards: [{
+				id: "04CCF4700A9F0679"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "60C06CDE16BB9123"
+				item: { count: 1, id: "stellaris:rocket_station" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4FBBCED94A58B4C3"]
+			id: "68ECCD00276BB9D3"
+			rewards: [{
+				id: "773EF822FA813346"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B1D0046D86B9627"
+				item: { components: { "stellaris:rocket_component": { fuel: 0, fuel_capacity: 5000, fuel_texture: "stellaris:util/energy_full", fuel_type: "radioactive", model: "tiny", skin: "stellaris" } }, count: 1, id: "stellaris:rocket" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5393717987D4DEFD"]
+			id: "7E59A9D0659069E3"
+			rewards: [{
+				id: "19071E17303C6BEA"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 9L
+				id: "19101A859D530A0C"
+				item: { count: 1, id: "stellaris:rocket_launch_pad" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["03C98E739DC29304"]
+			id: "600185F031E062AE"
+			rewards: [{
+				id: "59EDF34CE3C39B3B"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "706885FDDDDE5F05"
+				item: { count: 1, id: "stellaris:fuel_bucket" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5393717987D4DEFD"]
+			id: "65B142EE9D3A930E"
+			rewards: [{
+				id: "4029AE23AF0EF8A0"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "17835858CA115895"
+				item: { count: 1, id: "stellaris:rover" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["68ECCD00276BB9D3"]
+			id: "4E665F829CCC7B1B"
+			rewards: [{
+				id: "6DBF6E8DBC02951A"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "60D3F44C30154C3F"
+				item: { count: 1, id: "stellaris:hydrogen_motor" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["68ECCD00276BB9D3"]
+			id: "0BDB3DB4791546CF"
+			rewards: [{
+				id: "1CD8E0B1DE316D4A"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "69269C595A549F2C"
+				item: { count: 1, id: "stellaris:radioactive_motor" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3259CC7B562EB050"]
+			id: "3520E1F5CF5CC162"
+			rewards: [{
+				id: "10D3D9A4D29A27FB"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "59E037E7C3A8DC0E"
+				item: { count: 1, id: "stellaris:solar_panel" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3259CC7B562EB050"]
+			id: "5F8DE283C059978E"
+			rewards: [{
+				id: "2058576FDAECB597"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F12E3E6879C695A"
+				item: { count: 1, id: "stellaris:radioactive_generator" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3259CC7B562EB050"]
+			id: "41E8B2C953D64077"
+			rewards: [{
+				id: "6A5F23B9944A1523"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "29DB42D2A6B32F7C"
+				item: { count: 1, id: "actuallyadditions:coal_generator" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5393717987D4DEFD"]
+			id: "43EF6A8B59FD0FF9"
+			rewards: [{
+				id: "59699C40792C9D04"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "74A2D03826757273"
+				item: { count: 1, id: "stellaris:vacuumator" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["43EF6A8B59FD0FF9"]
+			id: "1C4DEE27CA0588C2"
+			rewards: [{
+				id: "3F06B6B90023560B"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "395FE2F733E46196"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(stellaris:can)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["68ECCD00276BB9D3"]
+			id: "5D85CA6DBF648FB9"
+			rewards: [{
+				id: "4F4B80E108528F93"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7CDD3C2DB97D9C26"
+				item: { count: 1, id: "stellaris:big_fuel_tank_upgrade" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["68ECCD00276BB9D3"]
+			id: "2C05D8DFAE0770DE"
+			rewards: [{
+				id: "34DDEED62304B5BB"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "65A750C83DB3260F"
+				item: { count: 1, id: "stellaris:tiny_rocket_upgrade" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["68ECCD00276BB9D3"]
+			id: "1A202F0319230869"
+			rewards: [{
+				id: "4FB7658F1D5A9406"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7FF5AFDC6782F332"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(stellaris:rocket_skin)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["68ECCD00276BB9D3"]
+			icon: {
+				id: "stellaris:moon_sand"
+			}
+			id: "5789F5319B9A887F"
+			rewards: [{
+				id: "6C4E156DEC138FCC"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "stellaris:moon"
+				id: "02648FF06210EA94"
+				type: "dimension"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5789F5319B9A887F"]
+			id: "56592D7D67A3A6ED"
+			rewards: [{
+				id: "0D1A4F505348D9EC"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					id: "stellaris:moon_desh_ore"
+				}
+				id: "4C76176BCA66FFED"
+				observe_type: 0
+				timer: 0L
+				to_observe: "stellaris:moon_desh_ore"
+				type: "observation"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["56592D7D67A3A6ED"]
+			id: "6BA1FD537DBEF68B"
+			rewards: [{
+				id: "6C3BD743B39862A0"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "071C2056187A10BD"
+				item: { count: 1, id: "stellaris:raw_desh_ingot" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.5d
+		}
+	]
+}
