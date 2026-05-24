@@ -16,8 +16,8 @@
 	experience_bonus_per_level = 0.05
 
 [environmental_leveling]
-	#How many levels to add per block from world spawn - was 0.001
-	levels_per_block_from_spawn = 0.00075
+	#How many levels to add per block from world spawn
+	levels_per_block_from_spawn = 7.5E-4
 	#How many levels to add per block below sea level (default sea level is Y=64, can be overridden per dimension)
 	levels_per_depth = 0.0015
 	#How many levels to add per block above sea level (default sea level is Y=64, can be overridden per dimension)
@@ -96,32 +96,7 @@
 	#Entities that cannot level up
 	#Supports wildcards: use 'modid:*' to blacklist all entities from a mod
 	#Examples: ["minecraft:zombie", "minecraft:skeleton", "cataclysm:*"]
-	blacklisted_entities = [
-		# Ars Nouveau
-		"ars_nouveau:amethyst_golem",
-		"ars_nouveau:familiar_amethyst_golem",
-		"ars_nouveau:bookwyrm",
-		"ars_nouveau:familiar_bookwyrm",
-		"ars_nouveau:drygmy",
-		"ars_nouveau:familiar_drygmy",
-		"ars_nouveau:starbuncle",
-		"ars_nouveau:familiar_starbuncle",
-		"ars_nouveau:whirlisprig",
-		"ars_nouveau:familiar_whirlisprig",
-		"ars_nouveau:wixie",
-		"ars_nouveau:familiar_wixie",
-
-		# Dragons Mount Remastered. Should be done in their own config for scaling
-		"dmr:dragon",
-
-		# Armour stands for some reason getting a level when it shouldnt
-		"minecraft:armor_stand",
-
-		# Bosses should be in their own configs for scaling
-		"cataclysm:*",
-		"bosses_of_mass_destruction:*",
-		"block_factorys_bosses:*",
-	]
+	blacklisted_entities = ["ars_nouveau:amethyst_golem", "ars_nouveau:familiar_amethyst_golem", "ars_nouveau:bookwyrm", "ars_nouveau:familiar_bookwyrm", "ars_nouveau:drygmy", "ars_nouveau:familiar_drygmy", "ars_nouveau:starbuncle", "ars_nouveau:familiar_starbuncle", "ars_nouveau:whirlisprig", "ars_nouveau:familiar_whirlisprig", "ars_nouveau:wixie", "ars_nouveau:familiar_wixie", "dmr:dragon", "minecraft:armor_stand", "cataclysm:*", "bosses_of_mass_destruction:*", "block_factorys_bosses:*"]
 	#If not empty, only these entities can level up
 	#Supports wildcards: use 'modid:*' to whitelist all entities from a mod
 	#Examples: ["minecraft:zombie", "cataclysm:*"]
@@ -133,14 +108,7 @@
 	#bonus_per_level: The amount to add per entity level
 	#operation: add_value (flat addition), add_multiplied_base (percentage of base), or add_multiplied_total (percentage of final value)
 	#Leave empty to disable all attribute bonuses
-	level_bonus_per_attribute = [
-		["minecraft:generic.attack_damage", 0.75,"add_value"],
-		["minecraft:generic.armor", 0.30, "add_value"],
-		["minecraft:generic.max_health", 0.03, "add_multiplied_base"],
-		["dynamic_difficulty:projectile_damage_bonus", 0.45, "add_value"],
-		["dynamic_difficulty:magic_damage_bonus", 0.45, "add_value"],
-		["dynamic_difficulty:explosion_damage_bonus", 0.325, "add_value"]
-	]
+	level_bonus_per_attribute = [["minecraft:generic.attack_damage", 0.75, "add_value"], ["minecraft:generic.armor", 0.3, "add_value"], ["minecraft:generic.max_health", 0.03, "add_multiplied_base"], ["dynamic_difficulty:projectile_damage_bonus", 0.45, "add_value"], ["dynamic_difficulty:magic_damage_bonus", 0.45, "add_value"], ["dynamic_difficulty:explosion_damage_bonus", 0.325, "add_value"]]
 
 [level_up_items]
 	#Maximum level that Potion of Growth can raise an entity to

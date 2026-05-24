@@ -5,7 +5,7 @@
 	#Percentage of the initial skill point cost refunded
 	# Default: 30.0
 	# Range: 0.0 ~ 100.0
-	refund_percentage = 30.0
+	refund_percentage = 100.0
 	#Allows players to purchase skills
 	purchase_system = true
 	#Prevent manually placed block from providing xp
@@ -15,7 +15,7 @@
 	#Maximum level a player can reach (-1 to disable limit)
 	# Default: -1
 	# Range: > -1
-	max_lvl = -1
+	max_lvl = 30
 	#Maximum SP a player can hold (-1 to disable limit)
 	# Default: -1
 	# Range: > -1
@@ -68,15 +68,15 @@
 	#XP gained from sleeping
 	# Default: 25.0
 	# Range: 0.0 ~ 1.7976931348623157E308
-	sleeping_gain = 25.0
+	sleeping_gain = 0.0
 	#XP gained from fishing
 	# Default: 7.0
 	# Range: 0.0 ~ 1.7976931348623157E308
-	fishing_gain = 7.0
+	fishing_gain = 8.0
 	#XP gained from crafting items
 	# Default: 0.2
 	# Range: 0.0 ~ 1.7976931348623157E308
-	crafting_gain = 0.2
+	crafting_gain = 0.01
 	#XP gained from breeding animals
 	# Default: 15.0
 	# Range: 0.0 ~ 1.7976931348623157E308
