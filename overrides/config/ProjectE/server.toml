@@ -30,7 +30,7 @@
 		#Delay between Talisman of Repair trying to repair player items while in the pedestal.
 		# Default: 20
 		# Range: > -1
-		repair = 300
+		repair = 240
 		#Delay between SWRG trying to smite mobs while in the pedestal.
 		# Default: 70
 		# Range: > -1
@@ -61,7 +61,7 @@
 		#Delay between Talisman of Repair trying to repair player items while in a player's inventory.
 		# Default: 20
 		# Range: > -1
-		repair = 600
+		repair = 480
 		#Delay between heal attempts while in a player's inventory. (Soul Stone, Life Stone, Gem Helmet).
 		# Default: 20
 		# Range: > -1
