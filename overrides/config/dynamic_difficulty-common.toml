@@ -108,7 +108,7 @@
 	#bonus_per_level: The amount to add per entity level
 	#operation: add_value (flat addition), add_multiplied_base (percentage of base), or add_multiplied_total (percentage of final value)
 	#Leave empty to disable all attribute bonuses
-	level_bonus_per_attribute = [["minecraft:generic.attack_damage", 0.75, "add_value"], ["minecraft:generic.armor", 0.3, "add_value"], ["minecraft:generic.max_health", 0.03, "add_multiplied_base"], ["dynamic_difficulty:projectile_damage_bonus", 0.45, "add_value"], ["dynamic_difficulty:magic_damage_bonus", 0.45, "add_value"], ["dynamic_difficulty:explosion_damage_bonus", 0.325, "add_value"]]
+	level_bonus_per_attribute = [["minecraft:generic.attack_damage", 0.85, "add_value"], ["minecraft:generic.armor", 0.25, "add_value"], ["minecraft:generic.max_health", 0.03, "add_multiplied_base"], ["dynamic_difficulty:projectile_damage_bonus", 0.5, "add_value"], ["dynamic_difficulty:magic_damage_bonus", 0.5, "add_value"], ["dynamic_difficulty:explosion_damage_bonus", 0.415, "add_value"]]
 
 [level_up_items]
 	#Maximum level that Potion of Growth can raise an entity to
