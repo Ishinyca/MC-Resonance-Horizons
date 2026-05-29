@@ -64,6 +64,21 @@ const commonRecipeIdsToRemove = [
 	'aether:skyroot_grindstone_holystone_slab',
 	'aether:skyroot_grindstone',
 	'aether:skyroot_smithing_table',
+	'eternal_starlight:repeater_from_cinder_brick',
+	'eternal_starlight:comparator_from_cinder_brick_and_nightfall_spider_eye',
+	'eternal_starlight:dispenser_from_cinder_brick',
+	'eternal_starlight:observer_from_cinder_brick',
+	'eternal_starlight:dropper_from_cinder_brick',
+	'eternal_starlight:piston_from_cinder_brick',
+	'eternal_starlight:blast_furnace_from_cinder_brick',
+	'eternal_starlight:lever_from_cinder_brick',
+	'eternal_starlight:comparator_from_cinder_brick',
+	'eternal_starlight:observer_from_cinder_brick_and_nightfall_spider_eye',
+	'eternal_starlight:tinted_glass_from_nightfall_spider_eye',
+	'eternal_starlight:daylight_detector_from_nightfall_spider_eye',
+	'eternal_starlight:comparator_from_nightfall_spider_eye',
+	'eternal_starlight:observer_from_nightfall_spider_eye',
+	
 ];
 
 const commonRecipeOutputToRemove = [
