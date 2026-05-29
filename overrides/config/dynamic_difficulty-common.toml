@@ -96,7 +96,7 @@
 	#Entities that cannot level up
 	#Supports wildcards: use 'modid:*' to blacklist all entities from a mod
 	#Examples: ["minecraft:zombie", "minecraft:skeleton", "cataclysm:*"]
-	blacklisted_entities = ["ars_nouveau:amethyst_golem", "ars_nouveau:familiar_amethyst_golem", "ars_nouveau:bookwyrm", "ars_nouveau:familiar_bookwyrm", "ars_nouveau:drygmy", "ars_nouveau:familiar_drygmy", "ars_nouveau:starbuncle", "ars_nouveau:familiar_starbuncle", "ars_nouveau:whirlisprig", "ars_nouveau:familiar_whirlisprig", "ars_nouveau:wixie", "ars_nouveau:familiar_wixie", "dmr:dragon", "minecraft:armor_stand", "cataclysm:*", "bosses_of_mass_destruction:*", "block_factorys_bosses:*"]
+	blacklisted_entities = ["ars_nouveau:amethyst_golem", "ars_nouveau:familiar_amethyst_golem", "ars_nouveau:bookwyrm", "ars_nouveau:familiar_bookwyrm", "ars_nouveau:drygmy", "ars_nouveau:familiar_drygmy", "ars_nouveau:starbuncle", "ars_nouveau:familiar_starbuncle", "ars_nouveau:whirlisprig", "ars_nouveau:familiar_whirlisprig", "ars_nouveau:wixie", "ars_nouveau:familiar_wixie", "dmr:dragon", "minecraft:armor_stand", "cataclysm:*", "bosses_of_mass_destruction:*", "block_factorys_bosses:*", "aether:sun_spirit", "aether:valkyrie_queen", "aether:slider"]
 	#If not empty, only these entities can level up
 	#Supports wildcards: use 'modid:*' to whitelist all entities from a mod
 	#Examples: ["minecraft:zombie", "cataclysm:*"]
@@ -108,7 +108,7 @@
 	#bonus_per_level: The amount to add per entity level
 	#operation: add_value (flat addition), add_multiplied_base (percentage of base), or add_multiplied_total (percentage of final value)
 	#Leave empty to disable all attribute bonuses
-	level_bonus_per_attribute = [["minecraft:generic.attack_damage", 0.85, "add_value"], ["minecraft:generic.armor", 0.25, "add_value"], ["minecraft:generic.max_health", 0.03, "add_multiplied_base"], ["dynamic_difficulty:projectile_damage_bonus", 0.5, "add_value"], ["dynamic_difficulty:magic_damage_bonus", 0.5, "add_value"], ["dynamic_difficulty:explosion_damage_bonus", 0.415, "add_value"]]
+	level_bonus_per_attribute = [["minecraft:generic.attack_damage", 0.85, "add_value"], ["minecraft:generic.armor", 0.15, "add_value"], ["minecraft:generic.max_health", 0.025, "add_multiplied_base"], ["dynamic_difficulty:projectile_damage_bonus", 0.5, "add_value"], ["dynamic_difficulty:magic_damage_bonus", 0.5, "add_value"], ["dynamic_difficulty:explosion_damage_bonus", 0.415, "add_value"]]
 
 [level_up_items]
 	#Maximum level that Potion of Growth can raise an entity to
