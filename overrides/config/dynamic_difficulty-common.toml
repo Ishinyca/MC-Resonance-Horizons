@@ -96,7 +96,7 @@
 	#Entities that cannot level up
 	#Supports wildcards: use 'modid:*' to blacklist all entities from a mod
 	#Examples: ["minecraft:zombie", "minecraft:skeleton", "cataclysm:*"]
-	blacklisted_entities = ["ars_nouveau:amethyst_golem", "ars_nouveau:familiar_amethyst_golem", "ars_nouveau:bookwyrm", "ars_nouveau:familiar_bookwyrm", "ars_nouveau:drygmy", "ars_nouveau:familiar_drygmy", "ars_nouveau:starbuncle", "ars_nouveau:familiar_starbuncle", "ars_nouveau:whirlisprig", "ars_nouveau:familiar_whirlisprig", "ars_nouveau:wixie", "ars_nouveau:familiar_wixie", "dmr:dragon", "minecraft:armor_stand", "cataclysm:*", "bosses_of_mass_destruction:*", "block_factorys_bosses:*", "aether:sun_spirit", "aether:valkyrie_queen", "aether:slider", "dummmmmmy:target_dummy"]
+	blacklisted_entities = ["ars_nouveau:amethyst_golem", "ars_nouveau:familiar_amethyst_golem", "ars_nouveau:bookwyrm", "ars_nouveau:familiar_bookwyrm", "ars_nouveau:drygmy", "ars_nouveau:familiar_drygmy", "ars_nouveau:starbuncle", "ars_nouveau:familiar_starbuncle", "ars_nouveau:whirlisprig", "ars_nouveau:familiar_whirlisprig", "ars_nouveau:wixie", "ars_nouveau:familiar_wixie", "dmr:dragon", "minecraft:armor_stand", "cataclysm:*", "bosses_of_mass_destruction:*", "block_factorys_bosses:*", "aether:sun_spirit", "aether:valkyrie_queen", "aether:slider", "dummmmmmy:target_dummy", "draconicevolution:draconic_guardian", "draconicevolution:guardian_wither",]
 	#If not empty, only these entities can level up
 	#Supports wildcards: use 'modid:*' to whitelist all entities from a mod
 	#Examples: ["minecraft:zombie", "cataclysm:*"]
