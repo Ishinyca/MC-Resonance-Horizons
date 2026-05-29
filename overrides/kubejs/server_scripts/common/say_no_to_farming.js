@@ -37,6 +37,8 @@ ServerEvents.tags("entity_type", event => {
         "cataclysm:the_baby_leviathan",
         "cataclysm:modern_remnant",
         "dmr:dragon",
+        "aether:mimic",
+        "aether:valkyrie",
     ])
 
 
