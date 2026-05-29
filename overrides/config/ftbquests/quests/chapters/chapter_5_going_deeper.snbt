@@ -22,8 +22,16 @@
 			image: "minecraft:block/reinforced_deepslate_top"
 			rotation: 0.0d
 			width: 1.5d
-			x: 0.0d
+			x: -1.0d
 			y: -1.0d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:item/diamond_sword"
+			rotation: 180.0d
+			width: 1.5d
+			x: 1.5d
+			y: -1.5d
 		}
 	]
 	order_index: 4
@@ -32,11 +40,8 @@
 		{
 			dependencies: [
 				"354A4AE76A1072E5"
-				"5364D87FDDB4EAF3"
 				"66DC3809A67F93EF"
 			]
-			hide_until_deps_complete: true
-			hide_until_deps_visible: true
 			id: "1194E231E957088A"
 			tasks: [{
 				dimension: "deeperdarker:otherside"
@@ -103,7 +108,7 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["1E6EFCA4F1EC5A8A"]
+			dependencies: ["6891CFCE0057E456"]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "540E0A7E1D1B3AB0"
@@ -113,11 +118,14 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 0.0d
+			x: 1.0d
 			y: -1.0d
 		}
 		{
-			dependencies: ["540E0A7E1D1B3AB0"]
+			dependencies: [
+				"540E0A7E1D1B3AB0"
+				"1E6EFCA4F1EC5A8A"
+			]
 			id: "66DC3809A67F93EF"
 			tasks: [{
 				id: "0B8B9BF10823906B"
@@ -177,6 +185,42 @@
 			}]
 			x: 2.0d
 			y: 2.5d
+		}
+		{
+			dependencies: ["6891CFCE0057E456"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				id: "minecraft:sculk_shrieker"
+			}
+			id: "1E6EFCA4F1EC5A8A"
+			rewards: [{
+				id: "3FFC0996F0E56466"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "47AAFB608DAAC232"
+				structure: "minecraft:ancient_city"
+				type: "structure"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4075E21C03A2125E"]
+			id: "3EB80B9ADC8A4B55"
+			tasks: [{
+				entity: "deeperdarker:stalker"
+				id: "1D28A62D2DCF1870"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: 7.0d
 		}
 	]
 }
