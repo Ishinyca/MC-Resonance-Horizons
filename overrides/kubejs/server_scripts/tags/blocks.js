@@ -5,6 +5,7 @@ const addBlockTags = [
             "#c:stones",
             "minecraft:netherrack",
             "minecraft:end_stone",
+            'minecraft:sculk',
         ],
     },
     {
