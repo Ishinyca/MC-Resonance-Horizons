@@ -9,7 +9,7 @@
 		# Hunger multiplier for each block ultimined (fractional values allowed)
 		# Default: 20.0
 		# Range: 0.0 ~ 10000.0
-		exhaustion_per_block: 45.0d
+		exhaustion_per_block: 60.0d
 		
 		# Amount of experience taken per block ultimined (fractional values allowed)
 		# Default: 0.0
