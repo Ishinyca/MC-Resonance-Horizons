@@ -67,18 +67,33 @@
     // Each page contains 12 cards. Page count is independent from observe mode.
     "page_count": 1,
 
-    // manual = choose from visible levels; random_single = each gray card shows one random level.
+    // manual = choose from visible levels; random_single = each gray card shows one random level;
+    // blind_level = gray cards hide the real level until observed.
     "observe_mode": "manual",
 
     "random_single": {
       // Random weights for levels I-V. Higher levels are intentionally rarer by default.
       "weights": [45, 28, 16, 8, 3]
+    },
+
+    "blind_level": {
+      // Which existing level config is used for observation cost. Default 3 = level III cost.
+      "cost_level": 3,
+
+      // Hidden real-level weights for levels I-V. The reward is rolled from the final real level.
+      "weights": [20, 25, 30, 18, 7]
     }
   },
 
   "refresh": {
-    // fixed_daily = old fixed daily refresh; interval = refresh by real-time interval; manual_only = commands only.
-    "mode": "fixed_daily",
+    // world_daily/fixed_daily = refresh once per Minecraft world day at the configured in-game time.
+    // real_daily = refresh once per real-world day at the configured server local time.
+    // interval = refresh by real-world interval; manual_only = commands only.
+    "mode": "real_daily",
+
+    // Used by world_daily/fixed_daily and real_daily.
+    "hour": 6,
+    "minute": 0,
 
     // Used by interval mode. 2880 minutes = 48 hours.
     "interval_minutes": 2880

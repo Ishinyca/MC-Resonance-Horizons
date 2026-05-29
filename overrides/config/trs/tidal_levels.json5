@@ -1,8 +1,4 @@
 {
-  // Scheduled refresh time in real-world local time.
-  "refresh_hour": 6,
-  "refresh_minute": 0,
-
   "levels": {
     // Levels 1-3 use gold ingots by default as the base currency.
     "1": {
