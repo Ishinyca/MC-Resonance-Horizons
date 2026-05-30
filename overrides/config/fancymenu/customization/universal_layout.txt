@@ -3,14 +3,14 @@ type = fancymenu_layout
 layout-meta {
   identifier = %fancymenu:universal_layout%
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1779633613630
+  last_edited_time = 1779649823851
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  universal_layout_blacklist = pause_screen;
-  [loading_requirement_container_meta:aeee2099-3fa8-4aa1-86bd-d5a5176ebca6-1779633551221] = [groups:][instances:]
+  universal_layout_whitelist = safety_screen;join_multiplayer_screen;select_world_screen;edit_world_screen;create_world_screen;edit_game_rules_screen;net.neoforged.neoforge.client.gui.ScrollableExperimentsScreen;pack_selection_screen;net.neoforged.neoforge.client.gui.ModListScreen;
+  [loading_requirement_container_meta:5b0e82c8-d2fd-4a21-8edf-0d1532b655d5-1779649799578] = [groups:][instances:]
 }
 
 menu_background {
