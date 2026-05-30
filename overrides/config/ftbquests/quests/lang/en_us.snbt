@@ -3,7 +3,7 @@
 	chapter.0D4F7124C9E25099.title: "Welcome"
 	chapter.0EE254FA73AF87A1.title: "Apotheosis"
 	chapter.119FF81A2775B16F.title: "Apothic Enchanting"
-	chapter.12F8F725A155C206.title: "Chapter 6: It's Time To End This"
+	chapter.12F8F725A155C206.title: "&2Chapter 6&r: &5It's Time To End This"
 	chapter.146A9F56E47B33EE.title: "Mekanism"
 	chapter.231570DE6A7FCD52.title: "When Dungeons Arise"
 	chapter.29236C355EF25B6B.title: "Basic Storage"
@@ -11,19 +11,19 @@
 	chapter.2B4C63DE293D5BA8.title: "Dragons Mount Remastered"
 	chapter.3013F0DF90A7C5A4.title: "Helpful Tips"
 	chapter.371D6A80DB6DAF11.title: "Stellaris"
-	chapter.37C8384647C2943F.title: "Chapter 4: To The Skies!"
+	chapter.37C8384647C2943F.title: "&2Chapter 4&r: &6To The Skies!"
 	chapter.39DBA9F473D4BD49.title: "The Bumblezone"
 	chapter.3CD86C62FC6997B0.title: "Just Dire Things"
 	chapter.3D401D98C6105B09.title: "Basic Power"
 	chapter.42D3B79DDFDA06E0.title: "Ars Nouveau"
-	chapter.42DFB5AC370205B8.title: "Chapter 2: Twilight Forest"
+	chapter.42DFB5AC370205B8.title: "&2Chapter 2&r: &aTwilight Forest"
 	chapter.4D493540DD99DAC8.title: "End Progression"
 	chapter.4EEDECACDE8F5A67.title: "Oritech"
 	chapter.51A8F6D0383FA895.title: "Challenges"
-	chapter.52805200DB691919.title: "Chapter 1: A New Beginning"
+	chapter.52805200DB691919.title: "&2Chapter 1&r: &bA New Beginning"
 	chapter.636897E6C19C8E62.title: "Theurgy"
-	chapter.646C49F0E98F631C.title: "Chapter 3: Nether"
-	chapter.664F9EC033517D41.title: "Chapter 5: Going Deeper"
+	chapter.646C49F0E98F631C.title: "&2Chapter 3&r: &4Nether"
+	chapter.664F9EC033517D41.title: "&2Chapter 5&r: &7Going Deeper"
 	chapter.6B8F3905646E08FF.title: "Create"
 	chapter.6FFABDFD87AB00E7.title: "Immersive Engineering"
 	chapter.7C8FE622908925D0.title: "Applied Energistics 2"
@@ -44,6 +44,8 @@
 	quest.041A1C64A8468087.quest_desc: ["Suspended high in the sky, this arrowhead-shaped airship drifts on a massive aft propeller. Boarding is perilous, but those who succeed will witness its strange and fearsome inhabitants riding boar-like beasts, their eyeless faces obscured by ominous cages. Danger and mystery ride with them across the clouds."]
 	quest.041A1C64A8468087.quest_subtitle: "Find a Heavenly Rider"
 	quest.04E3599A10D8D30B.quest_subtitle: "More channels!"
+	quest.05ED70A25DD22273.quest_desc: ["You can actually find glowstone pre-nether. Just find a structure that has glowstone blocks and break them!"]
+	quest.05ED70A25DD22273.quest_subtitle: "GLOWY IN OVERWORLD?!"
 	quest.0707DB7E6D8634B3.title: "Purely Vanilla"
 	quest.0792B98729B3AC1B.quest_desc: ["Should there be more useful tips in this section? Provide suggestions on the Discord server!"]
 	quest.08358C86AE890F9D.title: "&6&lBounty:&r Kill 25x Skeletons"
@@ -193,6 +195,8 @@
 	]
 	quest.2851A90CE80B1F31.quest_subtitle: "HTTYD"
 	quest.2851A90CE80B1F31.title: "&a&lHow To Tame Your Dragon&r"
+	quest.294F2296402CFC1E.quest_desc: ["There are structures in the overworld that has Wither Skeletons. You can use them and hopefully get a wither skull drop."]
+	quest.294F2296402CFC1E.quest_subtitle: "Thinking of Wither Pre-Nether?"
 	quest.2990AFC9EB609C22.quest_desc: ["With the Metallurgic Infuser recipe changed to include Desh ingot, you will need to travel to space."]
 	quest.2990AFC9EB609C22.quest_subtitle: "You think you'll get this easily?"
 	quest.29E1583BD397FE70.title: "Alpha Yeti"
@@ -237,6 +241,8 @@
 		"Also, Netherite armor will be used in some crafting recipes. So it's not your only basic survival part 3!"
 	]
 	quest.2FB0C3CFF2700DB8.title: "&cBasic Survival Part III"
+	quest.2FDFF77F8EA58FB5.quest_desc: ["There are blazes in the overworld. Need to find a specific structure that has Blazes"]
+	quest.2FDFF77F8EA58FB5.quest_subtitle: "Blazes in the overworld"
 	quest.2FFC5F0F052AE543.title: "Defeat The Ancient Reminent"
 	quest.314F27CFAB6AC6C3.title: "Magical Map of the Twilight Forest"
 	quest.31FEFE62F8190D10.quest_desc: ["That's a lot of mobs you killed in this modpack. How cruel of you"]
@@ -338,6 +344,9 @@
 	quest.541BBC35DA4F0B73.quest_desc: ["Sprouting from a cluster of towering fungi, this outpost of miners has carved their livelihood into the surface world. Ruthless and territorial, they will defend their claim with tooth and nail. Whether the giant mushrooms shield them from the sun or serve some darker purpose, none can say. One truth remains certain: the mine runs rich with ore, for those bold enough to claim it."]
 	quest.541BBC35DA4F0B73.quest_subtitle: "Find a Mushroom Mine"
 	quest.54BB84EAFDBB78B1.quest_desc: ["Just a bit more &5Quanta&r and &2Eterna.&r"]
+	quest.54D23E0EAD1EFD86.quest_desc: ["Find your first &l&3Simply Sword&r&r weapon!"]
+	quest.54D23E0EAD1EFD86.quest_subtitle: "Simple"
+	quest.54D23E0EAD1EFD86.title: "&eSimply Swords"
 	quest.55CD869F874D17DF.quest_desc: ["Fire 32 Bee Stingers from Bows or Crossbows"]
 	quest.56CC4D63313E1E86.title: "Defeat Ignis"
 	quest.5702A67204F2A299.quest_desc: ["More efficient with fuels"]
@@ -362,6 +371,8 @@
 	]
 	quest.5E5378D9D641863D.quest_subtitle: "Let's go gambling!"
 	quest.5E7D418E969C673A.quest_subtitle: "Harness the power of Amethyst Golems!"
+	quest.5EDA9EE840DC72E2.quest_desc: ["A full set of diamond armor should get you by mostly in the Overworld and going into the Twilight Forest dimension"]
+	quest.5EDA9EE840DC72E2.quest_subtitle: "Your typical vanilla diamond armor"
 	quest.5EDA9EE840DC72E2.title: "&bBasic Survival Part II"
 	quest.60F2287AA77A6B65.title: "Lich"
 	quest.61707A2ED6BD53DB.quest_subtitle: "Cast them ingots awayt!"
@@ -410,6 +421,9 @@
 	quest.73D5EE5238C37982.quest_desc: ["In the wilds rests the skeletal form of a great creature. its skeleton stretching skyward like branches of pale bone. Whether a relic of forgotten myth or a beast once hunted to extinction, none can say. Its silent frame endures as a monument to creatures long lost."]
 	quest.73D5EE5238C37982.quest_subtitle: "Find a Ceryneian Hind"
 	quest.746F14C89164CD7F.quest_desc: ["There are various ways to get &5Budding Amethyst block&r. Check out the JEI with a few options."]
+	quest.7496D211FE9B5CFC.quest_desc: ["The First two tiers are pretty good for early game"]
+	quest.7496D211FE9B5CFC.quest_subtitle: "Just Dire Things?"
+	quest.7496D211FE9B5CFC.title: "JustDireThings Weapons"
 	quest.76234127DB3339B8.quest_desc: [
 		"This modpack uses the Tyz's Skills mod. Level up by doing things. Earn SP by leveling up. Get stronger."
 		""
@@ -424,8 +438,13 @@
 	quest.78E43DB29545F7EC.quest_desc: ["Spectre coils are pretty good for free power."]
 	quest.78E43DB29545F7EC.quest_subtitle: "FREE POWER REAL ESTATE???"
 	quest.794430168497918E.quest_desc: ["There are various tiered glyphs to be made."]
-	quest.79A2C972E2EE5053.quest_desc: ["Find your first &l&3Simply Sword&r&r weapon!"]
-	quest.79A2C972E2EE5053.title: "&l&bSimply Swords"
+	quest.797BC0F627CC8328.quest_desc: [
+		"You can obtain Nether Quartz Pre-Nether. You will need to find a structure that is made out of any quartz."
+		""
+		"[ \"To actually obtain the &3Quartz Dust&r, you will need to go through the \", { \"text\": \"Oritech\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1070FE1B2649ED66\" } }, \" questline and get yourself a &cPulverizer&r.\" ]"
+	]
+	quest.797BC0F627CC8328.quest_subtitle: "QUARTZ IN OVERWORLD?!"
+	quest.797BC0F627CC8328.title: "Nether Quartz (Dust)"
 	quest.79D7783D5D64A6E3.title: "Play for 7 IRL days"
 	quest.7A064A354B174C8F.quest_desc: ["Need to find the meteorite quickly? Make yourself a meteorite compass!"]
 	quest.7AA09C60D4872C95.quest_desc: ["You can just be basic and go with the typical regular sword..."]
@@ -488,6 +507,7 @@
 	task.3744C2FC96AFDCC8.title: "&l&6When Dungeon Arises"
 	task.375FFF007F1133EA.title: "&6&lBounty:&r Kill 25x Spiders"
 	task.395FE2F733E46196.title: "Any #stellaris:can"
+	task.3BCC7A95362656E4.title: "Basic Weapons"
 	task.3D45D3F5DE594C29.title: "Bugs?"
 	task.3D49F928A22A6D24.title: "Visit the Nether"
 	task.41518E9C09FDE0DD.title: "Defeat the Underworld Knight"
@@ -517,9 +537,11 @@
 	task.608190AC44D0689C.title: "A Brand New World"
 	task.60CCFAB06106677F.title: "Glyphs"
 	task.60EAFDB80D75D273.title: "The Beehemoth"
+	task.6236AD373116D5F0.title: "&6Unique Weapons"
 	task.62B26DEFD59C3E00.title: "Cataclysm's Dimensions!"
 	task.62C0D32D3346CF54.title: "Info"
 	task.65F026E7FF582BA4.title: "Sophisticated Storage"
+	task.691C0846CB6C8A26.title: "&dRunic Weapons"
 	task.69A583BB5B76683D.title: "Bounty: Skeleton"
 	task.69E9E4964E3D30F4.title: "Mechanical Pipe"
 	task.6AB462FC0DA3269B.title: "Visit the Aether Realm"

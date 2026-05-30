@@ -54,6 +54,9 @@
 		}
 		{
 			dependencies: ["1070FE1B2649ED66"]
+			icon: {
+				id: "oritech:magnetic_coil"
+			}
 			id: "7633CF10984465A1"
 			rewards: [
 				{
@@ -559,6 +562,9 @@
 		}
 		{
 			dependencies: ["1BBC91A22DFBC00D"]
+			icon: {
+				id: "oritech:accelerator_controller"
+			}
 			id: "0DAE85314DB5BEA7"
 			rewards: [
 				{

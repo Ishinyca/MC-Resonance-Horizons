@@ -49,7 +49,7 @@
 			rotation: 0.0d
 			width: 1.5d
 			x: -1.0d
-			y: -2.5d
+			y: 0.0d
 		}
 		{
 			height: 1.5d
@@ -57,7 +57,7 @@
 			rotation: 0.0d
 			width: 1.5d
 			x: 0.5d
-			y: -2.5d
+			y: 0.0d
 		}
 	]
 	order_index: 0
@@ -126,7 +126,7 @@
 				type: "structure"
 			}]
 			x: -1.0d
-			y: -2.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0D95EEE56AB91A43"]
@@ -167,6 +167,9 @@
 		}
 		{
 			dependencies: ["24FF7BCAC7C31E44"]
+			icon: {
+				id: "immersive_armors:wooden_chestplate"
+			}
 			id: "3CEFE6DE9218A829"
 			rewards: [
 				{
@@ -331,6 +334,9 @@
 		}
 		{
 			dependencies: ["3D28FC85BC56A521"]
+			icon: {
+				id: "productivemetalworks:black_foundry_controller"
+			}
 			id: "2567F1709375C3C5"
 			rewards: [
 				{
@@ -437,6 +443,9 @@
 		}
 		{
 			dependencies: ["2567F1709375C3C5"]
+			icon: {
+				id: "minecraft:iron_ingot"
+			}
 			id: "25588339CBB18A48"
 			rewards: [
 				{
@@ -473,6 +482,9 @@
 		}
 		{
 			dependencies: ["376F4A768C6A17CF"]
+			icon: {
+				id: "minecraft:poppy"
+			}
 			id: "772D3B613376231C"
 			rewards: [
 				{
@@ -534,6 +546,9 @@
 				"376F4A768C6A17CF"
 				"3CEFE6DE9218A829"
 			]
+			icon: {
+				id: "minecraft:diamond_chestplate"
+			}
 			id: "5EDA9EE840DC72E2"
 			rewards: [
 				{
@@ -945,27 +960,28 @@
 		}
 		{
 			dependencies: ["3CEFE6DE9218A829"]
-			id: "79A2C972E2EE5053"
-			shape: "diamond"
-			tasks: [{
-				id: "02B37EA2242AA031"
-				item: { components: { "ftbfiltersystem:filter": "or(item_tag(simplyswords:swords))", "minecraft:custom_name": "\"Simply Swords\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: -6.5d
-		}
-		{
-			dependencies: ["3CEFE6DE9218A829"]
+			icon: {
+				id: "minecraft:iron_sword"
+			}
 			id: "7AA09C60D4872C95"
-			rewards: [{
-				id: "026877AEBD826E78"
-				item: {
-					count: 1
-					id: "minecraft:stone_sword"
+			rewards: [
+				{
+					id: "0E8EB92C8755B006"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "026877AEBD826E78"
+					item: {
+						count: 1
+						id: "minecraft:stone_sword"
+					}
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "2026E3D95B52CAED"
@@ -977,6 +993,9 @@
 		}
 		{
 			dependencies: ["0F5BAA53F719AD2C"]
+			icon: {
+				id: "create:large_cogwheel"
+			}
 			id: "621D05FA160E1D99"
 			rewards: [
 				{
@@ -1035,7 +1054,7 @@
 				type: "structure"
 			}]
 			x: 0.5d
-			y: -2.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3F016FA9CAF0B951"]
@@ -1137,8 +1156,8 @@
 				item: { count: 1, id: "pocketstorage:psu_1" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -4.0d
+			x: 0.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["2A21D04BAEB4D694"]
@@ -1157,8 +1176,8 @@
 				item: { count: 1, id: "pocketstorage:psu_2" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: -4.5d
+			x: 0.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["411DFABEEFB1900C"]
@@ -1177,8 +1196,8 @@
 				item: { count: 1, id: "pocketstorage:psu_3" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: -4.0d
+			x: -0.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["24FF7BCAC7C31E44"]
@@ -1212,8 +1231,206 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:bee_nest)item(minecraft:beehive))", "minecraft:custom_name": "\"Bee Nest / Beehive\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 2.35d
-			y: -2.8d
+			x: 2.25d
+			y: -2.75d
+		}
+		{
+			dependencies: ["3CEFE6DE9218A829"]
+			icon: {
+				id: "simplyswords:brimstone_claymore"
+			}
+			id: "54D23E0EAD1EFD86"
+			rewards: [{
+				id: "0DC92E63B4B9672F"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "3BCC7A95362656E4"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(simplymore:weapon_types/all)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "691C0846CB6C8A26"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(simplyswords:runic_weapons)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "6236AD373116D5F0"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(simplyswords:uniques)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3CEFE6DE9218A829"]
+			icon: {
+				id: "justdirethings:ferricore_sword"
+			}
+			id: "7496D211FE9B5CFC"
+			optional: true
+			rewards: [{
+				id: "2E190149B15EA9CA"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "05A7F7E4276B1191"
+					item: { components: { "ftbfiltersystem:filter": "or(item(justdirethings:bow_ferricore)item(justdirethings:ferricore_sword))", "minecraft:custom_name": "\"Ferricore Weapons\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "02122F3EE99B934F"
+					item: { components: { "ftbfiltersystem:filter": "or(item(justdirethings:bow_blazegold)item(justdirethings:blazegold_sword))", "minecraft:custom_name": "\"Blazegold Weapons\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["24FF7BCAC7C31E44"]
+			id: "797BC0F627CC8328"
+			rewards: [
+				{
+					id: "7221248B7F0835F1"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "18B0900E29FBD6C1"
+					item: {
+						count: 1
+						id: "oritech:quartz_dust"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "5C72466F153831D2"
+				item: { count: 1, id: "oritech:quartz_dust" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["24FF7BCAC7C31E44"]
+			id: "05ED70A25DD22273"
+			rewards: [
+				{
+					id: "4D981762F9938ACA"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "679648D5FD70EC52"
+					item: {
+						count: 1
+						id: "minecraft:glowstone"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "5EEEBFF999C934BB"
+				item: { count: 1, id: "minecraft:glowstone_dust" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["24FF7BCAC7C31E44"]
+			id: "2FDFF77F8EA58FB5"
+			rewards: [
+				{
+					id: "403FE83AC7E8A4BF"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "69061E161AAF350D"
+					item: {
+						count: 1
+						id: "minecraft:blaze_rod"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "29BD5AD9121999BD"
+				item: { count: 1, id: "minecraft:blaze_rod" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["24FF7BCAC7C31E44"]
+			icon: {
+				id: "minecraft:wither_skeleton_skull"
+			}
+			id: "294F2296402CFC1E"
+			rewards: [
+				{
+					id: "3F164FE253EAE41F"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "5433823145E2D66C"
+					item: {
+						count: 1
+						id: "minecraft:soul_sand"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "466DE4A24D160EE0"
+					item: { count: 1, id: "minecraft:soul_sand" }
+					type: "item"
+				}
+				{
+					id: "4B18C72F43927E1D"
+					item: { count: 1, id: "minecraft:wither_skeleton_skull" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -1.5d
 		}
 	]
 }
