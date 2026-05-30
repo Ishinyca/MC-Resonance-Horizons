@@ -19,9 +19,9 @@
 	#How many levels to add per block from world spawn
 	levels_per_block_from_spawn = 7.5E-4
 	#How many levels to add per block below sea level (default sea level is Y=64, can be overridden per dimension)
-	levels_per_depth = 0.0015
+	levels_per_depth = 0.00125
 	#How many levels to add per block above sea level (default sea level is Y=64, can be overridden per dimension)
-	levels_per_height = 0.0015
+	levels_per_height = 0.00125
 	#How many levels to add per in-game day passed
 	levels_per_day = 0.0
 	#How many levels to add per point of local difficulty at mob spawn location
