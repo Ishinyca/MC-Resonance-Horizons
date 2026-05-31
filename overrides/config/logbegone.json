@@ -4,13 +4,15 @@
       "Disconnecting VANILLA connection attempt",
       "Channels ",
       "[ne.bl.mo.ne.NetherPortalFix/]: No return portal found",
-      "[net.neoforged.neoforge.attachment.AttachmentHolder/]: Encountered unknown or non-serializable data attachment eternal_starlight:in_abyssal_fire_ticks."
+      "[net.neoforged.neoforge.attachment.AttachmentHolder/]: Encountered unknown or non-serializable data attachment eternal_starlight:in_abyssal_fire_ticks.",
+      "java.lang.IllegalStateException: Missing element ResourceKey[irons_spellbooks:upgrade_orb_type / cataclysm_spellbooks:technomancy_power]"
     ],
     "regex": [
       "Disconnecting VANILLA connection attempt",
       "Channels ",
       "[ne.bl.mo.ne.NetherPortalFix/]: No return portal found",
-      "[net.neoforged.neoforge.attachment.AttachmentHolder/]: Encountered unknown or non-serializable data attachment eternal_starlight:in_abyssal_fire_ticks."
+      "[net.neoforged.neoforge.attachment.AttachmentHolder/]: Encountered unknown or non-serializable data attachment eternal_starlight:in_abyssal_fire_ticks.",
+      "java.lang.IllegalStateException: Missing element ResourceKey[irons_spellbooks:upgrade_orb_type / cataclysm_spellbooks:technomancy_power]"
     ]
   }
 }
