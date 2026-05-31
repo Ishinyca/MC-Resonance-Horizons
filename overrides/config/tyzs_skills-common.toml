@@ -27,11 +27,11 @@
 	#Maximum XP a player can earn within a defined period of time (-1 to disable limit)
 	# Default: -1.0
 	# Range: -1.0 ~ 1.7976931348623157E308
-	xp_daily = -1.0
+	xp_daily = 100.0
 	#Time that must elapse before the XP limit reset (in sec)
 	# Default: 1200
 	# Range: 1 ~ 9223372036854775807
-	cycle_duration = 1200
+	cycle_duration = 1800
 	#Change de limit type (FIXED = literal limit of xp, PERCENTAGE = percentage of the xp goal for the current level)
 	#Allowed Values: FIXED, PERCENTAGE
 	limit_type = "FIXED"
@@ -60,11 +60,11 @@
 	#Enable XP gain while in Creative Mode
 	earn_xp_in_creative = false
 	#Enable XP gain from eating food (values defined in JSON)
-	eating_xp_earnings = true
+	eating_xp_earnings = false
 	#Enable XP gain from killing entities (values defined in JSON)
 	killing_xp_earnings = true
 	#Enable XP gain from breaking blocks (values defined in JSON)
-	mining_xp_earnings = true
+	mining_xp_earnings = false
 	#XP gained from sleeping
 	# Default: 25.0
 	# Range: 0.0 ~ 1.7976931348623157E308
@@ -72,7 +72,7 @@
 	#XP gained from fishing
 	# Default: 7.0
 	# Range: 0.0 ~ 1.7976931348623157E308
-	fishing_gain = 8.0
+	fishing_gain = 0.25
 	#XP gained from crafting items
 	# Default: 0.2
 	# Range: 0.0 ~ 1.7976931348623157E308
@@ -80,24 +80,24 @@
 	#XP gained from breeding animals
 	# Default: 15.0
 	# Range: 0.0 ~ 1.7976931348623157E308
-	breeding_gain = 15.0
+	breeding_gain = 0.02
 	#XP gain for basic advancements (Tasks)
 	# Default: 25.0
 	# Range: 0.0 ~ 1.7976931348623157E308
-	task_gain = 25.0
+	task_gain = 1.5
 	#XP gain for rare advancements (Goals)
 	# Default: 100.0
 	# Range: 0.0 ~ 1.7976931348623157E308
-	goal_gain = 100.0
+	goal_gain = 3.0
 	#XP gain for epic advancements (Challenges)
 	# Default: 250.0
 	# Range: 0.0 ~ 1.7976931348623157E308
-	challenge_gain = 250.0
+	challenge_gain = 6.0
 	#XP gain for discovering a new biome
 	# Default: 45.0
 	# Range: 0.0 ~ 1.7976931348623157E308
-	biome_gain = 45.0
+	biome_gain = 1.25
 	#XP gain for entering a new dimension
 	# Default: 500.0
 	# Range: 0.0 ~ 1.7976931348623157E308
-	dimension_gain = 500.0
+	dimension_gain = 12.5
