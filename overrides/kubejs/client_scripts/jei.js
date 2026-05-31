@@ -19,6 +19,7 @@ const hide_jei_items = [
     'sophisticatedstorage:iron_to_diamond_tier_upgrade',
     'sophisticatedstorage:iron_to_netherite_tier_upgrade',
     'sophisticatedstorage:gold_to_netherite_tier_upgrade',
+    'magic_coins:prosperity_amulet',
 ]
 
 RecipeViewerEvents.removeEntries('item', event => {

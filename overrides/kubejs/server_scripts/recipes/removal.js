@@ -27,7 +27,6 @@ const commonRecipeIdsToRemove = [
 	"sophisticatedstorage:gold_to_netherite_tier_upgrade",
 	"sophisticatedstorage:diamond_to_netherite_tier_upgrade",
 
-	
 	// Mekanism
 	/mekanism:factory\/.*/,
 	'mekanism:metallurgic_infuser',
@@ -39,6 +38,9 @@ const commonRecipeIdsToRemove = [
 	'mekanism:teleportation_core',
 	'mekanism:quantum_entangloporter',
 	/mekanism:module\/.*/,
+
+	// Magic Coins
+	'magic_coins:prosperity_amulet',
 
 	// Cataclysm Eyes
 	'cataclysm:mech_eye',
